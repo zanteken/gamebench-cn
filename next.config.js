@@ -4,13 +4,15 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "shared.akamai.steamstatic.com",
+        hostname: "**.steamstatic.com",
       },
       {
         protocol: "https",
-        hostname: "cdn.akamai.steamstatic.com",
+        hostname: "**.akamai.steamstatic.com",
       },
     ],
+    formats: ['image/webp'],
+    unoptimized: false,
   },
 };
 

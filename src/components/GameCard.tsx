@@ -1,9 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import { GameCardData } from "@/lib/types";
 import { formatPrice, formatRecommendations } from "@/lib/games";
 
 export default function GameCard({ game }: { game: GameCardData }) {
+  const [imgError, setImgError] = useState(false);
   const hasReqs = game.minReq.cpu || game.minReq.gpu || game.minReq.ram_gb;
 
   return (
@@ -13,17 +15,18 @@ export default function GameCard({ game }: { game: GameCardData }) {
     >
       {/* Game Image */}
       <div className="relative aspect-[460/215] w-full overflow-hidden bg-[#111827]">
-        {game.headerImage ? (
+        {game.headerImage && !imgError ? (
           <Image
             src={game.headerImage}
             alt={game.name}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover transition-transform group-hover:scale-105"
+            onError={() => setImgError(true)}
           />
         ) : (
           <div className="flex h-full items-center justify-center text-slate-600">
-            暂无封面
+            {game.name.slice(0, 2)}{game.name.slice(0, 2) === game.name ? " 暂无封面" : ""}
           </div>
         )}
 
