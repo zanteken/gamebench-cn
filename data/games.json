@@ -1,0 +1,3545 @@
+[
+  {
+    "appId": 730,
+    "name": "Counter-Strike 2",
+    "slug": "counter-strike-2-730",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header_schinese.jpg?t=1749053861",
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "genres": [
+      "动作",
+      "免费开玩"
+    ],
+    "categories": [
+      "多人",
+      "跨平台多人",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "应用内购买",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "无需应对快速反应事件",
+      "立体声",
+      "环绕声",
+      "已启用 Valve 反作弊保护",
+      "统计数据",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "Steam 时间轴"
+    ],
+    "releaseDate": "2017 年 9 月 15 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 4917072,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-750",
+        "gpu": "Generic GPU 1GB VRAM",
+        "ram_gb": 8,
+        "storage": "85 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 271590,
+    "name": "Grand Theft Auto V 传承版",
+    "slug": "grand-theft-auto-v-传承版-271590",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+    "developers": [
+      "Rockstar North"
+    ],
+    "publishers": [
+      "Rockstar Games"
+    ],
+    "genres": [
+      "动作",
+      "冒险"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩"
+    ],
+    "releaseDate": "2015 年 4 月 13 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": {
+      "score": 96,
+      "url": "https://www.metacritic.com/game/pc/grand-theft-auto-v?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 1864680,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core 2 Quad Q6600",
+        "gpu": "NVIDIA GeForce 9800",
+        "ram_gb": 4,
+        "storage": "125 GB",
+        "directx": "DirectX 10"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-3470",
+        "gpu": "NVIDIA GeForce GTX 660",
+        "ram_gb": 8,
+        "storage": "2 GB",
+        "directx": "DirectX 10"
+      }
+    }
+  },
+  {
+    "appId": 578080,
+    "name": "PUBG: BATTLEGROUNDS",
+    "slug": "pubg-battlegrounds-578080",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1764817633",
+    "developers": [
+      "PUBG Corporation"
+    ],
+    "publishers": [
+      "KRAFTON, Inc."
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "大型多人在线",
+      "免费开玩"
+    ],
+    "categories": [
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "统计数据",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩"
+    ],
+    "releaseDate": "2017 年 12 月 21 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 1755895,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-4430",
+        "gpu": "NVIDIA GeForce GTX 960",
+        "ram_gb": 8,
+        "storage": "40 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-6600",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 16,
+        "storage": "50 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 359550,
+    "name": "彩虹六号：围攻X",
+    "slug": "彩虹六号-围攻x-359550",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/e52fa60ef3eb9521d8213fa30ff9965547e268c8/header_schinese.jpg?t=1770141487",
+    "developers": [
+      "Ubisoft Montreal"
+    ],
+    "publishers": [
+      "Ubisoft"
+    ],
+    "genres": [
+      "动作",
+      "免费开玩"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩"
+    ],
+    "releaseDate": "2015 年 12 月 1 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 1228999,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-8100",
+        "gpu": "NVIDIA GeForce GTX 1650",
+        "ram_gb": 8,
+        "storage": "65 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-10400",
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "ram_gb": 8,
+        "storage": "65 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 105600,
+    "name": "Terraria",
+    "slug": "terraria-105600",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
+    "developers": [
+      "Re-Logic"
+    ],
+    "publishers": [
+      "Re-Logic"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "独立",
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2011 年 5 月 16 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 4200,
+      "final": 4200,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 42.00"
+    },
+    "metacritic": {
+      "score": 83,
+      "url": "https://www.metacritic.com/game/pc/terraria?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 1187785,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic CPU 1.6GHz",
+        "gpu": "Generic GPU 128MB VRAM",
+        "ram_gb": 1,
+        "storage": "200 MB",
+        "directx": "DirectX 9.0c"
+      },
+      "recommended": {
+        "cpu": "Generic CPU 3.0GHz",
+        "gpu": "Generic GPU 256MB VRAM",
+        "ram_gb": 4,
+        "storage": "4 GB",
+        "directx": "DirectX 9.0c"
+      }
+    }
+  },
+  {
+    "appId": 252490,
+    "name": "Rust",
+    "slug": "rust-252490",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1761667247",
+    "developers": [
+      "Facepunch Studios"
+    ],
+    "publishers": [
+      "Facepunch Studios"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "独立",
+      "大型多人在线",
+      "角色扮演"
+    ],
+    "categories": [
+      "多人",
+      "大型多人在线",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "应用内购买",
+      "已启用 Valve 反作弊保护",
+      "统计数据",
+      "在平板上远程畅玩"
+    ],
+    "releaseDate": "2018 年 2 月 8 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 13800,
+      "final": 6900,
+      "discount_percent": 50,
+      "initial_formatted": "¥ 138.00",
+      "final_formatted": "¥ 69.00"
+    },
+    "metacritic": {
+      "score": 69,
+      "url": "https://www.metacritic.com/game/pc/rust?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 1103810,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-6600",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 12,
+        "storage": "45 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-6700",
+        "gpu": "NVIDIA GeForce RTX 3060",
+        "ram_gb": 16,
+        "storage": "45 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 431960,
+    "name": "Wallpaper Engine：壁纸引擎",
+    "slug": "wallpaper-engine-壁纸引擎-431960",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/header_schinese.jpg?t=1739211362",
+    "developers": [
+      "Wallpaper Engine Team"
+    ],
+    "publishers": [
+      "Wallpaper Engine Team"
+    ],
+    "genres": [
+      "休闲",
+      "独立",
+      "动画制作和建模",
+      "设计和插画",
+      "照片编辑",
+      "实用工具"
+    ],
+    "categories": [
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "Steam 创意工坊",
+      "包含关卡编辑器"
+    ],
+    "releaseDate": "2018 年 11 月 16 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 2290,
+      "final": 2290,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 22.90"
+    },
+    "metacritic": null,
+    "recommendations": 889571,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5 (generic)",
+        "gpu": "Intel HD Graphics 4000",
+        "ram_gb": 1,
+        "storage": null,
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7 (generic)",
+        "gpu": "NVIDIA GeForce GTX 660",
+        "ram_gb": 2,
+        "storage": null,
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 2358720,
+    "name": "黑神话：悟空",
+    "slug": "黑神话-悟空-2358720",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header_schinese.jpg?t=1760601605",
+    "developers": [
+      "Game Science"
+    ],
+    "publishers": [
+      "Game Science"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "无需应对快速反应事件",
+      "立体声",
+      "环绕声",
+      "Steam 云",
+      "家庭共享"
+    ],
+    "releaseDate": "2024 年 8 月 19 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 26800,
+      "final": 26800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 268.00"
+    },
+    "metacritic": null,
+    "recommendations": 865519,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-8400",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 16,
+        "storage": "130 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-9700",
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "ram_gb": 16,
+        "storage": "130 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 413150,
+    "name": "Stardew Valley",
+    "slug": "stardew-valley-413150",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
+    "developers": [
+      "ConcernedApe"
+    ],
+    "publishers": [
+      "ConcernedApe"
+    ],
+    "genres": [
+      "独立",
+      "角色扮演",
+      "模拟"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "合作",
+      "在线合作",
+      "局域网合作",
+      "同屏/分屏合作",
+      "同屏/分屏",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "远程同乐",
+      "家庭共享"
+    ],
+    "releaseDate": "2016 年 2 月 26 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 4800,
+      "final": 4800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 48.00"
+    },
+    "metacritic": {
+      "score": 89,
+      "url": "https://www.metacritic.com/game/pc/stardew-valley?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 836993,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic CPU 2GHz",
+        "gpu": "Generic GPU 256MB VRAM",
+        "ram_gb": 2,
+        "storage": null,
+        "directx": "DirectX 10"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 1091500,
+    "name": "赛博朋克 2077",
+    "slug": "赛博朋克-2077-1091500",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/4e88035f3a75e69e0ef2005fc611a7fafcb227e1/header_schinese.jpg?t=1769690377",
+    "developers": [
+      "CD PROJEKT RED"
+    ],
+    "publishers": [
+      "CD PROJEKT RED"
+    ],
+    "genres": [
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "字幕选项",
+      "环绕声",
+      "Steam 云",
+      "可用 HDR",
+      "家庭共享"
+    ],
+    "releaseDate": "2020 年 12 月 9 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 29800,
+      "final": 29800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 298.00"
+    },
+    "metacritic": {
+      "score": 86,
+      "url": "https://www.metacritic.com/game/pc/cyberpunk-2077?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 828857,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-6700",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 12,
+        "storage": "70 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-12700",
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "ram_gb": 16,
+        "storage": "70 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 292030,
+    "name": "巫师 3：狂猎",
+    "slug": "巫师-3-狂猎-292030",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/eb2f071040ff86119feb2bd97e2cd283cc40b7e5/header_schinese.jpg?t=1768303991",
+    "developers": [
+      "CD PROJEKT RED"
+    ],
+    "publishers": [
+      "CD PROJEKT RED"
+    ],
+    "genres": [
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "环绕声",
+      "部分支持控制器",
+      "Steam 云",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "可用 HDR",
+      "家庭共享"
+    ],
+    "releaseDate": "2015 年 5 月 18 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 14900,
+      "final": 14900,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 149.00"
+    },
+    "metacritic": {
+      "score": 93,
+      "url": "https://www.metacritic.com/game/pc/the-witcher-3-wild-hunt?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 805512,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-2500",
+        "gpu": "NVIDIA GeForce GTX 660",
+        "ram_gb": 6,
+        "storage": "50 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-7400",
+        "gpu": "NVIDIA GeForce GTX 1070",
+        "ram_gb": 8,
+        "storage": "50 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 1245620,
+    "name": "艾尔登法环",
+    "slug": "艾尔登法环-1245620",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1767883716",
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "FromSoftware, Inc.",
+      "Bandai Namco Entertainment"
+    ],
+    "genres": [
+      "动作",
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "视角舒适度",
+      "自定义音量控制",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "环绕声",
+      "Steam 云",
+      "家庭共享"
+    ],
+    "releaseDate": "2022 年 2 月 24 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 29800,
+      "final": 29800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 298.00"
+    },
+    "metacritic": {
+      "score": 94,
+      "url": "https://www.metacritic.com/game/pc/elden-ring?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 804054,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-8400",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 12,
+        "storage": "60 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-8700",
+        "gpu": "NVIDIA GeForce GTX 1070",
+        "ram_gb": 16,
+        "storage": "60 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 550,
+    "name": "Left 4 Dead 2",
+    "slug": "left-4-dead-2-550",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1745368562",
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "genres": [
+      "动作"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "支持字幕",
+      "Steam 创意工坊",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "立体声",
+      "环绕声",
+      "Steam 云",
+      "已启用 Valve 反作弊保护",
+      "统计数据",
+      "包括 Source SDK",
+      "解说可用",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "远程同乐",
+      "家庭共享",
+      "Steam 时间轴"
+    ],
+    "releaseDate": "2009 年 11 月 16 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 4200,
+      "final": 4200,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 42.00"
+    },
+    "metacritic": {
+      "score": 89,
+      "url": "https://www.metacritic.com/game/pc/left-4-dead-2?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 778967,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Pentium 4",
+        "gpu": "NVIDIA GeForce 6600",
+        "ram_gb": 2,
+        "storage": "13 GB",
+        "directx": "DirectX 9.0c"
+      },
+      "recommended": {
+        "cpu": "Intel Core 2 duo 2",
+        "gpu": "NVIDIA GeForce 7600",
+        "ram_gb": 2,
+        "storage": "13 GB",
+        "directx": "DirectX 9.0c"
+      }
+    }
+  },
+  {
+    "appId": 1174180,
+    "name": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2-1174180",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
+    "developers": [
+      "Rockstar Games"
+    ],
+    "publishers": [
+      "Rockstar Games"
+    ],
+    "genres": [
+      "动作",
+      "冒险"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "应用内购买",
+      "部分支持控制器",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩"
+    ],
+    "releaseDate": "2019 年 12 月 5 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 27900,
+      "final": 27900,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 279.00"
+    },
+    "metacritic": {
+      "score": 93,
+      "url": "https://www.metacritic.com/game/pc/red-dead-redemption-2?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 775407,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-2500",
+        "gpu": "NVIDIA GeForce GTX 770",
+        "ram_gb": 8,
+        "storage": "150 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-4770",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 12,
+        "storage": "150 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 1086940,
+    "name": "博德之门3",
+    "slug": "博德之门3-1086940",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1765505948",
+    "developers": [
+      "Larian Studios"
+    ],
+    "publishers": [
+      "Larian Studios"
+    ],
+    "genres": [
+      "冒险",
+      "角色扮演",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "合作",
+      "在线合作",
+      "局域网合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "字幕选项",
+      "环绕声",
+      "Steam 云",
+      "在电视上远程畅玩",
+      "远程同乐",
+      "家庭共享"
+    ],
+    "releaseDate": "2023 年 8 月 3 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 29800,
+      "final": 29800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 298.00"
+    },
+    "metacritic": {
+      "score": 96,
+      "url": "https://www.metacritic.com/game/pc/baldurs-gate-3?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 724592,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-4690",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 8,
+        "storage": "150 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-8700",
+        "gpu": "NVIDIA GeForce 2060",
+        "ram_gb": 16,
+        "storage": "150 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 739630,
+    "name": "Phasmophobia 恐鬼症",
+    "slug": "phasmophobia-恐鬼症-739630",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1770121432",
+    "developers": [
+      "Kinetic Games"
+    ],
+    "publishers": [
+      "Kinetic Games"
+    ],
+    "genres": [
+      "动作",
+      "独立",
+      "抢先体验"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "定位控制器支持",
+      "已支持 VR",
+      "Steam 集换式卡牌",
+      "视角舒适度",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "立体声",
+      "环绕声",
+      "Steam 云",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2020 年 9 月 18 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 7600,
+      "final": 7600,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 76.00"
+    },
+    "metacritic": null,
+    "recommendations": 659309,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-4590",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 8,
+        "storage": "21 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-10600",
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "ram_gb": 8,
+        "storage": "21 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 367520,
+    "name": "Hollow Knight",
+    "slug": "hollow-knight-367520",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1770338567",
+    "developers": [
+      "Team Cherry"
+    ],
+    "publishers": [
+      "Team Cherry"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "独立"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2017 年 2 月 24 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 5800,
+      "final": 5800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 58.00"
+    },
+    "metacritic": {
+      "score": 87,
+      "url": "https://www.metacritic.com/game/pc/hollow-knight?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 469858,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-3240",
+        "gpu": "NVIDIA GeForce GTX 560",
+        "ram_gb": 4,
+        "storage": "9 GB",
+        "directx": "DirectX 10"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-3470",
+        "gpu": "NVIDIA GeForce GTX 1050",
+        "ram_gb": 8,
+        "storage": "9 GB",
+        "directx": "DirectX 10"
+      }
+    }
+  },
+  {
+    "appId": 892970,
+    "name": "Valheim: 英灵神殿",
+    "slug": "valheim-英灵神殿-892970",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/header_schinese.jpg?t=1765967243",
+    "developers": [
+      "Iron Gate AB"
+    ],
+    "publishers": [
+      "Coffee Stain Publishing"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "独立",
+      "角色扮演",
+      "抢先体验"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "合作",
+      "在线合作",
+      "完全支持控制器",
+      "视角舒适度",
+      "自定义音量控制",
+      "可调整难度",
+      "随时保存",
+      "立体声",
+      "Steam 云",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2021 年 2 月 2 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 7400,
+      "final": 7400,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 74.00"
+    },
+    "metacritic": null,
+    "recommendations": 445149,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic CPU 2.6GHz",
+        "gpu": "NVIDIA GeForce GTX 950",
+        "ram_gb": 8,
+        "storage": "1 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Generic CPU 3GHz",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 16,
+        "storage": "1 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 1938090,
+    "name": "使命召唤®",
+    "slug": "使命召唤-1938090",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/f23925fcce7324077b200f8552840aa832034409/header_schinese.jpg?t=1770397167",
+    "developers": [
+      "Treyarch",
+      "Raven Software",
+      "Beenox",
+      "High Moon Studios",
+      "Sledgehammer Games",
+      "Infinity Ward",
+      "Activision Shanghai",
+      "Demonware"
+    ],
+    "publishers": [
+      "Activision"
+    ],
+    "genres": [
+      "动作"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "支持字幕",
+      "应用内购买",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "无需应对快速反应事件",
+      "立体声",
+      "字幕选项",
+      "环绕声",
+      "部分支持控制器",
+      "可用 HDR"
+    ],
+    "releaseDate": "2022 年 10 月 27 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 405299,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-6600",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 8,
+        "storage": "161 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-6700",
+        "gpu": "NVIDIA GeForce RTX 3060",
+        "ram_gb": 12,
+        "storage": "161 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 1966720,
+    "name": "Lethal Company",
+    "slug": "lethal-company-1966720",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1762544438",
+    "developers": [
+      "Zeekerss"
+    ],
+    "publishers": [
+      "Zeekerss"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "独立",
+      "抢先体验"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "合作",
+      "在线合作",
+      "自定义音量控制",
+      "立体声",
+      "部分支持控制器",
+      "家庭共享"
+    ],
+    "releaseDate": "2023 年 10 月 23 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 4200,
+      "final": 4200,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 42.00"
+    },
+    "metacritic": null,
+    "recommendations": 404475,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-7400",
+        "gpu": "NVIDIA GeForce GTX 1050",
+        "ram_gb": null,
+        "storage": "2 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 322330,
+    "name": "饥荒联机版",
+    "slug": "饥荒联机版-322330",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/3c25c3f7c3b73bdcca62ca9a2479cd0b5b0fac2b/header_schinese.jpg?t=1770241200",
+    "developers": [
+      "Klei Entertainment"
+    ],
+    "publishers": [
+      "Klei Entertainment"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "独立",
+      "角色扮演",
+      "模拟",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "局域网玩家对战",
+      "合作",
+      "在线合作",
+      "局域网合作",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "应用内购买",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "可以仅用键盘",
+      "可以仅用鼠标",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2016 年 4 月 21 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 2400,
+      "final": 2400,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 24.00"
+    },
+    "metacritic": {
+      "score": 83,
+      "url": "https://www.metacritic.com/game/pc/dont-starve-together?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 361694,
+    "requirements": {
+      "minimum": {
+        "cpu": null,
+        "gpu": "AMD Radeon HD 5450",
+        "ram_gb": 1,
+        "storage": "3 GB",
+        "directx": "DirectX 9.0c"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 1623730,
+    "name": "Palworld / 幻兽帕鲁",
+    "slug": "palworld-幻兽帕鲁-1623730",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/44e7cf48b38e3ace008e9f49c316f8cd949f7918/header_schinese.jpg?t=1768450096",
+    "developers": [
+      "Pocketpair"
+    ],
+    "publishers": [
+      "Pocketpair"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "独立",
+      "角色扮演",
+      "抢先体验"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "Steam 云",
+      "家庭共享"
+    ],
+    "releaseDate": "2024 年 1 月 18 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 10800,
+      "final": 10800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 108.00"
+    },
+    "metacritic": null,
+    "recommendations": 348387,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-3570",
+        "gpu": "NVIDIA GeForce GTX 1050",
+        "ram_gb": 16,
+        "storage": "40 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i9-9900",
+        "gpu": "NVIDIA GeForce RTX 2070",
+        "ram_gb": 32,
+        "storage": "40 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 108600,
+    "name": "Project Zomboid",
+    "slug": "project-zomboid-108600",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1762369969",
+    "developers": [
+      "The Indie Stone"
+    ],
+    "publishers": [
+      "The Indie Stone"
+    ],
+    "genres": [
+      "独立",
+      "角色扮演",
+      "模拟",
+      "抢先体验"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "同屏/分屏合作",
+      "同屏/分屏",
+      "跨平台多人",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "部分支持控制器",
+      "远程同乐",
+      "家庭共享"
+    ],
+    "releaseDate": "2013 年 11 月 8 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 7600,
+      "final": 7600,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 76.00"
+    },
+    "metacritic": null,
+    "recommendations": 327184,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic 2.77GHz Multi-core",
+        "gpu": "Generic GPU 2GB VRAM",
+        "ram_gb": 8,
+        "storage": null,
+        "directx": null
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 582010,
+    "name": "Monster Hunter: World",
+    "slug": "monster-hunter-world-582010",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1768871319",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "genres": [
+      "动作"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "合作",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "可调整文字大小",
+      "视角舒适度",
+      "自定义音量控制",
+      "可以仅用键盘",
+      "立体声",
+      "环绕声",
+      "部分支持控制器",
+      "Steam 云",
+      "统计数据",
+      "Steam 排行榜",
+      "在平板上远程畅玩",
+      "可用 HDR",
+      "家庭共享"
+    ],
+    "releaseDate": "2018 年 8 月 8 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 14800,
+      "final": 14800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 148.00"
+    },
+    "metacritic": {
+      "score": 88,
+      "url": "https://www.metacritic.com/game/pc/monster-hunter-world?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 311250,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-4460",
+        "gpu": "NVIDIA GeForce GTX 760",
+        "ram_gb": 8,
+        "storage": "52 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-3770",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 8,
+        "storage": "52 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 377160,
+    "name": "Fallout 4",
+    "slug": "fallout-4-377160",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1764687456",
+    "developers": [
+      "Bethesda Game Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "genres": [
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "环绕声",
+      "Steam 云",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2015 年 11 月 9 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 8300,
+      "final": 8300,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 83.00"
+    },
+    "metacritic": {
+      "score": 84,
+      "url": "https://www.metacritic.com/game/pc/fallout-4?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 281989,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-2300",
+        "gpu": "NVIDIA GeForce GTX 550",
+        "ram_gb": 8,
+        "storage": "30 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-4790",
+        "gpu": "NVIDIA GeForce GTX 780",
+        "ram_gb": 8,
+        "storage": "30 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 1293830,
+    "name": "极限竞速：地平线 4",
+    "slug": "极限竞速-地平线-4-1293830",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1293830/header_schinese.jpg?t=1734336342",
+    "developers": [
+      "Playground Games"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "genres": [
+      "竞速"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "家庭共享"
+    ],
+    "releaseDate": "2021 年 3 月 9 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 275611,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-4170",
+        "gpu": null,
+        "ram_gb": 8,
+        "storage": "80 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-3820",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 12,
+        "storage": "100 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 1517290,
+    "name": "《战地风云™ 2042》",
+    "slug": "战地风云-2042-1517290",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/header_schinese.jpg?t=1761752400",
+    "developers": [
+      "DICE"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "休闲"
+    ],
+    "categories": [
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "可选颜色",
+      "自定义音量控制",
+      "立体声",
+      "环绕声",
+      "可用 HDR"
+    ],
+    "releaseDate": "2021 年 11 月 19 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 24800,
+      "final": 24800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 248.00"
+    },
+    "metacritic": null,
+    "recommendations": 257098,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-6600",
+        "gpu": "NVIDIA GeForce GTX 1050",
+        "ram_gb": 8,
+        "storage": "100 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-4790",
+        "gpu": "NVIDIA GeForce RTX 3060",
+        "ram_gb": 16,
+        "storage": "100 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 814380,
+    "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "slug": "sekiro-shadows-die-twice-goty-edition-814380",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "Activision (Excluding Japan and Asia)",
+      "FromSoftware, Inc. (Japan)",
+      "方块游戏 (Asia)"
+    ],
+    "genres": [
+      "动作",
+      "冒险"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2019 年 3 月 21 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 26800,
+      "final": 26800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 268.00"
+    },
+    "metacritic": {
+      "score": 88,
+      "url": "https://www.metacritic.com/game/pc/sekiro-shadows-die-twice?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 249970,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-2100",
+        "gpu": "NVIDIA GeForce GTX 760",
+        "ram_gb": 4,
+        "storage": "25 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-2500",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 8,
+        "storage": "25 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 1551360,
+    "name": "极限竞速：地平线 5",
+    "slug": "极限竞速-地平线-5-1551360",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1746471508",
+    "developers": [
+      "Playground Games"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "竞速",
+      "模拟",
+      "体育"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "可用 HDR",
+      "家庭共享"
+    ],
+    "releaseDate": "2021 年 11 月 8 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 19800,
+      "final": 19800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 198.00"
+    },
+    "metacritic": null,
+    "recommendations": 242558,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-4460",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 8,
+        "storage": "110 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-8400",
+        "gpu": "NVIDIA GeForce GTX 1070",
+        "ram_gb": 16,
+        "storage": "110 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 1238810,
+    "name": "《战地风云 5》",
+    "slug": "战地风云-5-1238810",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg?t=1747167586",
+    "developers": [
+      "DICE"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "genres": [
+      "动作"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "可用 HDR"
+    ],
+    "releaseDate": "2020 年 10 月 22 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 22800,
+      "final": 22800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 228.00"
+    },
+    "metacritic": null,
+    "recommendations": 228131,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-6600",
+        "gpu": "NVIDIA GeForce GTX 1050",
+        "ram_gb": 8,
+        "storage": "50 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-4790",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 12,
+        "storage": "50 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 526870,
+    "name": "幸福工厂",
+    "slug": "幸福工厂-526870",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg?t=1749717464",
+    "developers": [
+      "Coffee Stain Studios"
+    ],
+    "publishers": [
+      "Coffee Stain Publishing"
+    ],
+    "genres": [
+      "冒险",
+      "独立",
+      "模拟",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "环绕声",
+      "部分支持控制器",
+      "Steam 云",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2024 年 9 月 10 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 13600,
+      "final": 13600,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 136.00"
+    },
+    "metacritic": {
+      "score": 91,
+      "url": "https://www.metacritic.com/game/pc/satisfactory?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 219163,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-3570",
+        "gpu": "NVIDIA GeForce GTX 1650",
+        "ram_gb": 8,
+        "storage": "20 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12400",
+        "gpu": "NVIDIA GeForce RTX 2070",
+        "ram_gb": 16,
+        "storage": "20 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 255710,
+    "name": "Cities: Skylines",
+    "slug": "cities-skylines-255710",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header_schinese.jpg?t=1767883758",
+    "developers": [
+      "Colossal Order"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "genres": [
+      "模拟",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "Steam 云",
+      "包含关卡编辑器",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2015 年 3 月 10 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 13800,
+      "final": 13800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 138.00"
+    },
+    "metacritic": {
+      "score": 85,
+      "url": "https://www.metacritic.com/game/pc/cities-skylines?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 213065,
+    "requirements": {
+      "minimum": {
+        "cpu": null,
+        "gpu": "Intel HD Graphics",
+        "ram_gb": 8,
+        "storage": "4 GB",
+        "directx": "DirectX 9.0c"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-2700",
+        "gpu": "NVIDIA GeForce GTX 580",
+        "ram_gb": 16,
+        "storage": "4 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 489830,
+    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "slug": "the-elder-scrolls-v-skyrim-special-edition-489830",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1753715778",
+    "developers": [
+      "Bethesda Game Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "genres": [
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "环绕声",
+      "部分支持控制器",
+      "Steam 云",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2016 年 10 月 27 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 16500,
+      "final": 16500,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 165.00"
+    },
+    "metacritic": {
+      "score": 74,
+      "url": "https://www.metacritic.com/game/pc/the-elder-scrolls-v-skyrim-special-edition?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 205349,
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Phenom",
+        "gpu": "NVIDIA GeForce GTX 470",
+        "ram_gb": 8,
+        "storage": "2 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-2400",
+        "gpu": "NVIDIA GeForce GTX 780",
+        "ram_gb": 8,
+        "storage": "4 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 1203220,
+    "name": "永劫无间",
+    "slug": "永劫无间-1203220",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/2ec40789585542eacc291b82f8680a90f3638468/header_schinese.jpg?t=1770257499",
+    "developers": [
+      "24 Entertainment"
+    ],
+    "publishers": [
+      "NetEase Games "
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "大型多人在线",
+      "免费开玩"
+    ],
+    "categories": [
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "部分支持控制器",
+      "可用 HDR"
+    ],
+    "releaseDate": "2021 年 8 月 11 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 197490,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5 (generic)",
+        "gpu": "NVIDIA GeForce GTX 750",
+        "ram_gb": 8,
+        "storage": "55 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7 (generic)",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 16,
+        "storage": "55 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 1332010,
+    "name": "Stray",
+    "slug": "stray-1332010",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906",
+    "developers": [
+      "BlueTwelve Studio"
+    ],
+    "publishers": [
+      "Annapurna Interactive"
+    ],
+    "genres": [
+      "冒险",
+      "独立"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2022 年 7 月 19 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 9800,
+      "final": 9800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 98.00"
+    },
+    "metacritic": {
+      "score": 82,
+      "url": "https://www.metacritic.com/game/pc/stray?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 148764,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-2300",
+        "gpu": "NVIDIA GeForce GTX 650",
+        "ram_gb": 8,
+        "storage": "10 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-8400",
+        "gpu": "NVIDIA GeForce GTX 780",
+        "ram_gb": 8,
+        "storage": "10 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 2379780,
+    "name": "Balatro",
+    "slug": "balatro-2379780",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1762516142",
+    "developers": [
+      "LocalThunk"
+    ],
+    "publishers": [
+      "Playstack"
+    ],
+    "genres": [
+      "休闲",
+      "独立",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "可选颜色",
+      "自定义音量控制",
+      "可以仅用鼠标",
+      "无需应对快速反应事件",
+      "可以仅用触控",
+      "Steam 云",
+      "家庭共享"
+    ],
+    "releaseDate": "2024 年 2 月 20 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 5400,
+      "final": 5400,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 54.00"
+    },
+    "metacritic": {
+      "score": 90,
+      "url": "https://www.metacritic.com/game/pc/balatro?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 147369,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3 (generic)",
+        "gpu": null,
+        "ram_gb": 1,
+        "storage": null,
+        "directx": null
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 2050650,
+    "name": "Resident Evil 4",
+    "slug": "resident-evil-4-2050650",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1770093365",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "genres": [
+      "动作",
+      "冒险"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "可用 HDR",
+      "家庭共享"
+    ],
+    "releaseDate": "2023 年 3 月 23 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 19800,
+      "final": 19800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 198.00"
+    },
+    "metacritic": {
+      "score": 91,
+      "url": "https://www.metacritic.com/game/pc/resident-evil-4?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 143380,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-7500",
+        "gpu": "NVIDIA GeForce GTX 1050",
+        "ram_gb": 8,
+        "storage": null,
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-8700",
+        "gpu": "NVIDIA GeForce GTX 1070",
+        "ram_gb": 16,
+        "storage": null,
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 281990,
+    "name": "Stellaris",
+    "slug": "stellaris-281990",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1768919788",
+    "developers": [
+      "Paradox Development Studio"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "genres": [
+      "模拟",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "跨平台多人",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "Steam 云",
+      "家庭共享"
+    ],
+    "releaseDate": "2016 年 5 月 9 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 16800,
+      "final": 16800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 168.00"
+    },
+    "metacritic": {
+      "score": 78,
+      "url": "https://www.metacritic.com/game/pc/stellaris?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 137723,
+    "requirements": {
+      "minimum": {
+        "cpu": null,
+        "gpu": "NVIDIA GeForce GTX 460",
+        "ram_gb": 4,
+        "storage": "10 GB",
+        "directx": "DirectX 9.0c"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-3570",
+        "gpu": "NVIDIA GeForce GTX 560",
+        "ram_gb": 4,
+        "storage": "10 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 1085660,
+    "name": "命运2",
+    "slug": "命运2-1085660",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/header_schinese.jpg?t=1765904462",
+    "developers": [
+      "Bungie"
+    ],
+    "publishers": [
+      "Bungie"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "免费开玩"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "应用内购买",
+      "可选颜色",
+      "自定义音量控制",
+      "字幕选项",
+      "部分支持控制器"
+    ],
+    "releaseDate": "2019 年 10 月 1 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": {
+      "score": 83,
+      "url": "https://www.metacritic.com/game/pc/destiny-2?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 133430,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-3250",
+        "gpu": "NVIDIA GeForce GTX 660",
+        "ram_gb": 6,
+        "storage": "105 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-2400",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 8,
+        "storage": "105 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 1593500,
+    "name": "God of War",
+    "slug": "god-of-war-1593500",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1763059412",
+    "developers": [
+      "Santa Monica Studio",
+      "Jetpack Interactive"
+    ],
+    "publishers": [
+      "PlayStation Publishing LLC"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "可以仅用键盘",
+      "朗读游戏菜单",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "字幕选项",
+      "环绕声",
+      "Steam 云",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2022 年 1 月 14 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 34500,
+      "final": 34500,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 345.00"
+    },
+    "metacritic": {
+      "score": 93,
+      "url": "https://www.metacritic.com/game/pc/god-of-war?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 121413,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-2500",
+        "gpu": "NVIDIA GeForce GTX 960",
+        "ram_gb": 8,
+        "storage": "70 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-6600",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 8,
+        "storage": "70 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 1158310,
+    "name": "Crusader Kings III",
+    "slug": "crusader-kings-iii-1158310",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8a7e814d13f8e73c0d40471f585ece908f9be282/header.jpg?t=1770193652",
+    "developers": [
+      "Paradox Development Studio"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "genres": [
+      "角色扮演",
+      "模拟",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "Steam 云",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2020 年 9 月 1 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 19800,
+      "final": 19800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 198.00"
+    },
+    "metacritic": {
+      "score": 91,
+      "url": "https://www.metacritic.com/game/pc/crusader-kings-iii?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 91184,
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD FX-4300",
+        "gpu": "NVIDIA GeForce GTX 660",
+        "ram_gb": 8,
+        "storage": "20 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-8400",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 16,
+        "storage": "20 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 1817070,
+    "name": "Marvel’s Spider-Man Remastered",
+    "slug": "marvels-spider-man-remastered-1817070",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg?t=1763569047",
+    "developers": [
+      "Insomniac Games",
+      "Nixxes Software"
+    ],
+    "publishers": [
+      "PlayStation Publishing LLC"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "休闲"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "字幕选项",
+      "环绕声",
+      "部分支持控制器",
+      "Steam 云",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2022 年 8 月 12 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 41400,
+      "final": 41400,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 414.00"
+    },
+    "metacritic": null,
+    "recommendations": 89397,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-4160",
+        "gpu": "NVIDIA GeForce GTX 950",
+        "ram_gb": 8,
+        "storage": "75 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-4670",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 16,
+        "storage": "75 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 1222670,
+    "name": "The Sims™ 4",
+    "slug": "the-sims-4-1222670",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg?t=1770392984",
+    "developers": [
+      "Maxis"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "genres": [
+      "冒险",
+      "休闲",
+      "模拟",
+      "免费开玩"
+    ],
+    "categories": [
+      "单人",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "可以仅用鼠标",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "环绕声",
+      "在平板上远程畅玩"
+    ],
+    "releaseDate": "2020 年 6 月 18 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 82464,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-3220",
+        "gpu": "NVIDIA GeForce 6600",
+        "ram_gb": 4,
+        "storage": "26 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": "NVIDIA GeForce GTX 650",
+        "ram_gb": 8,
+        "storage": "51 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 949230,
+    "name": "Cities: Skylines II 都市：天际线2",
+    "slug": "cities-skylines-ii-都市-天际线2-949230",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg?t=1765802021",
+    "developers": [
+      "Colossal Order"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "genres": [
+      "模拟"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 云",
+      "家庭共享"
+    ],
+    "releaseDate": "2023 年 10 月 24 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 19800,
+      "final": 19800,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 198.00"
+    },
+    "metacritic": null,
+    "recommendations": 58069,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-6700",
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 8,
+        "storage": "60 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12600",
+        "gpu": "NVIDIA GeForce RTX 3080",
+        "ram_gb": 16,
+        "storage": "60 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 1817190,
+    "name": "Marvel’s Spider-Man: Miles Morales",
+    "slug": "marvels-spider-man-miles-morales-1817190",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/header.jpg?t=1763569499",
+    "developers": [
+      "Insomniac Games",
+      "Nixxes Software"
+    ],
+    "publishers": [
+      "PlayStation Publishing LLC"
+    ],
+    "genres": [
+      "动作",
+      "冒险"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "随时保存",
+      "立体声",
+      "字幕选项",
+      "环绕声",
+      "部分支持控制器",
+      "Steam 云",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2022 年 11 月 18 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 34500,
+      "final": 34500,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 345.00"
+    },
+    "metacritic": null,
+    "recommendations": 34670,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-4160",
+        "gpu": "NVIDIA GeForce GTX 950",
+        "ram_gb": 8,
+        "storage": "75 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-4670",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 16,
+        "storage": "75 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 570,
+    "name": "Dota 2",
+    "slug": "dota-2-570",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "genres": [
+      "动作",
+      "策略",
+      "免费开玩"
+    ],
+    "categories": [
+      "多人",
+      "合作",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "SteamVR 收藏品",
+      "应用内购买",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "已启用 Valve 反作弊保护",
+      "Steam 时间轴"
+    ],
+    "releaseDate": "2013 年 7 月 9 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": null,
+    "metacritic": {
+      "score": 90,
+      "url": "https://www.metacritic.com/game/pc/dota-2?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 14369,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic CPU 2.8GHz",
+        "gpu": "NVIDIA GeForce 8600",
+        "ram_gb": 4,
+        "storage": "60 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 2677660,
+    "name": "夺宝奇兵：古老之圈 ",
+    "slug": "夺宝奇兵-古老之圈-2677660",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/6b16cd48219ef0334406162a2743de62bf1f6796/header_schinese.jpg?t=1763745007",
+    "developers": [
+      "MachineGames"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "genres": [
+      "动作",
+      "冒险"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "支持字幕",
+      "可选颜色",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "环绕声",
+      "Steam 云",
+      "可用 HDR",
+      "家庭共享"
+    ],
+    "releaseDate": "2024 年 12 月 8 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 34900,
+      "final": 34900,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "¥ 349.00"
+    },
+    "metacritic": {
+      "score": 87,
+      "url": "https://www.metacritic.com/game/pc/indiana-jones-and-the-great-circle?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 11602,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-10700",
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "ram_gb": 16,
+        "storage": "120 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-12700",
+        "gpu": "NVIDIA GeForce RTX 3080",
+        "ram_gb": 32,
+        "storage": "12 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 304930,
+    "name": "Unturned",
+    "slug": "unturned-304930",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304930/header.jpg?t=1765479894",
+    "developers": [
+      "Smartly Dressed Games"
+    ],
+    "publishers": [
+      "Smartly Dressed Games"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "休闲",
+      "独立",
+      "免费开玩"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "局域网玩家对战",
+      "合作",
+      "在线合作",
+      "局域网合作",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "应用内购买",
+      "视角舒适度",
+      "自定义音量控制",
+      "可调整难度",
+      "无需应对快速反应事件",
+      "立体声",
+      "Steam 云",
+      "已启用 Valve 反作弊保护",
+      "统计数据",
+      "包含关卡编辑器",
+      "在平板上远程畅玩"
+    ],
+    "releaseDate": "2017 年 7 月 7 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 7533,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic CPU 3GHz",
+        "gpu": null,
+        "ram_gb": 8,
+        "storage": "4 GB",
+        "directx": "DirectX 10"
+      },
+      "recommended": {
+        "cpu": "Generic CPU 4GHz",
+        "gpu": null,
+        "ram_gb": 16,
+        "storage": "6 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 236390,
+    "name": "War Thunder",
+    "slug": "war-thunder-236390",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/cab234fd4c0ae2f049e34e7bcb2393679b02bf91/header.jpg?t=1769516831",
+    "developers": [
+      "Gaijin Entertainment"
+    ],
+    "publishers": [
+      "Gaijin Network Ltd"
+    ],
+    "genres": [
+      "动作",
+      "大型多人在线",
+      "模拟",
+      "免费开玩"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "大型多人在线",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "已支持 VR",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "可调整文字大小",
+      "视角舒适度",
+      "可选颜色",
+      "自定义音量控制",
+      "无需应对快速反应事件",
+      "立体声",
+      "环绕声",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩"
+    ],
+    "releaseDate": "2013 年 8 月 15 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": null,
+    "metacritic": {
+      "score": 81,
+      "url": "https://www.metacritic.com/game/pc/war-thunder?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 1957,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic CPU 2.2GHz",
+        "gpu": "NVIDIA GeForce GTX 660",
+        "ram_gb": 4,
+        "storage": "70 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5 (generic)",
+        "gpu": "NVIDIA GeForce 1060",
+        "ram_gb": 16,
+        "storage": "95 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 1172470,
+    "name": "Apex Legends™",
+    "slug": "apex-legends-1172470",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6ae90b012e725a93622c3694d9d866b886cfd0f8/header.jpg?t=1762457261",
+    "developers": [
+      "Respawn"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "免费开玩"
+    ],
+    "categories": [
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "聊天语音转文字",
+      "无需应对快速反应事件"
+    ],
+    "releaseDate": "2020 年 11 月 4 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": {
+      "score": 88,
+      "url": "https://www.metacritic.com/game/pc/apex-legends?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 1573,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-6300",
+        "gpu": "NVIDIA GeForce GTX 950",
+        "ram_gb": 6,
+        "storage": "75 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": "NVIDIA GeForce GTX 970",
+        "ram_gb": 8,
+        "storage": "75 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 459820,
+    "name": "Crush Crush",
+    "slug": "crush-crush-459820",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/459820/f600cb15978d5cd5fefeff09a04dd777d56af9c8/header_alt_assets_19.jpg?t=1770233488",
+    "developers": [
+      "Sad Panda Studios"
+    ],
+    "publishers": [
+      "Sad Panda Studios"
+    ],
+    "genres": [
+      "休闲",
+      "独立",
+      "免费开玩"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "应用内购买",
+      "统计数据",
+      "Steam 排行榜",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩"
+    ],
+    "releaseDate": "2016 年 10 月 18 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 564,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic CPU 1.6GHz",
+        "gpu": null,
+        "ram_gb": 1,
+        "storage": "1 GB",
+        "directx": "DirectX 9.0"
+      },
+      "recommended": {
+        "cpu": "Generic CPU 2GHz",
+        "gpu": null,
+        "ram_gb": 2,
+        "storage": "1 GB",
+        "directx": "DirectX 9.0"
+      }
+    }
+  },
+  {
+    "appId": 2357570,
+    "name": "《守望先锋® 2》",
+    "slug": "守望先锋-2-2357570",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/81eab3cf0aaf374537bfea97d1eb5303ae7afc0d/header_alt_assets_18.jpg?t=1766101535",
+    "developers": [
+      "Blizzard Entertainment, Inc."
+    ],
+    "publishers": [
+      "Blizzard Entertainment, Inc."
+    ],
+    "genres": [
+      "动作",
+      "免费开玩"
+    ],
+    "categories": [
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "跨平台多人",
+      "Steam 成就",
+      "完全支持控制器",
+      "应用内购买",
+      "可调整文字大小",
+      "视角舒适度",
+      "聊天语音转文字",
+      "聊天文字转语音",
+      "可选颜色",
+      "自定义音量控制",
+      "无需应对快速反应事件",
+      "立体声",
+      "字幕选项",
+      "环绕声"
+    ],
+    "releaseDate": "2023 年 8 月 10 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 245,
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Phenom",
+        "gpu": "NVIDIA GeForce GTX 600",
+        "ram_gb": 6,
+        "storage": "50 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 8,
+        "storage": "50 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 1449850,
+    "name": "Yu-Gi-Oh! Master Duel",
+    "slug": "yu-gi-oh-master-duel-1449850",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449850/fc10d38783260f29b3f86f19afcfe80d9868ee0a/header.jpg?t=1769733849",
+    "developers": [
+      "KONAMI"
+    ],
+    "publishers": [
+      "KONAMI"
+    ],
+    "genres": [
+      "模拟",
+      "策略",
+      "免费开玩"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "跨平台多人",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "应用内购买"
+    ],
+    "releaseDate": "2022 年 1 月 18 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 0,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-9400",
+        "gpu": "NVIDIA GeForce GTX 1650",
+        "ram_gb": 8,
+        "storage": "64 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-11400",
+        "gpu": "NVIDIA GeForce RTX 3060",
+        "ram_gb": 16,
+        "storage": "128 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  }
+]
