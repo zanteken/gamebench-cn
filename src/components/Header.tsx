@@ -10,7 +10,7 @@ export default function Header() {
             GB
           </div>
           <span className="text-lg font-bold text-white">
-            GameBench <span className="text-brand-400">CN</span>
+            GameBench
           </span>
         </Link>
 

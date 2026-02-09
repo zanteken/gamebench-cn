@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllGames } from "@/lib/games";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://gamebench.cn"; // 替换为你的域名
+  const baseUrl = "https://www.gamebencher.com";
 
   const games = getAllGames();
 

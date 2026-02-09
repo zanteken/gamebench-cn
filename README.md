@@ -1,4 +1,4 @@
-# GameBench CN - PC游戏配置检测平台
+# GameBench - PC游戏配置检测平台
 
 ## 快速启动
 
@@ -16,7 +16,7 @@ open http://localhost:3000
 ## 项目结构
 
 ```
-gamebench-cn/
+gamebencher/
 ├── data/
 │   └── games.json           # 游戏数据（由 steam_scraper.py 生成）
 ├── src/

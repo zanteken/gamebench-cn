@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://gamebench.cn/sitemap.xml", // 替换为你的域名
+    sitemap: "https://www.gamebencher.com/sitemap.xml",
   };
 }
