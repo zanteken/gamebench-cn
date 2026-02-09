@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Game, formatPrice, formatRecommendations } from "@/lib/games";
+import { GameCardData } from "@/lib/types";
+import { formatPrice, formatRecommendations } from "@/lib/games";
 
-export default function GameCard({ game }: { game: Game }) {
-  const minReq = game.requirements.minimum;
-  const hasReqs = minReq.cpu || minReq.gpu || minReq.ram_gb;
+export default function GameCard({ game }: { game: GameCardData }) {
+  const hasReqs = game.minReq.cpu || game.minReq.gpu || game.minReq.ram_gb;
 
   return (
     <Link
@@ -54,22 +54,22 @@ export default function GameCard({ game }: { game: Game }) {
         {/* Minimum requirements summary */}
         {hasReqs ? (
           <div className="mt-auto space-y-1 border-t border-[#1e293b] pt-3 text-[11px] text-slate-400">
-            {minReq.cpu && (
+            {game.minReq.cpu && (
               <div className="flex items-center gap-1.5">
                 <span className="text-slate-500">CPU</span>
-                <span className="truncate">{minReq.cpu}</span>
+                <span className="truncate">{game.minReq.cpu}</span>
               </div>
             )}
-            {minReq.gpu && (
+            {game.minReq.gpu && (
               <div className="flex items-center gap-1.5">
                 <span className="text-slate-500">GPU</span>
-                <span className="truncate">{minReq.gpu}</span>
+                <span className="truncate">{game.minReq.gpu}</span>
               </div>
             )}
-            {minReq.ram_gb && (
+            {game.minReq.ram_gb && (
               <div className="flex items-center gap-1.5">
                 <span className="text-slate-500">RAM</span>
-                <span>{minReq.ram_gb} GB</span>
+                <span>{game.minReq.ram_gb} GB</span>
               </div>
             )}
           </div>

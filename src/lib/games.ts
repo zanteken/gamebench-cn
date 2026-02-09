@@ -1,17 +1,44 @@
 import gamesData from "@/../data/games.json";
-import { Game } from "./types";
+import { Game, GameCardData } from "./types";
 
 // Type assertion — data is loaded at build time (SSG)
 const games: Game[] = gamesData as Game[];
 
-// Re-export Game type for convenience
-export type { Game } from "./types";
+// Re-export types for convenience
+export type { Game, GameCardData } from "./types";
 
 /**
  * 获取所有游戏（按热门度排序）
  */
 export function getAllGames(): Game[] {
   return games;
+}
+
+/**
+ * 获取首页列表用的精简数据（去掉详情页才需要的字段）
+ */
+export function getGamesForList(): GameCardData[] {
+  return games.map((g) => ({
+    appId: g.appId,
+    name: g.name,
+    slug: g.slug,
+    isFree: g.isFree,
+    headerImage: g.headerImage,
+    genres: g.genres,
+    price: g.price
+      ? {
+          initial: g.price.initial,
+          final: g.price.final,
+          discount_percent: g.price.discount_percent,
+        }
+      : null,
+    recommendations: g.recommendations,
+    minReq: {
+      cpu: g.requirements.minimum.cpu,
+      gpu: g.requirements.minimum.gpu,
+      ram_gb: g.requirements.minimum.ram_gb,
+    },
+  }));
 }
 
 /**
@@ -47,7 +74,10 @@ export function getAllGenres(): string[] {
 /**
  * 格式化价格（分 → 元）
  */
-export function formatPrice(price: Game["price"], isFree: boolean): string {
+export function formatPrice(
+  price: { initial: number; final: number; discount_percent: number } | null,
+  isFree: boolean
+): string {
   if (isFree) return "免费";
   if (!price) return "暂无价格";
   const yuan = price.final / 100;
