@@ -6839,5 +6839,754 @@
         "directx": null
       }
     }
+  },
+  {
+    "appId": 2719240,
+    "name": "伏魔",
+    "slug": "伏魔",
+    "type": "game",
+    "isFree": true,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2719240/header_schinese.jpg?t=1741949521",
+    "developers": [
+      "欢乐游娱"
+    ],
+    "publishers": [
+      "欢乐游娱"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "大型多人在线",
+      "角色扮演",
+      "策略"
+    ],
+    "categories": [
+      "多人",
+      "大型多人在线",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "应用内购买"
+    ],
+    "releaseDate": "2024 年 4 月 11 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 0,
+    "requirements": {
+      "minimum": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": 2,
+        "storage": "4 GB",
+        "directx": "DirectX 9.0C"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": "Generic GPU 32MB VRAM",
+        "ram_gb": 2,
+        "storage": "4 GB",
+        "directx": "DirectX 9.0C"
+      }
+    }
+  },
+  {
+    "appId": 1366540,
+    "name": "戴森球计划",
+    "slug": "戴森球计划",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1366540/header_schinese.jpg?t=1765532615",
+    "developers": [
+      "Youthcat Studio"
+    ],
+    "publishers": [
+      "Gamirror Games"
+    ],
+    "genres": [
+      "独立",
+      "模拟",
+      "策略",
+      "抢先体验"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "家庭共享"
+    ],
+    "releaseDate": "2021 年 1 月 20 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 70,
+      "final": 70,
+      "discount_percent": 0
+    },
+    "metacritic": null,
+    "recommendations": 81309,
+    "requirements": {
+      "minimum": {
+        "cpu": "Generic 2.93GHz Multi-core",
+        "gpu": "NVIDIA GeForce GTX 750",
+        "ram_gb": 8,
+        "storage": "5 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-7700",
+        "gpu": "NVIDIA GeForce GTX 1660",
+        "ram_gb": 32,
+        "storage": "20 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 250900,
+    "name": "The Binding of Isaac: Rebirth",
+    "slug": "the-binding-of-isaac-rebirth",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
+    "developers": [
+      "Nicalis, Inc.",
+      "Edmund McMillen"
+    ],
+    "publishers": [
+      "Nicalis, Inc."
+    ],
+    "genres": [
+      "动作"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "同屏/分屏",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "在电视上远程畅玩",
+      "远程同乐",
+      "家庭共享"
+    ],
+    "releaseDate": "2014 年 11 月 4 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 48,
+      "final": 48,
+      "discount_percent": 0
+    },
+    "metacritic": null,
+    "recommendations": 344526,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core 2 Duo",
+        "gpu": null,
+        "ram_gb": 2,
+        "storage": null,
+        "directx": null
+      },
+      "recommended": {
+        "cpu": "Generic CPU 2.4GHz",
+        "gpu": "Intel HD Graphics 4000",
+        "ram_gb": 8,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 2172450,
+    "name": "MELTY BLOOD: TYPE LUMINA - 牛若丸 回合开始语音",
+    "slug": "melty-blood-type-lumina---牛若丸-回合开始语音",
+    "type": "dlc",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172450/header_schinese.jpg?t=1675248280",
+    "developers": [
+      "FRENCH-BREAD",
+      "TYPE-MOON",
+      "Lasengle Inc.",
+      "TAMSOFT CORPORATION",
+      "GameLoop Inc."
+    ],
+    "publishers": [
+      "Lasengle Inc."
+    ],
+    "genres": [
+      "动作"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "同屏/分屏玩家对战",
+      "同屏/分屏",
+      "DLC",
+      "Steam 成就",
+      "部分支持控制器",
+      "家庭共享"
+    ],
+    "releaseDate": "2023 年 1 月 18 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 15,
+      "final": 15,
+      "discount_percent": 0
+    },
+    "metacritic": null,
+    "recommendations": 0,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5 (generic)",
+        "gpu": "NVIDIA GeForce GTX 680",
+        "ram_gb": null,
+        "storage": null,
+        "directx": "DirectX 9.0"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 239140,
+    "name": "Dying Light",
+    "slug": "dying-light",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239140/header_schinese.jpg?t=1763646303",
+    "developers": [
+      "Techland"
+    ],
+    "publishers": [
+      "Techland"
+    ],
+    "genres": [
+      "动作",
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "Steam 云",
+      "已启用 Valve 反作弊保护",
+      "包含关卡编辑器",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2015 年 1 月 26 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 98,
+      "final": 11,
+      "discount_percent": 88
+    },
+    "metacritic": {
+      "score": 87,
+      "url": "https://www.metacritic.com/game/pc/dying-light-the-following---enhanced-edition?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 363484,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-2500",
+        "gpu": "NVIDIA GeForce GTX 560",
+        "ram_gb": 4,
+        "storage": null,
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-4670",
+        "gpu": "NVIDIA GeForce GTX 780",
+        "ram_gb": 8,
+        "storage": null,
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 2544740,
+    "name": "THANKS, LIGHT.",
+    "slug": "thanks-light",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2544740/header.jpg?t=1770260892",
+    "developers": [
+      "Lightersgames"
+    ],
+    "publishers": [
+      "Lightersgames"
+    ],
+    "genres": [
+      "冒险",
+      "独立",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "家庭共享"
+    ],
+    "releaseDate": "2026 年",
+    "comingSoon": true,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 0,
+    "requirements": {
+      "minimum": {
+        "cpu": null,
+        "gpu": "NVIDIA GeForce RTX 1660",
+        "ram_gb": 8,
+        "storage": "3 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": "NVIDIA GeForce RTX 2060",
+        "ram_gb": 16,
+        "storage": "3 GB",
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 466560,
+    "name": "Northgard: Definitive Edition",
+    "slug": "northgard-definitive-edition",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466560/45008ebe47821718edc5ac93e392023813403e91/header.jpg?t=1764864250",
+    "developers": [
+      "Shiro Games"
+    ],
+    "publishers": [
+      "Shiro Games"
+    ],
+    "genres": [
+      "冒险",
+      "独立",
+      "模拟",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "合作",
+      "在线合作",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "Steam 创意工坊",
+      "Steam 云",
+      "包含关卡编辑器",
+      "家庭共享"
+    ],
+    "releaseDate": "2018 年 3 月 7 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 109,
+      "final": 109,
+      "discount_percent": 0
+    },
+    "metacritic": {
+      "score": 81,
+      "url": "https://www.metacritic.com/game/pc/northgard?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 53680,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core 2 Duo or",
+        "gpu": "AMD Radeon HD 5750",
+        "ram_gb": 1,
+        "storage": "1 GB",
+        "directx": "DirectX 10"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5 (generic)",
+        "gpu": "NVIDIA GeForce GTX 660",
+        "ram_gb": 2,
+        "storage": "1 GB",
+        "directx": "DirectX 10"
+      }
+    }
+  },
+  {
+    "appId": 1151640,
+    "name": "Horizon Zero Dawn™ Complete Edition",
+    "slug": "horizon-zero-dawn-complete-edition",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/header.jpg?t=1750105817",
+    "developers": [
+      "Guerrilla"
+    ],
+    "publishers": [
+      "PlayStation Publishing LLC"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "角色扮演"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 云",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2020 年 8 月 7 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": null,
+    "metacritic": null,
+    "recommendations": 94965,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-2500",
+        "gpu": "NVIDIA GeForce GTX 780",
+        "ram_gb": 8,
+        "storage": "100 GB",
+        "directx": "DirectX 12"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-4770",
+        "gpu": "NVIDIA GeForce GTX 1060",
+        "ram_gb": 16,
+        "storage": "100 GB",
+        "directx": "DirectX 12"
+      }
+    }
+  },
+  {
+    "appId": 294100,
+    "name": "边缘世界 RimWorld",
+    "slug": "边缘世界-rimworld",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg?t=1770059921",
+    "developers": [
+      "Ludeon Studios"
+    ],
+    "publishers": [
+      "Ludeon Studios"
+    ],
+    "genres": [
+      "独立",
+      "模拟",
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "Steam 创意工坊",
+      "可调整文字大小",
+      "视角舒适度",
+      "自定义音量控制",
+      "可调整难度",
+      "可以仅用鼠标",
+      "无需应对快速反应事件",
+      "随时保存",
+      "部分支持控制器",
+      "Steam 云",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2018 年 10 月 17 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 128,
+      "final": 128,
+      "discount_percent": 0
+    },
+    "metacritic": {
+      "score": 87,
+      "url": "https://www.metacritic.com/game/pc/rimworld?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 197458,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core 2 Duo",
+        "gpu": "Intel HD Graphics 4000",
+        "ram_gb": 4,
+        "storage": "1 GB",
+        "directx": null
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
+  },
+  {
+    "appId": 289070,
+    "name": "Sid Meier’s Civilization® VI",
+    "slug": "sid-meiers-civilization-vi",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040",
+    "developers": [
+      "Firaxis Games",
+      "Aspyr (Mac)",
+      "Aspyr (Linux)"
+    ],
+    "publishers": [
+      "2K",
+      "Aspyr (Mac)",
+      "Aspyr (Linux)"
+    ],
+    "genres": [
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "局域网玩家对战",
+      "同屏/分屏玩家对战",
+      "同屏/分屏",
+      "跨平台多人",
+      "Steam 成就",
+      "Steam 集换式卡牌",
+      "Steam 创意工坊",
+      "应用内购买",
+      "Steam 回合通知",
+      "在平板上远程畅玩",
+      "远程同乐",
+      "家庭共享"
+    ],
+    "releaseDate": "2016 年 10 月 20 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 220,
+      "final": 22,
+      "discount_percent": 90
+    },
+    "metacritic": {
+      "score": 88,
+      "url": "https://www.metacritic.com/game/pc/sid-meiers-civilization-vi?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 268518,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3 (generic)",
+        "gpu": "Generic GPU 1GB VRAM",
+        "ram_gb": 4,
+        "storage": "17 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5 (generic)",
+        "gpu": "Generic GPU 2GB VRAM",
+        "ram_gb": 8,
+        "storage": "23 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 1102190,
+    "name": "Monster Train",
+    "slug": "monster-train",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1102190/header.jpg?t=1761065288",
+    "developers": [
+      "Shiny Shoe"
+    ],
+    "publishers": [
+      "Good Shepherd Entertainment"
+    ],
+    "genres": [
+      "策略"
+    ],
+    "categories": [
+      "单人",
+      "多人",
+      "玩家对战",
+      "线上玩家对战",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2020 年 5 月 21 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 88,
+      "final": 88,
+      "discount_percent": 0
+    },
+    "metacritic": {
+      "score": 86,
+      "url": "https://www.metacritic.com/game/pc/monster-train?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 19723,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3 (generic)",
+        "gpu": null,
+        "ram_gb": 4,
+        "storage": "2 GB",
+        "directx": "DirectX 11"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5 (generic)",
+        "gpu": "NVIDIA GeForce GTX 1050",
+        "ram_gb": 8,
+        "storage": "2 GB",
+        "directx": "DirectX 11"
+      }
+    }
+  },
+  {
+    "appId": 504230,
+    "name": "Celeste",
+    "slug": "celeste",
+    "type": "game",
+    "isFree": false,
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
+    "developers": [
+      "Maddy Makes Games Inc.",
+      "Extremely OK Games, Ltd."
+    ],
+    "publishers": [
+      "Maddy Makes Games Inc."
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "独立"
+    ],
+    "categories": [
+      "单人",
+      "Steam 成就",
+      "完全支持控制器",
+      "Steam 集换式卡牌",
+      "Steam 云",
+      "在手机上远程畅玩",
+      "在平板上远程畅玩",
+      "在电视上远程畅玩",
+      "家庭共享"
+    ],
+    "releaseDate": "2018 年 1 月 25 日",
+    "comingSoon": false,
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": true
+    },
+    "price": {
+      "currency": "CNY",
+      "initial": 68,
+      "final": 68,
+      "discount_percent": 0
+    },
+    "metacritic": {
+      "score": 88,
+      "url": "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
+    },
+    "recommendations": 121947,
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3 (generic)",
+        "gpu": "Intel HD Graphics 4000",
+        "ram_gb": 2,
+        "storage": null,
+        "directx": "DirectX 10"
+      },
+      "recommended": {
+        "cpu": null,
+        "gpu": null,
+        "ram_gb": null,
+        "storage": null,
+        "directx": null
+      }
+    }
   }
 ]
