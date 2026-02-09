@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    domains: [
+      "shared.akamai.steamstatic.com",
+      "cdn.akamai.steamstatic.com",
+      "cdn.cloudflare.steamstatic.com",
+      "steamcommunity-a.akamaihd.net",
+      "steamstatic.com",
+      "akamai.steamstatic.com",
+    ],
     remotePatterns: [
       {
         protocol: "https",
@@ -9,14 +17,6 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "**.akamai.steamstatic.com",
-      },
-      {
-        protocol: "https",
-        hostname: "shared.akamai.steamstatic.com",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn.akamai.steamstatic.com",
       },
     ],
     formats: ['image/webp'],
