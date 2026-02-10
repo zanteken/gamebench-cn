@@ -124,9 +124,13 @@ export function getAllGenres(): string[] {
 export function getAllGenresEn(): string[] {
   const genreSet = new Set<string>();
   games.forEach((g) => {
-    if (g.genresEn) {
-      g.genresEn.forEach((genre) => genreSet.add(genre));
-    }
+    // Use genresEn if available, otherwise translate from genres
+    const sourceGenres = g.genresEn && g.genresEn.length > 0 ? g.genresEn : g.genres;
+    sourceGenres.forEach((genre) => {
+      // If it's already English or we have a translation
+      const englishGenre = translateGenre(genre, "en");
+      genreSet.add(englishGenre);
+    });
   });
   return Array.from(genreSet).sort();
 }
