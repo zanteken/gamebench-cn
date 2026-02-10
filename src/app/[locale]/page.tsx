@@ -61,7 +61,7 @@ export default function HomePage({
           { label: dict.home.statsGames, value: `${games.length.toLocaleString()}+`, icon: "🎮" },
           { label: dict.home.statsCPU, value: `${cpus.length}+`, icon: "⚡" },
           { label: dict.home.statsGPU, value: `${gpus.length}+`, icon: "🖥️" },
-          { label: dict.home.statsFPS, value: "在线计算", icon: "📊" },
+          { label: dict.home.statsFPS, value: locale === "zh" ? "在线计算" : "Online", icon: "📊" },
         ].map((stat) => (
           <div
             key={stat.label}
