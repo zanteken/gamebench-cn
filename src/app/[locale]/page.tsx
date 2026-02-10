@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { getGamesForList, getAllGenres, getAllGenresEn } from "@/lib/games";
+import { cpus, gpus } from "@/lib/fps-predictor";
 import GameListClient from "@/components/GameListClient";
 import { locales, type Locale, getDictionary } from "@/i18n/dictionaries";
 
@@ -58,9 +59,9 @@ export default function HomePage({
       <section className="mb-8 grid grid-cols-2 gap-3 md:grid-cols-4">
         {[
           { label: dict.home.statsGames, value: `${games.length.toLocaleString()}+`, icon: "🎮" },
-          { label: dict.home.statsCPU, value: "齐全", icon: "⚡" },
-          { label: dict.home.statsGPU, value: "齐全", icon: "🖥️" },
-          { label: dict.home.statsFPS, value: "即将推出", icon: "📊" },
+          { label: dict.home.statsCPU, value: `${cpus.length}+`, icon: "⚡" },
+          { label: dict.home.statsGPU, value: `${gpus.length}+`, icon: "🖥️" },
+          { label: dict.home.statsFPS, value: "在线计算", icon: "📊" },
         ].map((stat) => (
           <div
             key={stat.label}
