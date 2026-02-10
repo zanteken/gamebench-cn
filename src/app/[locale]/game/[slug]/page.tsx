@@ -48,6 +48,13 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
 
   const req = game.requirements;
 
+  // 根据语言选择显示的内容
+  const displayName = locale === "en" && game.nameEn ? game.nameEn : game.name;
+  const displayGenres = locale === "en" && game.genresEn ? game.genresEn : (game.genres || []);
+  const displayContentDescriptors = locale === "en" && game.contentDescriptorsEn
+    ? game.contentDescriptorsEn
+    : (game.contentDescriptors || []);
+
   return (
     <div className="mx-auto max-w-4xl">
       {/* Breadcrumb */}
@@ -56,7 +63,7 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
           {locale === "zh" ? "首页" : "Home"}
         </Link>
         <span className="mx-1.5">/</span>
-        <span className="text-slate-300">{game.name}</span>
+        <span className="text-slate-300">{displayName}</span>
       </nav>
 
       {/* Header */}
@@ -64,22 +71,35 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
         {game.headerImage && (
           <img
             src={game.headerImage}
-            alt={game.name}
+            alt={displayName}
             className="mb-4 w-full rounded-xl object-cover"
           />
         )}
-        <h1 className="text-2xl font-bold text-white">{game.name}</h1>
+        <h1 className="text-2xl font-bold text-white">{displayName}</h1>
         <div className="mt-2 flex flex-wrap gap-2 text-sm text-slate-400">
           {game.developers?.length > 0 && (
             <span>{dict.game.developer}: {game.developers.join(", ")}</span>
           )}
           {game.releaseDate && <span>· {dict.game.releaseDate}: {game.releaseDate}</span>}
         </div>
-        {game.genres?.length > 0 && (
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            {game.genres.map((genre: string) => (
+
+        {/* Genres */}
+        {displayGenres.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {displayGenres.map((genre: string) => (
               <span key={genre} className="rounded-full border border-[#2a3548] bg-[#111827] px-2.5 py-0.5 text-xs text-slate-400">
                 {genre}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {/* Content Descriptors (暴力、血腥、裸露等) */}
+        {displayContentDescriptors.length > 0 && (
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {displayContentDescriptors.map((desc: string) => (
+              <span key={desc} className="rounded border border-red-900/30 bg-red-900/10 px-2 py-0.5 text-xs text-red-400">
+                {desc}
               </span>
             ))}
           </div>

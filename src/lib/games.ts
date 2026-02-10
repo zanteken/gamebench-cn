@@ -70,6 +70,8 @@ export function getGamesForList(): GameCardData[] {
     headerImage: g.headerImage,
     genres: g.genres,
     genresEn: g.genresEn,
+    contentDescriptors: g.contentDescriptors,
+    contentDescriptorsEn: g.contentDescriptorsEn,
     price: g.price
       ? {
           initial: g.price.initial,

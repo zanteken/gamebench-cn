@@ -26,6 +26,8 @@ export interface Game {
   genres: string[];
   genresEn?: string[];  // 英文 genre（可选）
   categories: string[];
+  contentDescriptors?: string[];  // 内容描述符（暴力、血腥等）
+  contentDescriptorsEn?: string[];  // 英文内容描述符
   releaseDate: string;
   comingSoon: boolean;
   platforms: { windows?: boolean; mac?: boolean; linux?: boolean };
@@ -51,6 +53,8 @@ export interface GameCardData {
   headerImage: string;
   genres: string[];
   genresEn?: string[];  // 英文 genre（可选）
+  contentDescriptors?: string[];
+  contentDescriptorsEn?: string[];
   price: { initial: number; final: number; discount_percent: number } | null;
   recommendations: number;
   minReq: {
