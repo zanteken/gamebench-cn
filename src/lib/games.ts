@@ -76,13 +76,17 @@ export function getAllGenres(): string[] {
  */
 export function formatPrice(
   price: { initial: number; final: number; discount_percent: number } | null,
-  isFree: boolean
+  isFree: boolean,
+  locale: string = "zh"
 ): string {
-  if (isFree) return "免费";
-  if (!price) return "暂无价格";
+  if (isFree) return locale === "en" ? "Free" : "免费";
+  if (!price) return locale === "en" ? "N/A" : "暂无价格";
   const yuan = price.final / 100;
   if (price.discount_percent > 0) {
     const original = price.initial / 100;
+    if (locale === "en") {
+      return `¥${yuan} (was ¥${original}, -${price.discount_percent}%)`;
+    }
     return `¥${yuan} (原价 ¥${original}, -${price.discount_percent}%)`;
   }
   return `¥${yuan}`;
@@ -91,8 +95,11 @@ export function formatPrice(
 /**
  * 格式化推荐数
  */
-export function formatRecommendations(count: number): string {
-  if (count >= 10000) return `${(count / 10000).toFixed(1)}万`;
+export function formatRecommendations(count: number, locale: string = "zh"): string {
+  if (count >= 10000) {
+    const num = (count / 10000).toFixed(1);
+    return locale === "en" ? `${(count / 1000).toFixed(0)}k` : `${num}万`;
+  }
   if (count >= 1000) return `${(count / 1000).toFixed(1)}k`;
   return count.toString();
 }

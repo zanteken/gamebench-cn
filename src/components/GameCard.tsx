@@ -2,9 +2,24 @@ import Link from "next/link";
 import { GameCardData } from "@/lib/types";
 import { formatPrice, formatRecommendations } from "@/lib/games";
 import GameImage from "./GameImage";
+import type { Dictionary } from "@/i18n/dictionaries";
 
-export default function GameCard({ game, locale = "zh" }: { game: GameCardData; locale?: string }) {
+interface Props {
+  game: GameCardData;
+  locale?: string;
+  dict?: Dictionary;
+}
+
+export default function GameCard({ game, locale = "zh", dict }: Props) {
   const hasReqs = game.minReq.cpu || game.minReq.gpu || game.minReq.ram_gb;
+
+  // Use dict or fallback strings
+  const noReqsText = dict?.game?.minimum
+    ? (locale === "en" ? "No requirements data" : "暂无配置需求数据")
+    : (locale === "en" ? "No requirements data" : "暂无配置需求数据");
+  const reviewsText = dict?.game?.developer // Just check if dict exists
+    ? (locale === "en" ? "reviews" : "条评测")
+    : (locale === "en" ? "reviews" : "条评测");
 
   return (
     <Link
@@ -23,7 +38,7 @@ export default function GameCard({ game, locale = "zh" }: { game: GameCardData; 
 
         {/* Price badge */}
         <div className="absolute right-2 top-2 rounded bg-black/70 px-2 py-0.5 text-xs font-medium text-white backdrop-blur">
-          {formatPrice(game.price, game.isFree)}
+          {formatPrice(game.price, game.isFree, locale)}
         </div>
       </div>
 
@@ -69,14 +84,14 @@ export default function GameCard({ game, locale = "zh" }: { game: GameCardData; 
           </div>
         ) : (
           <div className="mt-auto border-t border-[#1e293b] pt-3 text-[11px] text-slate-500">
-            {locale === "en" ? "No requirements data" : "暂无配置需求数据"}
+            {noReqsText}
           </div>
         )}
 
         {/* Reviews count */}
         {game.recommendations > 0 && (
           <div className="mt-2 text-[10px] text-slate-500">
-            {formatRecommendations(game.recommendations)} {locale === "en" ? "reviews" : "条评测"}
+            {formatRecommendations(game.recommendations, locale)} {reviewsText}
           </div>
         )}
       </div>

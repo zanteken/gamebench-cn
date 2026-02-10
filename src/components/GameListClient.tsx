@@ -122,7 +122,7 @@ export default function GameListClient({ games, genres, locale = "zh", dict }: P
         <>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {displayedGames.map((game) => (
-              <GameCard key={game.appId} game={game} locale={locale} />
+              <GameCard key={game.appId} game={game} locale={locale} dict={dict} />
             ))}
           </div>
 
