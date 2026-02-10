@@ -3,7 +3,6 @@
 import { useState, useMemo } from "react";
 import { GameCardData } from "@/lib/types";
 import GameCard from "./GameCard";
-import { translateGenre } from "@/lib/games";
 import type { Dictionary } from "@/i18n/dictionaries";
 
 const PAGE_SIZE = 40;
@@ -24,13 +23,21 @@ export default function GameListClient({ games, genres, locale = "zh", dict }: P
     let result = games;
     if (search.trim()) {
       const q = search.toLowerCase();
-      result = result.filter((g) => g.name.toLowerCase().includes(q));
+      // 搜索时同时匹配中英文名称
+      result = result.filter((g) =>
+        g.name.toLowerCase().includes(q) ||
+        (g.nameEn && g.nameEn.toLowerCase().includes(q))
+      );
     }
     if (selectedGenre) {
-      result = result.filter((g) => g.genres.includes(selectedGenre));
+      // 根据语言选择对应的 genre 数组进行过滤
+      result = result.filter((g) => {
+        const targetGenres = locale === "en" && g.genresEn ? g.genresEn : g.genres;
+        return targetGenres.includes(selectedGenre);
+      });
     }
     return result;
-  }, [games, search, selectedGenre]);
+  }, [games, search, selectedGenre, locale]);
 
   // Reset pagination when filters change
   const displayedGames = filteredGames.slice(0, visibleCount);
@@ -107,7 +114,7 @@ export default function GameListClient({ games, genres, locale = "zh", dict }: P
                   : "bg-[#1a2233] text-slate-400 hover:bg-[#1f2b3f] hover:text-white"
               }`}
             >
-              {translateGenre(genre, locale)}
+              {genre}
             </button>
           ))}
         </div>

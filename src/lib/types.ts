@@ -16,6 +16,7 @@ export interface GamePrice {
 export interface Game {
   appId: number;
   name: string;
+  nameEn?: string;  // 英文名称（可选）
   slug: string;
   type: string;
   isFree: boolean;
@@ -23,6 +24,7 @@ export interface Game {
   developers: string[];
   publishers: string[];
   genres: string[];
+  genresEn?: string[];  // 英文 genre（可选）
   categories: string[];
   releaseDate: string;
   comingSoon: boolean;
@@ -43,10 +45,12 @@ export interface Game {
 export interface GameCardData {
   appId: number;
   name: string;
+  nameEn?: string;  // 英文名称（可选）
   slug: string;
   isFree: boolean;
   headerImage: string;
   genres: string[];
+  genresEn?: string[];  // 英文 genre（可选）
   price: { initial: number; final: number; discount_percent: number } | null;
   recommendations: number;
   minReq: {

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { GameCardData } from "@/lib/types";
-import { formatPrice, formatRecommendations, translateGenre } from "@/lib/games";
+import { formatPrice, formatRecommendations } from "@/lib/games";
 import GameImage from "./GameImage";
 import type { Dictionary } from "@/i18n/dictionaries";
 
@@ -12,6 +12,10 @@ interface Props {
 
 export default function GameCard({ game, locale = "zh", dict }: Props) {
   const hasReqs = game.minReq.cpu || game.minReq.gpu || game.minReq.ram_gb;
+
+  // 根据语言选择显示的名称和 genres
+  const displayName = locale === "en" && game.nameEn ? game.nameEn : game.name;
+  const displayGenres = locale === "en" && game.genresEn ? game.genresEn : game.genres;
 
   // Use dict or fallback strings
   const noReqsText = locale === "en" ? "No requirements data" : "暂无配置需求数据";
@@ -26,7 +30,7 @@ export default function GameCard({ game, locale = "zh", dict }: Props) {
       <div className="relative aspect-[460/215] w-full overflow-hidden bg-[#111827]">
         <GameImage
           src={game.headerImage}
-          alt={game.name}
+          alt={displayName}
           appId={game.appId}
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-transform group-hover:scale-105"
@@ -41,17 +45,17 @@ export default function GameCard({ game, locale = "zh", dict }: Props) {
       {/* Info */}
       <div className="flex flex-1 flex-col p-4">
         <h3 className="mb-1 text-sm font-semibold text-white line-clamp-1 group-hover:text-brand-400">
-          {game.name}
+          {displayName}
         </h3>
 
         {/* Genres */}
         <div className="mb-3 flex flex-wrap gap-1">
-          {game.genres.slice(0, 3).map((genre) => (
+          {displayGenres.slice(0, 3).map((genre) => (
             <span
               key={genre}
               className="rounded bg-[#111827] px-1.5 py-0.5 text-[10px] text-slate-400"
             >
-              {translateGenre(genre, locale)}
+              {genre}
             </span>
           ))}
         </div>

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { getGamesForList, getAllGenres } from "@/lib/games";
+import { getGamesForList, getAllGenres, getAllGenresEn } from "@/lib/games";
 import GameListClient from "@/components/GameListClient";
 import { locales, type Locale, getDictionary } from "@/i18n/dictionaries";
 
@@ -39,7 +39,8 @@ export default function HomePage({
   const locale = params.locale as Locale;
   const dict = getDictionary(locale);
   const games = getGamesForList();
-  const genres = getAllGenres();
+  // 根据语言选择 genre 列表
+  const genres = locale === "en" ? getAllGenresEn() : getAllGenres();
 
   return (
     <div>

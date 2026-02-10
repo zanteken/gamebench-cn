@@ -27,6 +27,10 @@ const GENRE_TRANSLATIONS: Record<string, string> = {
   "动画制作和建模": "Animation & Modeling",
   "照片编辑": "Photo Editing",
   "设计和插画": "Design & Illustration",
+  // Content labels (categories)
+  "暴力": "Violent",
+  "血腥": "Gore",
+  "裸露": "Nudity",
 };
 
 /**
@@ -60,10 +64,12 @@ export function getGamesForList(): GameCardData[] {
   return games.map((g) => ({
     appId: g.appId,
     name: g.name,
+    nameEn: g.nameEn,
     slug: g.slug,
     isFree: g.isFree,
     headerImage: g.headerImage,
     genres: g.genres,
+    genresEn: g.genresEn,
     price: g.price
       ? {
           initial: g.price.initial,
@@ -107,6 +113,19 @@ export function getGamesByGenre(genre: string): Game[] {
 export function getAllGenres(): string[] {
   const genreSet = new Set<string>();
   games.forEach((g) => g.genres.forEach((genre) => genreSet.add(genre)));
+  return Array.from(genreSet).sort();
+}
+
+/**
+ * 获取所有英文类型标签
+ */
+export function getAllGenresEn(): string[] {
+  const genreSet = new Set<string>();
+  games.forEach((g) => {
+    if (g.genresEn) {
+      g.genresEn.forEach((genre) => genreSet.add(genre));
+    }
+  });
   return Array.from(genreSet).sort();
 }
 
