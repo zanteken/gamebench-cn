@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import { GameCardData } from "@/lib/types";
 import GameCard from "./GameCard";
+import { translateGenre } from "@/lib/games";
 import type { Dictionary } from "@/i18n/dictionaries";
 
 const PAGE_SIZE = 40;
@@ -48,11 +49,11 @@ export default function GameListClient({ games, genres, locale = "zh", dict }: P
   // Use dict or fallback strings
   const searchPlaceholder = dict?.home?.searchPlaceholder ?? "搜索游戏名称...";
   const allLabel = dict?.home?.allGenres ?? "全部";
-  const foundText = dict ? (locale === "en" ? `Found ${filteredGames.length} games` : `找到 ${filteredGames.length} 款游戏`) : `找到 ${filteredGames.length} 款游戏`;
-  const totalText = dict ? (locale === "en" ? `${games.length} games total` : `共 ${games.length} 款游戏`) : `共 ${games.length} 款游戏`;
-  const noResultsTitle = dict ? (locale === "en" ? "No games found" : "没有找到匹配的游戏") : "没有找到匹配的游戏";
-  const noResultsSub = dict ? (locale === "en" ? "Try a different keyword?" : "试试换个关键词？") : "试试换个关键词？";
-  const loadMoreText = dict ? (locale === "en" ? `Load More (${filteredGames.length - visibleCount} more)` : `加载更多（还有 ${filteredGames.length - visibleCount} 款）`) : `加载更多（还有 ${filteredGames.length - visibleCount} 款）`;
+  const foundText = locale === "en" ? `Found ${filteredGames.length} games` : `找到 ${filteredGames.length} 款游戏`;
+  const totalText = locale === "en" ? `${games.length} games total` : `共 ${games.length} 款游戏`;
+  const noResultsTitle = locale === "en" ? "No games found" : "没有找到匹配的游戏";
+  const noResultsSub = locale === "en" ? "Try a different keyword?" : "试试换个关键词？";
+  const loadMoreText = locale === "en" ? `Load More (${filteredGames.length - visibleCount} more)` : `加载更多（还有 ${filteredGames.length - visibleCount} 款）`;
 
   return (
     <>
@@ -106,7 +107,7 @@ export default function GameListClient({ games, genres, locale = "zh", dict }: P
                   : "bg-[#1a2233] text-slate-400 hover:bg-[#1f2b3f] hover:text-white"
               }`}
             >
-              {genre}
+              {translateGenre(genre, locale)}
             </button>
           ))}
         </div>

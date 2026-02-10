@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { GameCardData } from "@/lib/types";
-import { formatPrice, formatRecommendations } from "@/lib/games";
+import { formatPrice, formatRecommendations, translateGenre } from "@/lib/games";
 import GameImage from "./GameImage";
 import type { Dictionary } from "@/i18n/dictionaries";
 
@@ -14,12 +14,8 @@ export default function GameCard({ game, locale = "zh", dict }: Props) {
   const hasReqs = game.minReq.cpu || game.minReq.gpu || game.minReq.ram_gb;
 
   // Use dict or fallback strings
-  const noReqsText = dict?.game?.minimum
-    ? (locale === "en" ? "No requirements data" : "暂无配置需求数据")
-    : (locale === "en" ? "No requirements data" : "暂无配置需求数据");
-  const reviewsText = dict?.game?.developer // Just check if dict exists
-    ? (locale === "en" ? "reviews" : "条评测")
-    : (locale === "en" ? "reviews" : "条评测");
+  const noReqsText = locale === "en" ? "No requirements data" : "暂无配置需求数据";
+  const reviewsText = locale === "en" ? "reviews" : "条评测";
 
   return (
     <Link
@@ -55,7 +51,7 @@ export default function GameCard({ game, locale = "zh", dict }: Props) {
               key={genre}
               className="rounded bg-[#111827] px-1.5 py-0.5 text-[10px] text-slate-400"
             >
-              {genre}
+              {translateGenre(genre, locale)}
             </span>
           ))}
         </div>

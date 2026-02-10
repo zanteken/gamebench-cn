@@ -8,6 +8,45 @@ const games: Game[] = gamesData as Game[];
 export type { Game, GameCardData } from "./types";
 
 /**
+ * Genre 翻译映射（中文 → 英文）
+ */
+const GENRE_TRANSLATIONS: Record<string, string> = {
+  "动作": "Action",
+  "冒险": "Adventure",
+  "角色扮演": "RPG",
+  "策略": "Strategy",
+  "模拟": "Simulation",
+  "竞速": "Racing",
+  "体育": "Sports",
+  "休闲": "Casual",
+  "独立": "Indie",
+  "大型多人在线": "MMO",
+  "免费开玩": "Free to Play",
+  "抢先体验": "Early Access",
+  "实用工具": "Utilities",
+  "动画制作和建模": "Animation & Modeling",
+  "照片编辑": "Photo Editing",
+  "设计和插画": "Design & Illustration",
+};
+
+/**
+ * 翻译 genre 标签
+ */
+export function translateGenre(genre: string, locale: string): string {
+  if (locale === "en") {
+    return GENRE_TRANSLATIONS[genre] || genre;
+  }
+  return genre;
+}
+
+/**
+ * 翻译 genre 数组
+ */
+export function translateGenres(genres: string[], locale: string): string[] {
+  return genres.map((g) => translateGenre(g, locale));
+}
+
+/**
  * 获取所有游戏（按热门度排序）
  */
 export function getAllGames(): Game[] {
