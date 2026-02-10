@@ -28,18 +28,20 @@ const CURRENT_VERSION = "0.1.0";
 const RELEASE_DATE = "2026-02";
 const DOWNLOADS = {
   windows: {
-    url: "https://github.com/zanteken/gamebench-cn/releases/latest/download/GameBench-CN_0.1.0_x64-setup.exe",
-    size: "~8 MB",
+    url: "/downloads/GameBencher-0.1.0-win64.exe",
+    size: "~6 MB",
     label: "Windows 安装包",
-    fileName: "GameBench-CN_0.1.0_x64-setup.exe",
+    fileName: "GameBencher-0.1.0-win64.exe",
     requirements: "Windows 10/11 64-bit · WebView2 运行时",
+    available: true,
   },
   mac: {
-    url: "https://github.com/zanteken/gamebench-cn/releases/latest/download/GameBench-CN_0.1.0_aarch64.dmg",
-    size: "~12 MB",
+    url: "#",
+    size: "开发中",
     label: "macOS 安装包",
-    fileName: "GameBench-CN_0.1.0_aarch64.dmg",
+    fileName: "GameBencher-0.1.0-macos.dmg",
     requirements: "macOS 12+ · Apple Silicon / Intel",
+    available: false,
   },
 };
 
@@ -280,6 +282,7 @@ function DownloadButtons({ isZh = true, compact = false }: { isZh?: boolean; com
     <div className={`flex flex-col sm:flex-row items-center justify-center ${compact ? "gap-3" : "gap-4"}`}>
       <a
         href={DOWNLOADS.windows.url}
+        download={DOWNLOADS.windows.fileName}
         className={`group flex items-center gap-3 px-6 ${
           compact ? "py-2.5" : "py-3.5"
         } rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-medium transition-all hover:shadow-lg hover:shadow-blue-600/20`}
@@ -295,23 +298,24 @@ function DownloadButtons({ isZh = true, compact = false }: { isZh?: boolean; com
         </div>
         <DownloadArrow />
       </a>
-      <a
-        href={DOWNLOADS.mac.url}
+      <div
         className={`group flex items-center gap-3 px-6 ${
           compact ? "py-2.5" : "py-3.5"
-        } rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-medium transition-all hover:shadow-lg hover:shadow-slate-800/30`}
+        } rounded-xl bg-slate-800/50 border border-slate-700/50 text-slate-500 cursor-not-allowed`}
       >
         <AppleIcon />
         <div className="text-left">
           <div className={compact ? "text-sm" : "text-base"}>
-            {isZh ? "下载 macOS 版" : "Download for macOS"}
+            {isZh ? "macOS 版开发中" : "macOS Coming Soon"}
           </div>
           {!compact && (
-            <div className="text-xs text-slate-400">{DOWNLOADS.mac.size} · {DOWNLOADS.mac.requirements}</div>
+            <div className="text-xs text-slate-600">{isZh ? "敬请期待" : "Stay tuned"}</div>
           )}
         </div>
-        <DownloadArrow />
-      </a>
+        <span className="ml-1 px-2 py-0.5 rounded text-[10px] bg-slate-700/50 text-slate-500">
+          {isZh ? "开发中" : "WIP"}
+        </span>
+      </div>
     </div>
   );
 }
