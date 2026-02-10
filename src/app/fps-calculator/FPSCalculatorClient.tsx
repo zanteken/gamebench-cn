@@ -12,6 +12,7 @@ import {
   type GPU,
   type FPSPrediction,
 } from "@/lib/fps-predictor";
+import UpgradePanel from "@/components/UpgradePanel";
 
 type GameForCalc = {
   appId: number;
@@ -211,6 +212,14 @@ export default function FPSCalculatorClient({ games }: { games: GameForCalc[] })
     return { avg, fps60, fps30, total: predictions.length };
   }, [predictions]);
 
+  // 瓶颈判断
+  const bottleneck = useMemo(() => {
+    if (!predictions.length) return "balanced";
+    const gpuCount = predictions.filter((p) => p.pred.bottleneck === "gpu").length;
+    const cpuCount = predictions.filter((p) => p.pred.bottleneck === "cpu").length;
+    return gpuCount > predictions.length * 0.5 ? "gpu" : cpuCount > predictions.length * 0.5 ? "cpu" : "balanced";
+  }, [predictions]);
+
   return (
     <div className="mx-auto max-w-4xl">
       {/* 标题 */}
@@ -354,6 +363,11 @@ export default function FPSCalculatorClient({ games }: { games: GameForCalc[] })
                 </div>
               ))}
             </div>
+          )}
+
+          {/* 升级建议面板 */}
+          {stats && cpu && gpu && (
+            <UpgradePanel cpu={cpu} gpu={gpu} ram={ram} bottleneck={bottleneck} />
           )}
 
           {/* 搜索 + 排序 */}

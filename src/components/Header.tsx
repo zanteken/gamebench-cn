@@ -1,66 +1,42 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const NAV_ITEMS = [
+  { href: "/", label: "游戏库" },
+  { href: "/fps-calculator", label: "FPS计算器" },
+  { href: "/gpu", label: "显卡天梯" },
+  { href: "/cpu", label: "CPU天梯" },
+];
 
 export default function Header() {
+  const pathname = usePathname();
+
   return (
-    <header className="sticky top-0 z-50 border-b border-[#1e293b] bg-[#0a0e17]/95 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-600 text-sm font-bold text-white">
-            GB
-          </div>
-          <span className="text-lg font-bold text-white">
-            GameBench
-          </span>
+    <header className="sticky top-0 z-50 border-b border-[#1e293b] bg-[#0a0e17]/90 backdrop-blur-md">
+      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
+        <Link href="/" className="text-lg font-bold text-white tracking-tight">
+          Game<span className="text-blue-500">Bencher</span>
         </Link>
-
-        {/* Navigation */}
-        <nav className="hidden items-center gap-6 md:flex">
-          <Link
-            href="/"
-            className="text-sm text-slate-400 transition hover:text-white"
-          >
-            游戏库
-          </Link>
-          <Link
-            href="/fps-calculator"
-            className="text-sm text-slate-400 transition hover:text-white"
-          >
-            FPS 计算器
-          </Link>
-          <span className="text-sm text-slate-600 cursor-default">
-            CPU 榜单
-            <span className="ml-1 rounded bg-slate-800 px-1.5 py-0.5 text-[10px] text-slate-500">
-              即将推出
-            </span>
-          </span>
-          <span className="text-sm text-slate-600 cursor-default">
-            GPU 榜单
-            <span className="ml-1 rounded bg-slate-800 px-1.5 py-0.5 text-[10px] text-slate-500">
-              即将推出
-            </span>
-          </span>
+        <nav className="flex items-center gap-1">
+          {NAV_ITEMS.map((item) => {
+            const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`rounded-md px-3 py-1.5 text-sm transition ${
+                  active
+                    ? "bg-blue-600/20 text-blue-400 font-medium"
+                    : "text-slate-400 hover:text-white hover:bg-[#1a2233]"
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
-
-        {/* Search (placeholder) */}
-        <div className="hidden md:block">
-          <div className="flex h-9 w-64 items-center rounded-lg border border-[#1e293b] bg-[#111827] px-3">
-            <svg
-              className="mr-2 h-4 w-4 text-slate-500"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
-            <span className="text-sm text-slate-500">搜索游戏或硬件...</span>
-          </div>
-        </div>
       </div>
     </header>
   );
