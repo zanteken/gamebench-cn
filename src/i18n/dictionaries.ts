@@ -17,6 +17,7 @@ export type Dictionary = {
     fpsCalc: string;
     gpuTier: string;
     cpuTier: string;
+    download: string;
   };
 
   // ── 首页 ──
@@ -157,6 +158,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       fpsCalc: "FPS计算器",
       gpuTier: "显卡天梯",
       cpuTier: "CPU天梯",
+      download: "下载桌面版",
     },
 
     // ── 首页 ──
@@ -294,6 +296,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       fpsCalc: "FPS Calculator",
       gpuTier: "GPU Tier List",
       cpuTier: "CPU Tier List",
+      download: "Download App",
     },
 
     home: {

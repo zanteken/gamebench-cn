@@ -22,6 +22,7 @@ export default function Header({
     { href: `/${locale}/fps-calculator`, label: dict.nav.fpsCalc },
     { href: `/${locale}/gpu`, label: dict.nav.gpuTier },
     { href: `/${locale}/cpu`, label: dict.nav.cpuTier },
+    { href: `/${locale}/download`, label: dict.nav.download },
   ];
 
   return (
