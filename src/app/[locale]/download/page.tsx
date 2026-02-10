@@ -138,8 +138,8 @@ export default function DownloadPage({
             icon={<CpuIcon />}
             title={isZh ? "硬件自动检测" : "Hardware Detection"}
             description={isZh
-              ? "一键识别 CPU、GPU、内存型号与参数，自动匹配数据库中 500+ CPU 和 300+ GPU 的性能评分。"
-              : "One-click detect CPU, GPU, RAM specs. Auto-match with 500+ CPU and 300+ GPU performance scores in database."}
+              ? "一键识别 CPU、GPU、内存型号与参数，涵盖主流硬件的性能评分数据库。"
+              : "One-click detect CPU, GPU, RAM specs. Auto-match with comprehensive hardware performance database."}
             color="blue"
           />
           <FeatureCard

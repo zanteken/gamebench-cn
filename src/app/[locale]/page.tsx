@@ -58,9 +58,9 @@ export default function HomePage({
       <section className="mb-8 grid grid-cols-2 gap-3 md:grid-cols-4">
         {[
           { label: dict.home.statsGames, value: `${games.length.toLocaleString()}+`, icon: "🎮" },
-          { label: dict.home.statsCPU, value: "500+", icon: "⚡" },
-          { label: dict.home.statsGPU, value: "300+", icon: "🖥️" },
-          { label: dict.home.statsFPS, value: "建设中", icon: "📊" },
+          { label: dict.home.statsCPU, value: "齐全", icon: "⚡" },
+          { label: dict.home.statsGPU, value: "齐全", icon: "🖥️" },
+          { label: dict.home.statsFPS, value: "即将推出", icon: "📊" },
         ].map((stat) => (
           <div
             key={stat.label}
