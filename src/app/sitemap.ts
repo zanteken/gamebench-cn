@@ -4,6 +4,16 @@ import { getAllGames } from "@/lib/games";
 const BASE_URL = "https://www.gamebencher.com";
 const LOCALES = ["zh", "en"];
 
+// Escape special characters for XML
+function escapeXml(unsafe: string): string {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const games = getAllGames();
 
@@ -43,12 +53,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Game pages for each locale (only zh and en)
   const gamePages: MetadataRoute.Sitemap = LOCALES.flatMap((locale) =>
-    games.map((game) => ({
-      url: `${BASE_URL}/${locale}/game/${game.slug}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    }))
+    games.map((game) => {
+      const safeSlug = escapeXml(game.slug);
+      return {
+        url: `${BASE_URL}/${locale}/game/${safeSlug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+      };
+    })
   );
 
   return [...staticPages, ...gamePages];
