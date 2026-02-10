@@ -3,12 +3,12 @@ import { GameCardData } from "@/lib/types";
 import { formatPrice, formatRecommendations } from "@/lib/games";
 import GameImage from "./GameImage";
 
-export default function GameCard({ game }: { game: GameCardData }) {
+export default function GameCard({ game, locale = "zh" }: { game: GameCardData; locale?: string }) {
   const hasReqs = game.minReq.cpu || game.minReq.gpu || game.minReq.ram_gb;
 
   return (
     <Link
-      href={`/game/${game.slug}`}
+      href={`/${locale}/game/${game.slug}`}
       className="group flex flex-col overflow-hidden rounded-xl border border-[#1e293b] bg-[#1a2233] transition-all hover:border-brand-600/50 hover:bg-[#1f2b3f] hover:shadow-lg hover:shadow-brand-600/5"
     >
       {/* Game Image */}
@@ -69,14 +69,14 @@ export default function GameCard({ game }: { game: GameCardData }) {
           </div>
         ) : (
           <div className="mt-auto border-t border-[#1e293b] pt-3 text-[11px] text-slate-500">
-            暂无配置需求数据
+            {locale === "en" ? "No requirements data" : "暂无配置需求数据"}
           </div>
         )}
 
         {/* Reviews count */}
         {game.recommendations > 0 && (
           <div className="mt-2 text-[10px] text-slate-500">
-            {formatRecommendations(game.recommendations)} 条评测
+            {formatRecommendations(game.recommendations)} {locale === "en" ? "reviews" : "条评测"}
           </div>
         )}
       </div>

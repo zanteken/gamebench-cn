@@ -3,15 +3,18 @@
 import { useState, useMemo } from "react";
 import { GameCardData } from "@/lib/types";
 import GameCard from "./GameCard";
+import type { Dictionary } from "@/i18n/dictionaries";
 
 const PAGE_SIZE = 40;
 
 interface Props {
   games: GameCardData[];
   genres: string[];
+  locale?: string;
+  dict?: Dictionary;
 }
 
-export default function GameListClient({ games, genres }: Props) {
+export default function GameListClient({ games, genres, locale = "zh", dict }: Props) {
   const [search, setSearch] = useState("");
   const [selectedGenre, setSelectedGenre] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -42,6 +45,15 @@ export default function GameListClient({ games, genres }: Props) {
     setVisibleCount(PAGE_SIZE);
   };
 
+  // Use dict or fallback strings
+  const searchPlaceholder = dict?.home?.searchPlaceholder ?? "搜索游戏名称...";
+  const allLabel = dict?.home?.allGenres ?? "全部";
+  const foundText = dict ? (locale === "en" ? `Found ${filteredGames.length} games` : `找到 ${filteredGames.length} 款游戏`) : `找到 ${filteredGames.length} 款游戏`;
+  const totalText = dict ? (locale === "en" ? `${games.length} games total` : `共 ${games.length} 款游戏`) : `共 ${games.length} 款游戏`;
+  const noResultsTitle = dict ? (locale === "en" ? "No games found" : "没有找到匹配的游戏") : "没有找到匹配的游戏";
+  const noResultsSub = dict ? (locale === "en" ? "Try a different keyword?" : "试试换个关键词？") : "试试换个关键词？";
+  const loadMoreText = dict ? (locale === "en" ? `Load More (${filteredGames.length - visibleCount} more)` : `加载更多（还有 ${filteredGames.length - visibleCount} 款）`) : `加载更多（还有 ${filteredGames.length - visibleCount} 款）`;
+
   return (
     <>
       {/* Search + Filters */}
@@ -65,7 +77,7 @@ export default function GameListClient({ games, genres }: Props) {
             type="text"
             value={search}
             onChange={(e) => handleSearchChange(e.target.value)}
-            placeholder="搜索游戏名称..."
+            placeholder={searchPlaceholder}
             className="w-full rounded-lg border border-[#1e293b] bg-[#111827] py-3 pl-10 pr-4 text-sm text-white placeholder-slate-500 outline-none transition focus:border-brand-600"
           />
         </div>
@@ -80,7 +92,7 @@ export default function GameListClient({ games, genres }: Props) {
                 : "bg-[#1a2233] text-slate-400 hover:bg-[#1f2b3f] hover:text-white"
             }`}
           >
-            全部
+            {allLabel}
           </button>
           {genres.map((genre) => (
             <button
@@ -102,9 +114,7 @@ export default function GameListClient({ games, genres }: Props) {
 
       {/* Results count */}
       <div className="mb-4 text-sm text-slate-500">
-        {filteredGames.length === games.length
-          ? `共 ${games.length} 款游戏`
-          : `找到 ${filteredGames.length} 款游戏`}
+        {filteredGames.length === games.length ? totalText : foundText}
       </div>
 
       {/* Game Grid */}
@@ -112,7 +122,7 @@ export default function GameListClient({ games, genres }: Props) {
         <>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {displayedGames.map((game) => (
-              <GameCard key={game.appId} game={game} />
+              <GameCard key={game.appId} game={game} locale={locale} />
             ))}
           </div>
 
@@ -123,15 +133,15 @@ export default function GameListClient({ games, genres }: Props) {
                 onClick={() => setVisibleCount((prev) => prev + PAGE_SIZE)}
                 className="rounded-lg border border-[#1e293b] bg-[#1a2233] px-8 py-3 text-sm font-medium text-slate-300 transition hover:border-brand-600/50 hover:bg-[#1f2b3f] hover:text-white"
               >
-                加载更多（还有 {filteredGames.length - visibleCount} 款）
+                {loadMoreText}
               </button>
             </div>
           )}
         </>
       ) : (
         <div className="py-20 text-center text-slate-500">
-          <p className="text-lg">没有找到匹配的游戏</p>
-          <p className="mt-1 text-sm">试试换个关键词？</p>
+          <p className="text-lg">{noResultsTitle}</p>
+          <p className="mt-1 text-sm">{noResultsSub}</p>
         </div>
       )}
     </>
