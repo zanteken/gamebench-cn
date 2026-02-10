@@ -30,6 +30,10 @@ export async function generateMetadata({
         en: "https://gamebencher.com/en",
       },
     },
+    icons: {
+      icon: "/icon.svg",
+      apple: "/apple-icon.png",
+    },
   };
 }
 
