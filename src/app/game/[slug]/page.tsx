@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -8,6 +7,7 @@ import {
   formatPrice,
   formatRecommendations,
 } from "@/lib/games";
+import GameImage from "@/components/GameImage";
 import RequirementsTable from "@/components/RequirementsTable";
 
 // ====== SSG: 预生成所有游戏页面 ======
@@ -72,16 +72,14 @@ export default function GamePage({ params }: { params: { slug: string } }) {
       {/* Hero: Image + Basic Info */}
       <div className="mb-8 overflow-hidden rounded-xl border border-[#1e293b] bg-[#1a2233]">
         <div className="relative aspect-[21/9] w-full bg-[#111827]">
-          {game.headerImage && (
-            <Image
-              src={game.headerImage}
-              alt={game.name}
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover"
-            />
-          )}
+          <GameImage
+            src={game.headerImage}
+            alt={game.name}
+            appId={game.appId}
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
           {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#1a2233] via-transparent to-transparent" />
         </div>
