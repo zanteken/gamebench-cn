@@ -1,0 +1,27 @@
+Borderlands series check:
+
+AppId: 49520
+Name: 无主之地2
+NameEn: Borderlands 2
+Slug: borderlands-2-49520
+----------------------------------------
+AppId: 261640
+Name: 无主之地：前传
+NameEn: Borderlands: The Pre-Sequel
+Slug: borderlands-the-pre-sequel-261640
+----------------------------------------
+AppId: 397540
+Name: 无主之地3
+NameEn: None
+Slug: game-397540
+----------------------------------------
+AppId: 729040
+Name: Borderlands Game of the Year Enhanced
+NameEn: MISSING
+Slug: borderlands-game-of-the-year-enhanced
+----------------------------------------
+AppId: 1285190
+Name: 无主之地4
+NameEn: 无主之地®4
+Slug: game-1285190
+----------------------------------------

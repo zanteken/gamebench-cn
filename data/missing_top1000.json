@@ -1,0 +1,6653 @@
+[
+  {
+    "rank": 3,
+    "appid": 1808500,
+    "name": "ARC Raiders",
+    "current_players": 186048,
+    "peak_24h": 325296,
+    "peak_alltime": 481966,
+    "name_cn": "ARC突袭者"
+  },
+  {
+    "rank": 4,
+    "appid": 3419430,
+    "name": "Bongo Cat",
+    "current_players": 135150,
+    "peak_24h": 170693,
+    "peak_alltime": 194508,
+    "name_cn": "邦戈猫"
+  },
+  {
+    "rank": 10,
+    "appid": 2676230,
+    "name": "FiveM",
+    "current_players": 82059,
+    "peak_24h": 147386,
+    "peak_alltime": 147386,
+    "name_cn": "FiveM (GTA多人模组)"
+  },
+  {
+    "rank": 11,
+    "appid": 1422450,
+    "name": "Deadlock",
+    "current_players": 80236,
+    "peak_24h": 108988,
+    "peak_alltime": 171490,
+    "name_cn": "死锁"
+  },
+  {
+    "rank": 14,
+    "appid": 413150,
+    "name": "Stardew Valley",
+    "current_players": 60085,
+    "peak_24h": 110668,
+    "peak_alltime": 236614,
+    "name_cn": "星露谷物语"
+  },
+  {
+    "rank": 18,
+    "appid": 218,
+    "name": "Source SDK Base 2007",
+    "current_players": 53843,
+    "peak_24h": 103533,
+    "peak_alltime": 251292,
+    "name_cn": "起源SDK基础2007"
+  },
+  {
+    "rank": 19,
+    "appid": 2357570,
+    "name": "Overwatch 2",
+    "current_players": 51915,
+    "peak_24h": 69881,
+    "peak_alltime": 75608,
+    "name_cn": "守望先锋2"
+  },
+  {
+    "rank": 21,
+    "appid": 381210,
+    "name": "Dead by Daylight",
+    "current_players": 49192,
+    "peak_24h": 80119,
+    "peak_alltime": 120717,
+    "name_cn": "黎明杀机"
+  },
+  {
+    "rank": 22,
+    "appid": 2507950,
+    "name": "Delta Force",
+    "current_players": 49017,
+    "peak_24h": 155547,
+    "peak_alltime": 247028,
+    "name_cn": "三角洲部队"
+  },
+  {
+    "rank": 24,
+    "appid": 438100,
+    "name": "VRChat",
+    "current_players": 44407,
+    "peak_24h": 64518,
+    "peak_alltime": 73791,
+    "name_cn": "VRChat虚拟现实社交"
+  },
+  {
+    "rank": 26,
+    "appid": 3240220,
+    "name": "Grand Theft Auto V Enhanced",
+    "current_players": 43747,
+    "peak_24h": 97725,
+    "peak_alltime": 187059,
+    "name_cn": "侠盗猎车手V 增强版"
+  },
+  {
+    "rank": 28,
+    "appid": 1281930,
+    "name": "tModLoader",
+    "current_players": 41582,
+    "peak_24h": 79101,
+    "peak_alltime": 79101,
+    "name_cn": "tModLoader (泰拉瑞亚模组加载器)"
+  },
+  {
+    "rank": 31,
+    "appid": 3681010,
+    "name": "Nioh 3",
+    "current_players": 37328,
+    "peak_24h": 88045,
+    "peak_alltime": 88045,
+    "name_cn": "仁王3"
+  },
+  {
+    "rank": 32,
+    "appid": 4025700,
+    "name": "Heartopia",
+    "current_players": 35551,
+    "peak_24h": 60993,
+    "peak_alltime": 66118,
+    "name_cn": "心之乌托邦"
+  },
+  {
+    "rank": 33,
+    "appid": 1366800,
+    "name": "Crosshair X",
+    "current_players": 34951,
+    "peak_24h": 53217,
+    "peak_alltime": 89033,
+    "name_cn": "准星X"
+  },
+  {
+    "rank": 34,
+    "appid": 2807960,
+    "name": "Battlefield 6",
+    "current_players": 33315,
+    "peak_24h": 71677,
+    "peak_alltime": 747440,
+    "name_cn": "战地6"
+  },
+  {
+    "rank": 35,
+    "appid": 3564740,
+    "name": "Where Winds Meet",
+    "current_players": 31875,
+    "peak_24h": 65259,
+    "peak_alltime": 251008,
+    "name_cn": "燕云十六声"
+  },
+  {
+    "rank": 37,
+    "appid": 2923300,
+    "name": "Banana",
+    "current_players": 31055,
+    "peak_24h": 36817,
+    "peak_alltime": 917272,
+    "name_cn": "香蕉"
+  },
+  {
+    "rank": 41,
+    "appid": 1623730,
+    "name": "Palworld",
+    "current_players": 29007,
+    "peak_24h": 53068,
+    "peak_alltime": 2101867,
+    "name_cn": "幻兽帕鲁"
+  },
+  {
+    "rank": 43,
+    "appid": 3405690,
+    "name": "EA SPORTS FC 26",
+    "current_players": 27630,
+    "peak_24h": 71952,
+    "peak_alltime": 100753,
+    "name_cn": "EA SPORTS FC 26 (FIFA足球)"
+  },
+  {
+    "rank": 46,
+    "appid": 480,
+    "name": "Spacewar",
+    "current_players": 26384,
+    "peak_24h": 79728,
+    "peak_alltime": 138416,
+    "name_cn": "太空战争"
+  },
+  {
+    "rank": 48,
+    "appid": 489830,
+    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "current_players": 25793,
+    "peak_24h": 38838,
+    "peak_alltime": 69906,
+    "name_cn": "上古卷轴5：天际 特别版"
+  },
+  {
+    "rank": 49,
+    "appid": 552990,
+    "name": "World of Warships",
+    "current_players": 24558,
+    "peak_24h": 30235,
+    "peak_alltime": 411338,
+    "name_cn": "战舰世界"
+  },
+  {
+    "rank": 51,
+    "appid": 394360,
+    "name": "Hearts of Iron IV",
+    "current_players": 24128,
+    "peak_24h": 56488,
+    "peak_alltime": 93196,
+    "name_cn": "钢铁雄心4"
+  },
+  {
+    "rank": 53,
+    "appid": 3241660,
+    "name": "R.E.P.O.",
+    "current_players": 23089,
+    "peak_24h": 50468,
+    "peak_alltime": 271571,
+    "name_cn": "R.E.P.O. 回收公司"
+  },
+  {
+    "rank": 55,
+    "appid": 1973530,
+    "name": "Limbus Company",
+    "current_players": 22189,
+    "peak_24h": 32840,
+    "peak_alltime": 124574,
+    "name_cn": "边狱公司"
+  },
+  {
+    "rank": 56,
+    "appid": 39210,
+    "name": "FINAL FANTASY XIV Online",
+    "current_players": 21802,
+    "peak_24h": 25960,
+    "peak_alltime": 95150,
+    "name_cn": "最终幻想14 Online"
+  },
+  {
+    "rank": 60,
+    "appid": 1371980,
+    "name": "No Rest for the Wicked",
+    "current_players": 20997,
+    "peak_24h": 39518,
+    "peak_alltime": 62997,
+    "name_cn": "恶人无安息"
+  },
+  {
+    "rank": 61,
+    "appid": 2622380,
+    "name": "ELDEN RING NIGHTREIGN",
+    "current_players": 20401,
+    "peak_24h": 57321,
+    "peak_alltime": 313593,
+    "name_cn": "艾尔登法环：夜之王"
+  },
+  {
+    "rank": 63,
+    "appid": 1449850,
+    "name": "Yu-Gi-Oh! Master Duel",
+    "current_players": 18852,
+    "peak_24h": 29616,
+    "peak_alltime": 262689,
+    "name_cn": "游戏王：大师决斗"
+  },
+  {
+    "rank": 64,
+    "appid": 3164500,
+    "name": "Schedule I",
+    "current_players": 18821,
+    "peak_24h": 30099,
+    "peak_alltime": 459075,
+    "name_cn": "附表一"
+  },
+  {
+    "rank": 66,
+    "appid": 2694490,
+    "name": "Path of Exile 2",
+    "current_players": 18479,
+    "peak_24h": 36219,
+    "peak_alltime": 578569,
+    "name_cn": "流放之路2"
+  },
+  {
+    "rank": 67,
+    "appid": 582660,
+    "name": "Black Desert",
+    "current_players": 18444,
+    "peak_24h": 24135,
+    "peak_alltime": 60395,
+    "name_cn": "黑色沙漠"
+  },
+  {
+    "rank": 69,
+    "appid": 252950,
+    "name": "Rocket League",
+    "current_players": 18280,
+    "peak_24h": 36301,
+    "peak_alltime": 147632,
+    "name_cn": "火箭联盟"
+  },
+  {
+    "rank": 71,
+    "appid": 3472040,
+    "name": "NBA 2K26",
+    "current_players": 17603,
+    "peak_24h": 30885,
+    "peak_alltime": 32081,
+    "name_cn": "NBA 2K26"
+  },
+  {
+    "rank": 73,
+    "appid": 2073620,
+    "name": "Arena Breakout: Infinite",
+    "current_players": 17444,
+    "peak_24h": 35781,
+    "peak_alltime": 66007,
+    "name_cn": "暗区突围：无限"
+  },
+  {
+    "rank": 74,
+    "appid": 3551340,
+    "name": "Football Manager 26",
+    "current_players": 17173,
+    "peak_24h": 50975,
+    "peak_alltime": 84909,
+    "name_cn": "足球经理26"
+  },
+  {
+    "rank": 76,
+    "appid": 646570,
+    "name": "Slay the Spire",
+    "current_players": 16400,
+    "peak_24h": 29444,
+    "peak_alltime": 57025,
+    "name_cn": "杀戮尖塔"
+  },
+  {
+    "rank": 77,
+    "appid": 813780,
+    "name": "Age of Empires II: Definitive Edition",
+    "current_players": 16196,
+    "peak_24h": 28932,
+    "peak_alltime": 38725,
+    "name_cn": "帝国时代2：终极版"
+  },
+  {
+    "rank": 79,
+    "appid": 1771300,
+    "name": "Kingdom Come: Deliverance II",
+    "current_players": 15739,
+    "peak_24h": 38411,
+    "peak_alltime": 256206,
+    "name_cn": "天国：拯救2"
+  },
+  {
+    "rank": 81,
+    "appid": 427520,
+    "name": "Factorio",
+    "current_players": 15289,
+    "peak_24h": 28741,
+    "peak_alltime": 118674,
+    "name_cn": "异星工厂"
+  },
+  {
+    "rank": 83,
+    "appid": 526870,
+    "name": "Satisfactory",
+    "current_players": 15114,
+    "peak_24h": 29795,
+    "peak_alltime": 186158,
+    "name_cn": "幸福工厂"
+  },
+  {
+    "rank": 84,
+    "appid": 1158310,
+    "name": "Crusader Kings III",
+    "current_players": 15008,
+    "peak_24h": 26751,
+    "peak_alltime": 98872,
+    "name_cn": "十字军之王3"
+  },
+  {
+    "rank": 85,
+    "appid": 2300320,
+    "name": "Farming Simulator 25",
+    "current_players": 14956,
+    "peak_24h": 50251,
+    "peak_alltime": 135970,
+    "name_cn": "模拟农场25"
+  },
+  {
+    "rank": 88,
+    "appid": 3513350,
+    "name": "Wuthering Waves",
+    "current_players": 14048,
+    "peak_24h": 27827,
+    "peak_alltime": 40721,
+    "name_cn": "鸣潮"
+  },
+  {
+    "rank": 89,
+    "appid": 3527290,
+    "name": "PEAK",
+    "current_players": 13221,
+    "peak_24h": 25106,
+    "peak_alltime": 170759,
+    "name_cn": "巅峰"
+  },
+  {
+    "rank": 92,
+    "appid": 739630,
+    "name": "Phasmophobia",
+    "current_players": 12674,
+    "peak_24h": 22619,
+    "peak_alltime": 112717,
+    "name_cn": "恐鬼症"
+  },
+  {
+    "rank": 94,
+    "appid": 2073850,
+    "name": "THE FINALS",
+    "current_players": 12423,
+    "peak_24h": 20230,
+    "peak_alltime": 242619,
+    "name_cn": "决赛"
+  },
+  {
+    "rank": 95,
+    "appid": 2432860,
+    "name": "MENACE",
+    "current_players": 12052,
+    "peak_24h": 20623,
+    "peak_alltime": 20623,
+    "name_cn": "威胁"
+  },
+  {
+    "rank": 97,
+    "appid": 1905180,
+    "name": "OBS Studio",
+    "current_players": 11919,
+    "peak_24h": 29757,
+    "peak_alltime": 30856,
+    "name_cn": "OBS直播软件"
+  },
+  {
+    "rank": 99,
+    "appid": 1874880,
+    "name": "Arma Reforger",
+    "current_players": 11567,
+    "peak_24h": 21171,
+    "peak_alltime": 23050,
+    "name_cn": "武装突袭：重铸"
+  },
+  {
+    "rank": 102,
+    "appid": 1623660,
+    "name": "MIR4",
+    "current_players": 10994,
+    "peak_24h": 11865,
+    "peak_alltime": 97173,
+    "name_cn": "传奇4"
+  },
+  {
+    "rank": 104,
+    "appid": 629520,
+    "name": "Soundpad",
+    "current_players": 10832,
+    "peak_24h": 21400,
+    "peak_alltime": 40096,
+    "name_cn": "音效板"
+  },
+  {
+    "rank": 105,
+    "appid": 1665460,
+    "name": "eFootball",
+    "current_players": 10722,
+    "peak_24h": 18755,
+    "peak_alltime": 27993,
+    "name_cn": "实况足球"
+  },
+  {
+    "rank": 106,
+    "appid": 3427660,
+    "name": "Waifusitter",
+    "current_players": 10693,
+    "peak_24h": 10696,
+    "peak_alltime": 11489,
+    "name_cn": "看护老婆"
+  },
+  {
+    "rank": 107,
+    "appid": 238960,
+    "name": "Path of Exile",
+    "current_players": 10650,
+    "peak_24h": 21030,
+    "peak_alltime": 229337,
+    "name_cn": "流放之路"
+  },
+  {
+    "rank": 108,
+    "appid": 216150,
+    "name": "MapleStory",
+    "current_players": 10572,
+    "peak_24h": 12027,
+    "peak_alltime": 17750,
+    "name_cn": "冒险岛"
+  },
+  {
+    "rank": 109,
+    "appid": 3224770,
+    "name": "Umamusume: Pretty Derby",
+    "current_players": 10454,
+    "peak_24h": 14443,
+    "peak_alltime": 87453,
+    "name_cn": "赛马娘"
+  },
+  {
+    "rank": 111,
+    "appid": 1903340,
+    "name": "Clair Obscur: Expedition 33",
+    "current_players": 10209,
+    "peak_24h": 20008,
+    "peak_alltime": 145063,
+    "name_cn": "光与暗：远征33"
+  },
+  {
+    "rank": 114,
+    "appid": 1313140,
+    "name": "Cult of the Lamb",
+    "current_players": 9990,
+    "peak_24h": 14952,
+    "peak_alltime": 61780,
+    "name_cn": "咩咩启示录"
+  },
+  {
+    "rank": 115,
+    "appid": 1364780,
+    "name": "Street Fighter 6",
+    "current_players": 9929,
+    "peak_24h": 31364,
+    "peak_alltime": 70573,
+    "name_cn": "街头霸王6"
+  },
+  {
+    "rank": 116,
+    "appid": 3037410,
+    "name": "Fish Idle 2: Underwater Mystery",
+    "current_players": 9925,
+    "peak_24h": 10014,
+    "peak_alltime": 44430,
+    "name_cn": "摸鱼2：水下之谜"
+  },
+  {
+    "rank": 117,
+    "appid": 1030300,
+    "name": "Hollow Knight: Silksong",
+    "current_players": 9794,
+    "peak_24h": 17338,
+    "peak_alltime": 587150,
+    "name_cn": "空洞骑士：丝之歌"
+  },
+  {
+    "rank": 119,
+    "appid": 435150,
+    "name": "Divinity: Original Sin 2",
+    "current_players": 9704,
+    "peak_24h": 19881,
+    "peak_alltime": 93701,
+    "name_cn": "神界：原罪2"
+  },
+  {
+    "rank": 121,
+    "appid": 1172710,
+    "name": "Dune: Awakening",
+    "current_players": 9458,
+    "peak_24h": 17833,
+    "peak_alltime": 189333,
+    "name_cn": "沙丘：觉醒"
+  },
+  {
+    "rank": 122,
+    "appid": 1454400,
+    "name": "Cookie Clicker",
+    "current_players": 9313,
+    "peak_24h": 11435,
+    "peak_alltime": 67867,
+    "name_cn": "饼干点击者"
+  },
+  {
+    "rank": 123,
+    "appid": 2499860,
+    "name": "DRAGON QUEST VII Reimagined",
+    "current_players": 9308,
+    "peak_24h": 27390,
+    "peak_alltime": 27390,
+    "name_cn": "勇者斗恶龙7 重构版"
+  },
+  {
+    "rank": 124,
+    "appid": 632360,
+    "name": "Risk of Rain 2",
+    "current_players": 9165,
+    "peak_24h": 12055,
+    "peak_alltime": 75406,
+    "name_cn": "雨中冒险2"
+  },
+  {
+    "rank": 125,
+    "appid": 3932890,
+    "name": "Escape from Tarkov",
+    "current_players": 9139,
+    "peak_24h": 20805,
+    "peak_alltime": 47800,
+    "name_cn": "逃离塔科夫"
+  },
+  {
+    "rank": 126,
+    "appid": 3659280,
+    "name": "Off The Grid",
+    "current_players": 9129,
+    "peak_24h": 12370,
+    "peak_alltime": 15092,
+    "name_cn": "脱网"
+  },
+  {
+    "rank": 127,
+    "appid": 2183900,
+    "name": "Warhammer 40,000: Space Marine 2",
+    "current_players": 9054,
+    "peak_24h": 16776,
+    "peak_alltime": 225690,
+    "name_cn": "战锤40K：星际战士2"
+  },
+  {
+    "rank": 129,
+    "appid": 960090,
+    "name": "Bloons TD 6",
+    "current_players": 8755,
+    "peak_24h": 13850,
+    "peak_alltime": 53943,
+    "name_cn": "气球塔防6"
+  },
+  {
+    "rank": 130,
+    "appid": 1476970,
+    "name": "Legends of Idleon MMO",
+    "current_players": 8694,
+    "peak_24h": 11024,
+    "peak_alltime": 21533,
+    "name_cn": "空闲传奇MMO"
+  },
+  {
+    "rank": 132,
+    "appid": 594650,
+    "name": "Hunt: Showdown 1896",
+    "current_players": 8602,
+    "peak_24h": 31059,
+    "peak_alltime": 60124,
+    "name_cn": "猎杀：对决 1896"
+  },
+  {
+    "rank": 136,
+    "appid": 3405340,
+    "name": "Megabonk",
+    "current_players": 8438,
+    "peak_24h": 14149,
+    "peak_alltime": 117336,
+    "name_cn": "超级敲击"
+  },
+  {
+    "rank": 137,
+    "appid": 2141910,
+    "name": "Magic: The Gathering Arena",
+    "current_players": 8401,
+    "peak_24h": 11785,
+    "peak_alltime": 18047,
+    "name_cn": "万智牌：竞技场"
+  },
+  {
+    "rank": 138,
+    "appid": 1325860,
+    "name": "VTube Studio",
+    "current_players": 8143,
+    "peak_24h": 18146,
+    "peak_alltime": 23651,
+    "name_cn": "VTube Studio虚拟主播工具"
+  },
+  {
+    "rank": 139,
+    "appid": 365670,
+    "name": "Blender",
+    "current_players": 8101,
+    "peak_24h": 12507,
+    "peak_alltime": 15236,
+    "name_cn": "Blender 3D建模软件"
+  },
+  {
+    "rank": 141,
+    "appid": 1599340,
+    "name": "Lost Ark",
+    "current_players": 7819,
+    "peak_24h": 12683,
+    "peak_alltime": 1325305,
+    "name_cn": "失落的方舟"
+  },
+  {
+    "rank": 142,
+    "appid": 1149460,
+    "name": "Icarus",
+    "current_players": 7525,
+    "peak_24h": 14651,
+    "peak_alltime": 52501,
+    "name_cn": "伊卡洛斯"
+  },
+  {
+    "rank": 143,
+    "appid": 1617400,
+    "name": "The Bazaar",
+    "current_players": 7483,
+    "peak_24h": 13826,
+    "peak_alltime": 13826,
+    "name_cn": "集市"
+  },
+  {
+    "rank": 144,
+    "appid": 2397300,
+    "name": "Half Sword",
+    "current_players": 7450,
+    "peak_24h": 10425,
+    "peak_alltime": 21604,
+    "name_cn": "半剑"
+  },
+  {
+    "rank": 145,
+    "appid": 2707930,
+    "name": "Palia",
+    "current_players": 7437,
+    "peak_24h": 11585,
+    "peak_alltime": 18179,
+    "name_cn": "帕利亚"
+  },
+  {
+    "rank": 146,
+    "appid": 1295660,
+    "name": "Sid Meier's Civilization VII",
+    "current_players": 7431,
+    "peak_24h": 13235,
+    "peak_alltime": 84558,
+    "name_cn": "文明7"
+  },
+  {
+    "rank": 147,
+    "appid": 815370,
+    "name": "Green Hell",
+    "current_players": 7392,
+    "peak_24h": 19027,
+    "peak_alltime": 20259,
+    "name_cn": "绿色地狱"
+  },
+  {
+    "rank": 148,
+    "appid": 1326470,
+    "name": "Sons Of The Forest",
+    "current_players": 7343,
+    "peak_24h": 15641,
+    "peak_alltime": 414257,
+    "name_cn": "森林之子"
+  },
+  {
+    "rank": 149,
+    "appid": 2074920,
+    "name": "The First Descendant",
+    "current_players": 7212,
+    "peak_24h": 12227,
+    "peak_alltime": 264860,
+    "name_cn": "第一后裔"
+  },
+  {
+    "rank": 151,
+    "appid": 3834090,
+    "name": "YAPYAP",
+    "current_players": 7157,
+    "peak_24h": 14775,
+    "peak_alltime": 14775,
+    "name_cn": "YAPYAP"
+  },
+  {
+    "rank": 152,
+    "appid": 513710,
+    "name": "SCUM",
+    "current_players": 7125,
+    "peak_24h": 17536,
+    "peak_alltime": 68322,
+    "name_cn": "人渣"
+  },
+  {
+    "rank": 154,
+    "appid": 457140,
+    "name": "Oxygen Not Included",
+    "current_players": 7091,
+    "peak_24h": 15281,
+    "peak_alltime": 27486,
+    "name_cn": "缺氧"
+  },
+  {
+    "rank": 158,
+    "appid": 1283970,
+    "name": "YoloMouse",
+    "current_players": 6808,
+    "peak_24h": 11032,
+    "peak_alltime": 12547,
+    "name_cn": "自定义鼠标指针"
+  },
+  {
+    "rank": 159,
+    "appid": 1145350,
+    "name": "Hades II",
+    "current_players": 6722,
+    "peak_24h": 10576,
+    "peak_alltime": 112947,
+    "name_cn": "哈迪斯2"
+  },
+  {
+    "rank": 160,
+    "appid": 4356080,
+    "name": "Burglin' Gnomes Demo",
+    "current_players": 6717,
+    "peak_24h": 15272,
+    "peak_alltime": 15272,
+    "name_cn": "入室行窃的侏儒 试玩版"
+  },
+  {
+    "rank": 162,
+    "appid": 2763740,
+    "name": "Revolution Idle",
+    "current_players": 6658,
+    "peak_24h": 8829,
+    "peak_alltime": 20515,
+    "name_cn": "革命放置"
+  },
+  {
+    "rank": 163,
+    "appid": 376210,
+    "name": "The Isle",
+    "current_players": 6653,
+    "peak_24h": 11808,
+    "peak_alltime": 14131,
+    "name_cn": "侏罗纪之岛"
+  },
+  {
+    "rank": 164,
+    "appid": 766570,
+    "name": "Russian Fishing 4",
+    "current_players": 6545,
+    "peak_24h": 23151,
+    "peak_alltime": 28073,
+    "name_cn": "俄罗斯钓鱼4"
+  },
+  {
+    "rank": 166,
+    "appid": 949230,
+    "name": "Cities: Skylines II",
+    "current_players": 6490,
+    "peak_24h": 14264,
+    "peak_alltime": 104697,
+    "name_cn": "城市：天际线2"
+  },
+  {
+    "rank": 168,
+    "appid": 761890,
+    "name": "Albion Online",
+    "current_players": 6233,
+    "peak_24h": 11547,
+    "peak_alltime": 27227,
+    "name_cn": "阿尔比恩Online"
+  },
+  {
+    "rank": 169,
+    "appid": 3450310,
+    "name": "Europa Universalis V",
+    "current_players": 6191,
+    "peak_24h": 14902,
+    "peak_alltime": 77320,
+    "name_cn": "欧陆风云5"
+  },
+  {
+    "rank": 170,
+    "appid": 1766060,
+    "name": "HumanitZ",
+    "current_players": 6186,
+    "peak_24h": 10558,
+    "peak_alltime": 10558,
+    "name_cn": "人类Z"
+  },
+  {
+    "rank": 171,
+    "appid": 1466860,
+    "name": "Age of Empires IV: Anniversary Edition",
+    "current_players": 6145,
+    "peak_24h": 16843,
+    "peak_alltime": 73928,
+    "name_cn": "帝国时代4：周年版"
+  },
+  {
+    "rank": 172,
+    "appid": 2437170,
+    "name": "SMITE 2",
+    "current_players": 6028,
+    "peak_24h": 8269,
+    "peak_alltime": 21481,
+    "name_cn": "神之浩劫2"
+  },
+  {
+    "rank": 173,
+    "appid": 2669320,
+    "name": "EA SPORTS FC 25",
+    "current_players": 5932,
+    "peak_24h": 14686,
+    "peak_alltime": 110026,
+    "name_cn": "EA SPORTS FC 25"
+  },
+  {
+    "rank": 174,
+    "appid": 2426960,
+    "name": "Summoners War",
+    "current_players": 5828,
+    "peak_24h": 9544,
+    "peak_alltime": 22281,
+    "name_cn": "魔灵召唤"
+  },
+  {
+    "rank": 175,
+    "appid": 440900,
+    "name": "Conan Exiles",
+    "current_players": 5763,
+    "peak_24h": 9514,
+    "peak_alltime": 53402,
+    "name_cn": "柯南的流亡"
+  },
+  {
+    "rank": 176,
+    "appid": 1812620,
+    "name": "DSX",
+    "current_players": 5708,
+    "peak_24h": 7811,
+    "peak_alltime": 8794,
+    "name_cn": "DSX手柄工具"
+  },
+  {
+    "rank": 179,
+    "appid": 1812450,
+    "name": "Bellwright",
+    "current_players": 5454,
+    "peak_24h": 11766,
+    "peak_alltime": 15263,
+    "name_cn": "贝尔赖特"
+  },
+  {
+    "rank": 181,
+    "appid": 1284210,
+    "name": "Guild Wars 2",
+    "current_players": 5381,
+    "peak_24h": 9513,
+    "peak_alltime": 10875,
+    "name_cn": "激战2"
+  },
+  {
+    "rank": 182,
+    "appid": 431730,
+    "name": "Aseprite",
+    "current_players": 5366,
+    "peak_24h": 6079,
+    "peak_alltime": 6845,
+    "name_cn": "Aseprite像素画工具"
+  },
+  {
+    "rank": 183,
+    "appid": 1920960,
+    "name": "VPet",
+    "current_players": 5298,
+    "peak_24h": 10970,
+    "peak_alltime": 85551,
+    "name_cn": "虚拟桌宠模拟器"
+  },
+  {
+    "rank": 186,
+    "appid": 1304930,
+    "name": "The Outlast Trials",
+    "current_players": 5164,
+    "peak_24h": 7179,
+    "peak_alltime": 36689,
+    "name_cn": "逃生试炼"
+  },
+  {
+    "rank": 188,
+    "appid": 3230400,
+    "name": "EA SPORTS Madden NFL 26",
+    "current_players": 4993,
+    "peak_24h": 7956,
+    "peak_alltime": 8157,
+    "name_cn": "EA SPORTS 麦登橄榄球26"
+  },
+  {
+    "rank": 189,
+    "appid": 2661300,
+    "name": "Grounded 2",
+    "current_players": 4946,
+    "peak_24h": 8613,
+    "peak_alltime": 49836,
+    "name_cn": "禁闭求生2"
+  },
+  {
+    "rank": 190,
+    "appid": 2429640,
+    "name": "THRONE AND LIBERTY",
+    "current_players": 4828,
+    "peak_24h": 9678,
+    "peak_alltime": 336300,
+    "name_cn": "王权与自由"
+  },
+  {
+    "rank": 193,
+    "appid": 648800,
+    "name": "Raft",
+    "current_players": 4790,
+    "peak_24h": 14318,
+    "peak_alltime": 101096,
+    "name_cn": "木筏求生"
+  },
+  {
+    "rank": 195,
+    "appid": 1778820,
+    "name": "TEKKEN 8",
+    "current_players": 4672,
+    "peak_24h": 7144,
+    "peak_alltime": 49977,
+    "name_cn": "铁拳8"
+  },
+  {
+    "rank": 196,
+    "appid": 1118200,
+    "name": "People Playground",
+    "current_players": 4633,
+    "peak_24h": 8512,
+    "peak_alltime": 17015,
+    "name_cn": "人类游乐场"
+  },
+  {
+    "rank": 198,
+    "appid": 993090,
+    "name": "Lossless Scaling",
+    "current_players": 4547,
+    "peak_24h": 8596,
+    "peak_alltime": 20903,
+    "name_cn": "无损缩放"
+  },
+  {
+    "rank": 199,
+    "appid": 1607250,
+    "name": "MY HERO ULTRA RUMBLE",
+    "current_players": 4458,
+    "peak_24h": 5738,
+    "peak_alltime": 46591,
+    "name_cn": "我的英雄学院：终极大乱斗"
+  },
+  {
+    "rank": 200,
+    "appid": 1588550,
+    "name": "Cairn",
+    "current_players": 4457,
+    "peak_24h": 8907,
+    "peak_alltime": 14996,
+    "name_cn": "石堆"
+  },
+  {
+    "rank": 201,
+    "appid": 2709570,
+    "name": "Supermarket Together",
+    "current_players": 4442,
+    "peak_24h": 11344,
+    "peak_alltime": 47836,
+    "name_cn": "一起超市"
+  },
+  {
+    "rank": 202,
+    "appid": 1286830,
+    "name": "STAR WARS: The Old Republic",
+    "current_players": 4403,
+    "peak_24h": 7291,
+    "peak_alltime": 34210,
+    "name_cn": "星球大战：旧共和国"
+  },
+  {
+    "rank": 205,
+    "appid": 1631270,
+    "name": "StarRupture",
+    "current_players": 4317,
+    "peak_24h": 10128,
+    "peak_alltime": 42864,
+    "name_cn": "星裂"
+  },
+  {
+    "rank": 206,
+    "appid": 3199170,
+    "name": "BLOODSTRIKE",
+    "current_players": 4287,
+    "peak_24h": 5488,
+    "peak_alltime": 6680,
+    "name_cn": "暗区突围"
+  },
+  {
+    "rank": 208,
+    "appid": 1049590,
+    "name": "Eternal Return",
+    "current_players": 4224,
+    "peak_24h": 19122,
+    "peak_alltime": 52853,
+    "name_cn": "永恒轮回"
+  },
+  {
+    "rank": 210,
+    "appid": 1285190,
+    "name": "Borderlands 4",
+    "current_players": 4179,
+    "peak_24h": 7162,
+    "peak_alltime": 304398,
+    "name_cn": "无主之地4"
+  },
+  {
+    "rank": 211,
+    "appid": 2132850,
+    "name": "Rabbit and Steel",
+    "current_players": 4170,
+    "peak_24h": 5084,
+    "peak_alltime": 5472,
+    "name_cn": "兔子与钢铁"
+  },
+  {
+    "rank": 212,
+    "appid": 529340,
+    "name": "Victoria 3",
+    "current_players": 4163,
+    "peak_24h": 8010,
+    "peak_alltime": 70100,
+    "name_cn": "维多利亚3"
+  },
+  {
+    "rank": 214,
+    "appid": 4128260,
+    "name": "Highguard",
+    "current_players": 4100,
+    "peak_24h": 7733,
+    "peak_alltime": 97249,
+    "name_cn": "高卫"
+  },
+  {
+    "rank": 216,
+    "appid": 371970,
+    "name": "Barony",
+    "current_players": 4028,
+    "peak_24h": 4964,
+    "peak_alltime": 6790,
+    "name_cn": "男爵"
+  },
+  {
+    "rank": 218,
+    "appid": 2742830,
+    "name": "Monster Train 2",
+    "current_players": 3997,
+    "peak_24h": 5738,
+    "peak_alltime": 18503,
+    "name_cn": "怪物火车2"
+  },
+  {
+    "rank": 219,
+    "appid": 1009850,
+    "name": "OVR Advanced Settings",
+    "current_players": 3995,
+    "peak_24h": 5710,
+    "peak_alltime": 6842,
+    "name_cn": "OVR高级设置"
+  },
+  {
+    "rank": 220,
+    "appid": 2878980,
+    "name": "NBA 2K25",
+    "current_players": 3983,
+    "peak_24h": 11998,
+    "peak_alltime": 56948,
+    "name_cn": "NBA 2K25"
+  },
+  {
+    "rank": 222,
+    "appid": 2584990,
+    "name": "Shadowverse: Worlds Beyond",
+    "current_players": 3935,
+    "peak_24h": 8859,
+    "peak_alltime": 120488,
+    "name_cn": "影之诗：超越世界"
+  },
+  {
+    "rank": 223,
+    "appid": 1974050,
+    "name": "Torchlight: Infinite",
+    "current_players": 3919,
+    "peak_24h": 8483,
+    "peak_alltime": 23715,
+    "name_cn": "火炬之光：无限"
+  },
+  {
+    "rank": 224,
+    "appid": 1465360,
+    "name": "SnowRunner",
+    "current_players": 3869,
+    "peak_24h": 10914,
+    "peak_alltime": 12027,
+    "name_cn": "雪地奔驰"
+  },
+  {
+    "rank": 226,
+    "appid": 1366540,
+    "name": "Dyson Sphere Program",
+    "current_players": 3821,
+    "peak_24h": 8871,
+    "peak_alltime": 59815,
+    "name_cn": "戴森球计划"
+  },
+  {
+    "rank": 227,
+    "appid": 1942280,
+    "name": "Brotato",
+    "current_players": 3794,
+    "peak_24h": 8888,
+    "peak_alltime": 38905,
+    "name_cn": "土豆兄弟"
+  },
+  {
+    "rank": 228,
+    "appid": 655500,
+    "name": "MX Bikes",
+    "current_players": 3779,
+    "peak_24h": 4885,
+    "peak_alltime": 5369,
+    "name_cn": "MX摩托车"
+  },
+  {
+    "rank": 229,
+    "appid": 3949040,
+    "name": "RV There Yet?",
+    "current_players": 3766,
+    "peak_24h": 11723,
+    "peak_alltime": 100002,
+    "name_cn": "房车到了吗？"
+  },
+  {
+    "rank": 230,
+    "appid": 1604030,
+    "name": "V Rising",
+    "current_players": 3754,
+    "peak_24h": 7507,
+    "peak_alltime": 150645,
+    "name_cn": "吸血鬼崛起"
+  },
+  {
+    "rank": 233,
+    "appid": 3470630,
+    "name": "Monster Hunter Stories 3 Trial Version",
+    "current_players": 3674,
+    "peak_24h": 6411,
+    "peak_alltime": 6782,
+    "name_cn": "怪物猎人物语3 体验版"
+  },
+  {
+    "rank": 234,
+    "appid": 1062090,
+    "name": "Timberborn",
+    "current_players": 3663,
+    "peak_24h": 6611,
+    "peak_alltime": 13045,
+    "name_cn": "木筏求生记"
+  },
+  {
+    "rank": 235,
+    "appid": 379430,
+    "name": "Kingdom Come: Deliverance",
+    "current_players": 3660,
+    "peak_24h": 9271,
+    "peak_alltime": 96069,
+    "name_cn": "天国：拯救"
+  },
+  {
+    "rank": 236,
+    "appid": 2294660,
+    "name": "The Quinfall",
+    "current_players": 3660,
+    "peak_24h": 6118,
+    "peak_alltime": 6118,
+    "name_cn": "昆法尔"
+  },
+  {
+    "rank": 238,
+    "appid": 2062430,
+    "name": "BALL x PIT",
+    "current_players": 3578,
+    "peak_24h": 4952,
+    "peak_alltime": 35402,
+    "name_cn": "球坑"
+  },
+  {
+    "rank": 239,
+    "appid": 714010,
+    "name": "Aimlabs",
+    "current_players": 3554,
+    "peak_24h": 6977,
+    "peak_alltime": 15141,
+    "name_cn": "瞄准实验室"
+  },
+  {
+    "rank": 241,
+    "appid": 3198850,
+    "name": "Play Together",
+    "current_players": 3501,
+    "peak_24h": 5603,
+    "peak_alltime": 7633,
+    "name_cn": "一起玩"
+  },
+  {
+    "rank": 242,
+    "appid": 8500,
+    "name": "EVE Online",
+    "current_players": 3472,
+    "peak_24h": 5783,
+    "peak_alltime": 10627,
+    "name_cn": "星战前夜"
+  },
+  {
+    "rank": 243,
+    "appid": 1621690,
+    "name": "Core Keeper",
+    "current_players": 3470,
+    "peak_24h": 6414,
+    "peak_alltime": 46465,
+    "name_cn": "核心守护者"
+  },
+  {
+    "rank": 244,
+    "appid": 2799860,
+    "name": "INAZUMA ELEVEN: Victory Road",
+    "current_players": 3466,
+    "peak_24h": 8365,
+    "peak_alltime": 52795,
+    "name_cn": "闪电十一人：胜利之路"
+  },
+  {
+    "rank": 245,
+    "appid": 518790,
+    "name": "theHunter: Call of the Wild",
+    "current_players": 3423,
+    "peak_24h": 7995,
+    "peak_alltime": 25235,
+    "name_cn": "猎人：荒野的呼唤"
+  },
+  {
+    "rank": 246,
+    "appid": 977400,
+    "name": "Cell to Singularity",
+    "current_players": 3405,
+    "peak_24h": 5070,
+    "peak_alltime": 7340,
+    "name_cn": "从细胞到奇点"
+  },
+  {
+    "rank": 247,
+    "appid": 3557620,
+    "name": "Blue Archive",
+    "current_players": 3404,
+    "peak_24h": 6496,
+    "peak_alltime": 27077,
+    "name_cn": "蔚蓝档案"
+  },
+  {
+    "rank": 248,
+    "appid": 3301060,
+    "name": "Desktop Mate",
+    "current_players": 3390,
+    "peak_24h": 5374,
+    "peak_alltime": 23420,
+    "name_cn": "桌面伙伴"
+  },
+  {
+    "rank": 253,
+    "appid": 2001120,
+    "name": "Split Fiction",
+    "current_players": 3354,
+    "peak_24h": 15128,
+    "peak_alltime": 259003,
+    "name_cn": "分裂小说"
+  },
+  {
+    "rank": 254,
+    "appid": 1284190,
+    "name": "The Planet Crafter",
+    "current_players": 3341,
+    "peak_24h": 6637,
+    "peak_alltime": 28416,
+    "name_cn": "星球工匠"
+  },
+  {
+    "rank": 255,
+    "appid": 1248130,
+    "name": "Farming Simulator 22",
+    "current_players": 3340,
+    "peak_24h": 11912,
+    "peak_alltime": 105636,
+    "name_cn": "模拟农场22"
+  },
+  {
+    "rank": 256,
+    "appid": 1267910,
+    "name": "Melvor Idle",
+    "current_players": 3284,
+    "peak_24h": 4102,
+    "peak_alltime": 11867,
+    "name_cn": "梅尔沃放置"
+  },
+  {
+    "rank": 258,
+    "appid": 2642680,
+    "name": "Half Sword Demo",
+    "current_players": 3270,
+    "peak_24h": 5542,
+    "peak_alltime": 15366,
+    "name_cn": "半剑 试玩版"
+  },
+  {
+    "rank": 261,
+    "appid": 962130,
+    "name": "Grounded",
+    "current_players": 3241,
+    "peak_24h": 7218,
+    "peak_alltime": 32012,
+    "name_cn": "禁闭求生"
+  },
+  {
+    "rank": 262,
+    "appid": 1716740,
+    "name": "Starfield",
+    "current_players": 3240,
+    "peak_24h": 5319,
+    "peak_alltime": 330723,
+    "name_cn": "星空"
+  },
+  {
+    "rank": 263,
+    "appid": 2471100,
+    "name": "Unnamed Space Idle",
+    "current_players": 3232,
+    "peak_24h": 4186,
+    "peak_alltime": 6385,
+    "name_cn": "无名太空放置"
+  },
+  {
+    "rank": 264,
+    "appid": 1818450,
+    "name": "STALCRAFT: X",
+    "current_players": 3216,
+    "peak_24h": 21435,
+    "peak_alltime": 40311,
+    "name_cn": "潜行者工艺X"
+  },
+  {
+    "rank": 266,
+    "appid": 1329410,
+    "name": "Mahjong Soul",
+    "current_players": 3199,
+    "peak_24h": 11711,
+    "peak_alltime": 39075,
+    "name_cn": "雀魂麻将"
+  },
+  {
+    "rank": 267,
+    "appid": 3419520,
+    "name": "Quarantine Zone: The Last Check",
+    "current_players": 3188,
+    "peak_24h": 6275,
+    "peak_alltime": 31653,
+    "name_cn": "隔离区：最后检查"
+  },
+  {
+    "rank": 268,
+    "appid": 4333400,
+    "name": "RedM",
+    "current_players": 3176,
+    "peak_24h": 6302,
+    "peak_alltime": 6302,
+    "name_cn": "RedM (荒野大镖客多人模组)"
+  },
+  {
+    "rank": 269,
+    "appid": 1343400,
+    "name": "RuneScape",
+    "current_players": 3137,
+    "peak_24h": 4163,
+    "peak_alltime": 12569,
+    "name_cn": "符文之地"
+  },
+  {
+    "rank": 270,
+    "appid": 1147690,
+    "name": "NGU IDLE",
+    "current_players": 3132,
+    "peak_24h": 3685,
+    "peak_alltime": 8032,
+    "name_cn": "NGU放置"
+  },
+  {
+    "rank": 271,
+    "appid": 686810,
+    "name": "Hell Let Loose",
+    "current_players": 3122,
+    "peak_24h": 8010,
+    "peak_alltime": 21385,
+    "name_cn": "战争地狱"
+  },
+  {
+    "rank": 272,
+    "appid": 586350,
+    "name": "UBERMOSH:WRAITH",
+    "current_players": 3096,
+    "peak_24h": 3328,
+    "peak_alltime": 9620,
+    "name_cn": "超级混搭：幽灵"
+  },
+  {
+    "rank": 273,
+    "appid": 933110,
+    "name": "Age of Empires III: Definitive Edition",
+    "current_players": 3085,
+    "peak_24h": 5904,
+    "peak_alltime": 20146,
+    "name_cn": "帝国时代3：终极版"
+  },
+  {
+    "rank": 274,
+    "appid": 1401590,
+    "name": "Disney Dreamlight Valley",
+    "current_players": 3083,
+    "peak_24h": 5256,
+    "peak_alltime": 14314,
+    "name_cn": "迪士尼梦幻星谷"
+  },
+  {
+    "rank": 275,
+    "appid": 2622000,
+    "name": "Astral Party",
+    "current_players": 3078,
+    "peak_24h": 12187,
+    "peak_alltime": 34387,
+    "name_cn": "星界派对"
+  },
+  {
+    "rank": 276,
+    "appid": 544810,
+    "name": "KARDS - The WWII Card Game",
+    "current_players": 3077,
+    "peak_24h": 5210,
+    "peak_alltime": 8966,
+    "name_cn": "KARDS 二战卡牌游戏"
+  },
+  {
+    "rank": 277,
+    "appid": 2537590,
+    "name": "Microsoft Flight Simulator 2024",
+    "current_players": 3060,
+    "peak_24h": 7323,
+    "peak_alltime": 24863,
+    "name_cn": "微软飞行模拟器2024"
+  },
+  {
+    "rank": 278,
+    "appid": 2221490,
+    "name": "Tom Clancy's The Division 2",
+    "current_players": 3050,
+    "peak_24h": 5194,
+    "peak_alltime": 14858,
+    "name_cn": "全境封锁2"
+  },
+  {
+    "rank": 279,
+    "appid": 1891700,
+    "name": "Tap Ninja",
+    "current_players": 3045,
+    "peak_24h": 3972,
+    "peak_alltime": 4817,
+    "name_cn": "点击忍者"
+  },
+  {
+    "rank": 280,
+    "appid": 2840770,
+    "name": "Avatar: Frontiers of Pandora",
+    "current_players": 3040,
+    "peak_24h": 5753,
+    "peak_alltime": 15283,
+    "name_cn": "阿凡达：潘多拉边境"
+  },
+  {
+    "rank": 281,
+    "appid": 427410,
+    "name": "Abiotic Factor",
+    "current_players": 3037,
+    "peak_24h": 4392,
+    "peak_alltime": 29278,
+    "name_cn": "非生物因子"
+  },
+  {
+    "rank": 282,
+    "appid": 1158160,
+    "name": "Coral Island",
+    "current_players": 3021,
+    "peak_24h": 4251,
+    "peak_alltime": 15418,
+    "name_cn": "珊瑚岛"
+  },
+  {
+    "rank": 283,
+    "appid": 2592160,
+    "name": "Dispatch",
+    "current_players": 3006,
+    "peak_24h": 4694,
+    "peak_alltime": 220060,
+    "name_cn": "调度"
+  },
+  {
+    "rank": 285,
+    "appid": 588430,
+    "name": "Fallout Shelter",
+    "current_players": 2907,
+    "peak_24h": 5316,
+    "peak_alltime": 42656,
+    "name_cn": "辐射：避难所"
+  },
+  {
+    "rank": 286,
+    "appid": 1407200,
+    "name": "World of Tanks",
+    "current_players": 2903,
+    "peak_24h": 10955,
+    "peak_alltime": 24172,
+    "name_cn": "坦克世界"
+  },
+  {
+    "rank": 287,
+    "appid": 779340,
+    "name": "Total War: THREE KINGDOMS",
+    "current_players": 2902,
+    "peak_24h": 8144,
+    "peak_alltime": 192298,
+    "name_cn": "全面战争：三国"
+  },
+  {
+    "rank": 290,
+    "appid": 3564400,
+    "name": "Uma Musume Pretty Derby",
+    "current_players": 2865,
+    "peak_24h": 5911,
+    "peak_alltime": 12975,
+    "name_cn": "赛马娘 日服"
+  },
+  {
+    "rank": 291,
+    "appid": 700330,
+    "name": "SCP: Secret Laboratory",
+    "current_players": 2862,
+    "peak_24h": 8076,
+    "peak_alltime": 13908,
+    "name_cn": "SCP：秘密实验室"
+  },
+  {
+    "rank": 293,
+    "appid": 2322010,
+    "name": "God of War Ragnarok",
+    "current_players": 2853,
+    "peak_24h": 5564,
+    "peak_alltime": 35615,
+    "name_cn": "战神：诸神黄昏"
+  },
+  {
+    "rank": 295,
+    "appid": 2670630,
+    "name": "Supermarket Simulator",
+    "current_players": 2843,
+    "peak_24h": 5424,
+    "peak_alltime": 51363,
+    "name_cn": "超市模拟器"
+  },
+  {
+    "rank": 296,
+    "appid": 2362060,
+    "name": "CODE VEIN II",
+    "current_players": 2840,
+    "peak_24h": 5191,
+    "peak_alltime": 11499,
+    "name_cn": "噬血代码2"
+  },
+  {
+    "rank": 298,
+    "appid": 1546320,
+    "name": "Your Chronicle",
+    "current_players": 2787,
+    "peak_24h": 3344,
+    "peak_alltime": 4155,
+    "name_cn": "你的编年史"
+  },
+  {
+    "rank": 299,
+    "appid": 1222140,
+    "name": "Detroit: Become Human",
+    "current_players": 2774,
+    "peak_24h": 8099,
+    "peak_alltime": 25615,
+    "name_cn": "底特律：成为人类"
+  },
+  {
+    "rank": 300,
+    "appid": 1643320,
+    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "current_players": 2774,
+    "peak_24h": 9217,
+    "peak_alltime": 121335,
+    "name_cn": "潜行者2：切尔诺贝利之心"
+  },
+  {
+    "rank": 301,
+    "appid": 3606890,
+    "name": "Upload Labs",
+    "current_players": 2763,
+    "peak_24h": 3947,
+    "peak_alltime": 15592,
+    "name_cn": "上传实验室"
+  },
+  {
+    "rank": 302,
+    "appid": 400750,
+    "name": "Call to Arms - Gates of Hell: Ostfront",
+    "current_players": 2711,
+    "peak_24h": 6335,
+    "peak_alltime": 8950,
+    "name_cn": "战争召唤：地狱之门 东线"
+  },
+  {
+    "rank": 303,
+    "appid": 2909400,
+    "name": "FINAL FANTASY VII REBIRTH",
+    "current_players": 2704,
+    "peak_24h": 4090,
+    "peak_alltime": 40564,
+    "name_cn": "最终幻想7 重生"
+  },
+  {
+    "rank": 304,
+    "appid": 1868140,
+    "name": "DAVE THE DIVER",
+    "current_players": 2688,
+    "peak_24h": 7171,
+    "peak_alltime": 98480,
+    "name_cn": "潜水员戴夫"
+  },
+  {
+    "rank": 305,
+    "appid": 392160,
+    "name": "X4: Foundations",
+    "current_players": 2671,
+    "peak_24h": 5251,
+    "peak_alltime": 15198,
+    "name_cn": "X4：基石"
+  },
+  {
+    "rank": 306,
+    "appid": 1363080,
+    "name": "Manor Lords",
+    "current_players": 2661,
+    "peak_24h": 6546,
+    "peak_alltime": 173178,
+    "name_cn": "庄园领主"
+  },
+  {
+    "rank": 307,
+    "appid": 3070070,
+    "name": "TCG Card Shop Simulator",
+    "current_players": 2646,
+    "peak_24h": 3582,
+    "peak_alltime": 53453,
+    "name_cn": "卡牌商店模拟器"
+  },
+  {
+    "rank": 310,
+    "appid": 1258080,
+    "name": "Shop Titans",
+    "current_players": 2608,
+    "peak_24h": 4087,
+    "peak_alltime": 7990,
+    "name_cn": "商店泰坦"
+  },
+  {
+    "rank": 314,
+    "appid": 1229490,
+    "name": "ULTRAKILL",
+    "current_players": 2547,
+    "peak_24h": 3703,
+    "peak_alltime": 28076,
+    "name_cn": "极度杀戮"
+  },
+  {
+    "rank": 317,
+    "appid": 1934680,
+    "name": "Age of Mythology: Retold",
+    "current_players": 2513,
+    "peak_24h": 5010,
+    "peak_alltime": 25879,
+    "name_cn": "神话时代：重述"
+  },
+  {
+    "rank": 319,
+    "appid": 1222680,
+    "name": "Need for Speed Heat",
+    "current_players": 2484,
+    "peak_24h": 4908,
+    "peak_alltime": 86196,
+    "name_cn": "极品飞车：热度"
+  },
+  {
+    "rank": 320,
+    "appid": 2250040,
+    "name": "Crosshair V2",
+    "current_players": 2484,
+    "peak_24h": 4546,
+    "peak_alltime": 22805,
+    "name_cn": "准星V2"
+  },
+  {
+    "rank": 321,
+    "appid": 3167020,
+    "name": "Escape from Duckov",
+    "current_players": 2482,
+    "peak_24h": 7238,
+    "peak_alltime": 301322,
+    "name_cn": "逃离鸭科夫"
+  },
+  {
+    "rank": 322,
+    "appid": 1282100,
+    "name": "Remnant II",
+    "current_players": 2463,
+    "peak_24h": 4541,
+    "peak_alltime": 110856,
+    "name_cn": "遗迹2"
+  },
+  {
+    "rank": 323,
+    "appid": 1568590,
+    "name": "Goose Goose Duck",
+    "current_players": 2454,
+    "peak_24h": 20513,
+    "peak_alltime": 702845,
+    "name_cn": "鹅鸭杀"
+  },
+  {
+    "rank": 324,
+    "appid": 1659040,
+    "name": "HITMAN World of Assassination",
+    "current_players": 2434,
+    "peak_24h": 5151,
+    "peak_alltime": 10925,
+    "name_cn": "杀手：暗杀世界"
+  },
+  {
+    "rank": 325,
+    "appid": 4198760,
+    "name": "Nioh 3 Demo",
+    "current_players": 2425,
+    "peak_24h": 5765,
+    "peak_alltime": 39227,
+    "name_cn": "仁王3 试玩版"
+  },
+  {
+    "rank": 326,
+    "appid": 2325290,
+    "name": "Sky: Children of the Light",
+    "current_players": 2420,
+    "peak_24h": 4843,
+    "peak_alltime": 8806,
+    "name_cn": "光·遇"
+  },
+  {
+    "rank": 327,
+    "appid": 1068820,
+    "name": "OVR Toolkit",
+    "current_players": 2404,
+    "peak_24h": 3988,
+    "peak_alltime": 5176,
+    "name_cn": "OVR工具箱"
+  },
+  {
+    "rank": 328,
+    "appid": 1466060,
+    "name": "Tainted Grail: The Fall of Avalon",
+    "current_players": 2393,
+    "peak_24h": 5036,
+    "peak_alltime": 25656,
+    "name_cn": "堕落圣杯：亚瑟王的陨落"
+  },
+  {
+    "rank": 329,
+    "appid": 1217060,
+    "name": "Gunfire Reborn",
+    "current_players": 2370,
+    "peak_24h": 4808,
+    "peak_alltime": 35263,
+    "name_cn": "枪火重生"
+  },
+  {
+    "rank": 330,
+    "appid": 1260320,
+    "name": "Party Animals",
+    "current_players": 2363,
+    "peak_24h": 8679,
+    "peak_alltime": 104174,
+    "name_cn": "动物派对"
+  },
+  {
+    "rank": 331,
+    "appid": 2623190,
+    "name": "The Elder Scrolls IV: Oblivion Remastered",
+    "current_players": 2354,
+    "peak_24h": 3925,
+    "peak_alltime": 216784,
+    "name_cn": "上古卷轴4：湮没 重制版"
+  },
+  {
+    "rank": 332,
+    "appid": 2138720,
+    "name": "REMATCH",
+    "current_players": 2345,
+    "peak_24h": 4613,
+    "peak_alltime": 92841,
+    "name_cn": "再赛"
+  },
+  {
+    "rank": 333,
+    "appid": 3059520,
+    "name": "F1 25",
+    "current_players": 2334,
+    "peak_24h": 7711,
+    "peak_alltime": 22595,
+    "name_cn": "F1赛车25"
+  },
+  {
+    "rank": 334,
+    "appid": 3545060,
+    "name": "Team Fortress 2 Classified",
+    "current_players": 2323,
+    "peak_24h": 3441,
+    "peak_alltime": 9395,
+    "name_cn": "军团要塞2 机密"
+  },
+  {
+    "rank": 335,
+    "appid": 1482520,
+    "name": "Space Station 14 Playtest",
+    "current_players": 2319,
+    "peak_24h": 3843,
+    "peak_alltime": 4504,
+    "name_cn": "空间站14 测试版"
+  },
+  {
+    "rank": 336,
+    "appid": 3548580,
+    "name": "Chill with You Lo-Fi Story",
+    "current_players": 2315,
+    "peak_24h": 3636,
+    "peak_alltime": 10509,
+    "name_cn": "与你共度低保真故事"
+  },
+  {
+    "rank": 337,
+    "appid": 703080,
+    "name": "Planet Zoo",
+    "current_players": 2305,
+    "peak_24h": 5458,
+    "peak_alltime": 38630,
+    "name_cn": "动物园之星"
+  },
+  {
+    "rank": 339,
+    "appid": 3008130,
+    "name": "Dying Light: The Beast",
+    "current_players": 2278,
+    "peak_24h": 4677,
+    "peak_alltime": 121222,
+    "name_cn": "消逝的光芒：野兽"
+  },
+  {
+    "rank": 340,
+    "appid": 3143710,
+    "name": "PUBG: BLINDSPOT",
+    "current_players": 2276,
+    "peak_24h": 3251,
+    "peak_alltime": 3251,
+    "name_cn": "绝地求生：盲点"
+  },
+  {
+    "rank": 341,
+    "appid": 601510,
+    "name": "Yu-Gi-Oh! Duel Links",
+    "current_players": 2274,
+    "peak_24h": 2795,
+    "peak_alltime": 21520,
+    "name_cn": "游戏王：决斗链接"
+  },
+  {
+    "rank": 342,
+    "appid": 3061570,
+    "name": "Persona5: The Phantom X",
+    "current_players": 2270,
+    "peak_24h": 3385,
+    "peak_alltime": 41622,
+    "name_cn": "女神异闻录5：幻影X"
+  },
+  {
+    "rank": 343,
+    "appid": 2142790,
+    "name": "Fields of Mistria",
+    "current_players": 2263,
+    "peak_24h": 2810,
+    "peak_alltime": 12452,
+    "name_cn": "迷雾之田"
+  },
+  {
+    "rank": 345,
+    "appid": 3354750,
+    "name": "skate.",
+    "current_players": 2243,
+    "peak_24h": 3518,
+    "peak_alltime": 134901,
+    "name_cn": "滑板"
+  },
+  {
+    "rank": 347,
+    "appid": 881020,
+    "name": "Granblue Fantasy: Relink",
+    "current_players": 2230,
+    "peak_24h": 4716,
+    "peak_alltime": 114054,
+    "name_cn": "碧蓝幻想：Relink"
+  },
+  {
+    "rank": 349,
+    "appid": 4311510,
+    "name": "Tap Tap Loot Playtest",
+    "current_players": 2224,
+    "peak_24h": 2950,
+    "peak_alltime": 2966,
+    "name_cn": "点击战利品 测试版"
+  },
+  {
+    "rank": 350,
+    "appid": 627690,
+    "name": "Idle Champions of the Forgotten Realms",
+    "current_players": 2222,
+    "peak_24h": 2648,
+    "peak_alltime": 18578,
+    "name_cn": "被遗忘的国度冠军放置"
+  },
+  {
+    "rank": 351,
+    "appid": 1184370,
+    "name": "Pathfinder: Wrath of the Righteous",
+    "current_players": 2199,
+    "peak_24h": 3756,
+    "peak_alltime": 46724,
+    "name_cn": "开拓者：正义之怒"
+  },
+  {
+    "rank": 352,
+    "appid": 1190970,
+    "name": "House Flipper 2",
+    "current_players": 2190,
+    "peak_24h": 3825,
+    "peak_alltime": 21945,
+    "name_cn": "房产达人2"
+  },
+  {
+    "rank": 355,
+    "appid": 3846120,
+    "name": "MineMogul",
+    "current_players": 2176,
+    "peak_24h": 3605,
+    "peak_alltime": 3605,
+    "name_cn": "矿业大亨"
+  },
+  {
+    "rank": 356,
+    "appid": 400040,
+    "name": "ShareX",
+    "current_players": 2169,
+    "peak_24h": 3635,
+    "peak_alltime": 4029,
+    "name_cn": "ShareX截图工具"
+  },
+  {
+    "rank": 357,
+    "appid": 1129580,
+    "name": "Medieval Dynasty",
+    "current_players": 2163,
+    "peak_24h": 6059,
+    "peak_alltime": 31057,
+    "name_cn": "中世纪王朝"
+  },
+  {
+    "rank": 359,
+    "appid": 2161700,
+    "name": "Persona 3 Reload",
+    "current_players": 2116,
+    "peak_24h": 3273,
+    "peak_alltime": 45002,
+    "name_cn": "女神异闻录3 重制版"
+  },
+  {
+    "rank": 360,
+    "appid": 1569580,
+    "name": "Blue Prince",
+    "current_players": 2089,
+    "peak_24h": 3600,
+    "peak_alltime": 19243,
+    "name_cn": "蓝色王子"
+  },
+  {
+    "rank": 361,
+    "appid": 1922560,
+    "name": "Plants vs. Zombies Garden Warfare 2",
+    "current_players": 2086,
+    "peak_24h": 2514,
+    "peak_alltime": 9670,
+    "name_cn": "植物大战僵尸：花园战争2"
+  },
+  {
+    "rank": 365,
+    "appid": 2051620,
+    "name": "Enlisted",
+    "current_players": 2064,
+    "peak_24h": 5492,
+    "peak_alltime": 7518,
+    "name_cn": "应征入伍"
+  },
+  {
+    "rank": 366,
+    "appid": 985810,
+    "name": "GrandChase",
+    "current_players": 2057,
+    "peak_24h": 3029,
+    "peak_alltime": 79883,
+    "name_cn": "永恒冒险"
+  },
+  {
+    "rank": 367,
+    "appid": 3681810,
+    "name": "Blue Protocol: Star Resonance",
+    "current_players": 2054,
+    "peak_24h": 2550,
+    "peak_alltime": 94459,
+    "name_cn": "蓝色协议：星之共鸣"
+  },
+  {
+    "rank": 368,
+    "appid": 534380,
+    "name": "Dying Light 2: Reloaded Edition",
+    "current_players": 2029,
+    "peak_24h": 5652,
+    "peak_alltime": 274983,
+    "name_cn": "消逝的光芒2：重装版"
+  },
+  {
+    "rank": 369,
+    "appid": 602960,
+    "name": "Barotrauma",
+    "current_players": 2026,
+    "peak_24h": 5109,
+    "peak_alltime": 19655,
+    "name_cn": "潜渊症"
+  },
+  {
+    "rank": 371,
+    "appid": 2948190,
+    "name": "World of Sea Battle",
+    "current_players": 2016,
+    "peak_24h": 4600,
+    "peak_alltime": 4895,
+    "name_cn": "海战世界"
+  },
+  {
+    "rank": 372,
+    "appid": 3213850,
+    "name": "gogh: Focus with Your Avatar",
+    "current_players": 2012,
+    "peak_24h": 2966,
+    "peak_alltime": 8236,
+    "name_cn": "gogh：与你的虚拟形象专注"
+  },
+  {
+    "rank": 373,
+    "appid": 380600,
+    "name": "Fishing Planet",
+    "current_players": 1996,
+    "peak_24h": 5031,
+    "peak_alltime": 9926,
+    "name_cn": "钓鱼星球"
+  },
+  {
+    "rank": 374,
+    "appid": 3159330,
+    "name": "Assassin's Creed Shadows",
+    "current_players": 1978,
+    "peak_24h": 5036,
+    "peak_alltime": 64825,
+    "name_cn": "刺客信条：影"
+  },
+  {
+    "rank": 375,
+    "appid": 881100,
+    "name": "Noita",
+    "current_players": 1962,
+    "peak_24h": 2930,
+    "peak_alltime": 9256,
+    "name_cn": "诺伊塔"
+  },
+  {
+    "rank": 376,
+    "appid": 2552430,
+    "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+    "current_players": 1954,
+    "peak_24h": 2522,
+    "peak_alltime": 11152,
+    "name_cn": "王国之心 HD 1.5+2.5合集"
+  },
+  {
+    "rank": 377,
+    "appid": 1206560,
+    "name": "WorldBox - God Simulator",
+    "current_players": 1938,
+    "peak_24h": 2735,
+    "peak_alltime": 11034,
+    "name_cn": "世界盒子 - 上帝模拟器"
+  },
+  {
+    "rank": 378,
+    "appid": 1128810,
+    "name": "RISK: Global Domination",
+    "current_players": 1935,
+    "peak_24h": 3578,
+    "peak_alltime": 11716,
+    "name_cn": "风险：全球统治"
+  },
+  {
+    "rank": 379,
+    "appid": 1167630,
+    "name": "Teardown",
+    "current_players": 1934,
+    "peak_24h": 4498,
+    "peak_alltime": 8339,
+    "name_cn": "拆迁"
+  },
+  {
+    "rank": 380,
+    "appid": 444200,
+    "name": "World of Tanks Blitz",
+    "current_players": 1925,
+    "peak_24h": 8466,
+    "peak_alltime": 56669,
+    "name_cn": "坦克世界闪击战"
+  },
+  {
+    "rank": 381,
+    "appid": 431240,
+    "name": "Golf With Your Friends",
+    "current_players": 1922,
+    "peak_24h": 4085,
+    "peak_alltime": 20750,
+    "name_cn": "和朋友打高尔夫"
+  },
+  {
+    "rank": 383,
+    "appid": 3669570,
+    "name": "Alchemy Factory",
+    "current_players": 1904,
+    "peak_24h": 3875,
+    "peak_alltime": 7015,
+    "name_cn": "炼金工厂"
+  },
+  {
+    "rank": 384,
+    "appid": 1824220,
+    "name": "Chivalry 2",
+    "current_players": 1901,
+    "peak_24h": 2861,
+    "peak_alltime": 16959,
+    "name_cn": "骑士精神2"
+  },
+  {
+    "rank": 385,
+    "appid": 824270,
+    "name": "KovaaK's",
+    "current_players": 1899,
+    "peak_24h": 3342,
+    "peak_alltime": 3512,
+    "name_cn": "KovaaK's 瞄准训练"
+  },
+  {
+    "rank": 388,
+    "appid": 3489700,
+    "name": "Stellar Blade",
+    "current_players": 1887,
+    "peak_24h": 4303,
+    "peak_alltime": 192078,
+    "name_cn": "恒星之刃"
+  },
+  {
+    "rank": 389,
+    "appid": 2956680,
+    "name": "LORT",
+    "current_players": 1885,
+    "peak_24h": 3315,
+    "peak_alltime": 9899,
+    "name_cn": "LORT"
+  },
+  {
+    "rank": 392,
+    "appid": 1677280,
+    "name": "Company of Heroes 3",
+    "current_players": 1879,
+    "peak_24h": 4941,
+    "peak_alltime": 36646,
+    "name_cn": "英雄连3"
+  },
+  {
+    "rank": 393,
+    "appid": 1677740,
+    "name": "Stumble Guys",
+    "current_players": 1872,
+    "peak_24h": 4944,
+    "peak_alltime": 43705,
+    "name_cn": "糖豆人大乱斗"
+  },
+  {
+    "rank": 396,
+    "appid": 495420,
+    "name": "State of Decay 2",
+    "current_players": 1848,
+    "peak_24h": 2953,
+    "peak_alltime": 22728,
+    "name_cn": "腐烂国度2"
+  },
+  {
+    "rank": 397,
+    "appid": 934700,
+    "name": "Dead Island 2",
+    "current_players": 1828,
+    "peak_24h": 3713,
+    "peak_alltime": 18721,
+    "name_cn": "死亡岛2"
+  },
+  {
+    "rank": 398,
+    "appid": 1066780,
+    "name": "Transport Fever 2",
+    "current_players": 1819,
+    "peak_24h": 6650,
+    "peak_alltime": 24308,
+    "name_cn": "运输热潮2"
+  },
+  {
+    "rank": 399,
+    "appid": 3370870,
+    "name": "Berry Bury Berry",
+    "current_players": 1801,
+    "peak_24h": 2320,
+    "peak_alltime": 2320,
+    "name_cn": "浆果埋葬浆果"
+  },
+  {
+    "rank": 400,
+    "appid": 3595230,
+    "name": "Call of Duty: Modern Warfare II",
+    "current_players": 1801,
+    "peak_24h": 3545,
+    "peak_alltime": 4407,
+    "name_cn": "使命召唤：现代战争2 (2022)"
+  },
+  {
+    "rank": 401,
+    "appid": 552500,
+    "name": "Warhammer: Vermintide 2",
+    "current_players": 1798,
+    "peak_24h": 4372,
+    "peak_alltime": 104323,
+    "name_cn": "战锤：末世鼠疫2"
+  },
+  {
+    "rank": 402,
+    "appid": 961200,
+    "name": "Predecessor",
+    "current_players": 1788,
+    "peak_24h": 2474,
+    "peak_alltime": 7339,
+    "name_cn": "先驱者"
+  },
+  {
+    "rank": 403,
+    "appid": 1857080,
+    "name": "The Last Starship",
+    "current_players": 1783,
+    "peak_24h": 3343,
+    "peak_alltime": 3343,
+    "name_cn": "最后的星舰"
+  },
+  {
+    "rank": 404,
+    "appid": 1984270,
+    "name": "Digimon Story Time Stranger",
+    "current_players": 1781,
+    "peak_24h": 2432,
+    "peak_alltime": 84458,
+    "name_cn": "数码宝贝故事：时空旅人"
+  },
+  {
+    "rank": 405,
+    "appid": 2349820,
+    "name": "Hero's Land",
+    "current_players": 1769,
+    "peak_24h": 3375,
+    "peak_alltime": 37249,
+    "name_cn": "英雄之地"
+  },
+  {
+    "rank": 406,
+    "appid": 2808930,
+    "name": "Lust Goddess",
+    "current_players": 1769,
+    "peak_24h": 3324,
+    "peak_alltime": 5885,
+    "name_cn": "欲望女神"
+  },
+  {
+    "rank": 407,
+    "appid": 3017860,
+    "name": "DOOM: The Dark Ages",
+    "current_players": 1755,
+    "peak_24h": 3916,
+    "peak_alltime": 31470,
+    "name_cn": "毁灭战士：黑暗时代"
+  },
+  {
+    "rank": 408,
+    "appid": 916440,
+    "name": "Anno 1800",
+    "current_players": 1752,
+    "peak_24h": 5177,
+    "peak_alltime": 25302,
+    "name_cn": "纪元1800"
+  },
+  {
+    "rank": 409,
+    "appid": 1783560,
+    "name": "The Last Caretaker",
+    "current_players": 1741,
+    "peak_24h": 3635,
+    "peak_alltime": 10767,
+    "name_cn": "最后的守护者"
+  },
+  {
+    "rank": 410,
+    "appid": 3750430,
+    "name": "Tian Wai: Hero Online",
+    "current_players": 1729,
+    "peak_24h": 2243,
+    "peak_alltime": 2261,
+    "name_cn": "天外：英雄Online"
+  },
+  {
+    "rank": 411,
+    "appid": 2531310,
+    "name": "The Last of Us Part II Remastered",
+    "current_players": 1725,
+    "peak_24h": 3671,
+    "peak_alltime": 30690,
+    "name_cn": "最后生还者 第二部 重制版"
+  },
+  {
+    "rank": 412,
+    "appid": 1290000,
+    "name": "PowerWash Simulator",
+    "current_players": 1722,
+    "peak_24h": 2282,
+    "peak_alltime": 14178,
+    "name_cn": "冲就完事模拟器"
+  },
+  {
+    "rank": 414,
+    "appid": 1645820,
+    "name": "SurrounDead",
+    "current_players": 1718,
+    "peak_24h": 2505,
+    "peak_alltime": 10762,
+    "name_cn": "围尸求生"
+  },
+  {
+    "rank": 416,
+    "appid": 389430,
+    "name": "Knight Online",
+    "current_players": 1709,
+    "peak_24h": 2014,
+    "peak_alltime": 24594,
+    "name_cn": "骑士Online"
+  },
+  {
+    "rank": 417,
+    "appid": 2321470,
+    "name": "Deep Rock Galactic: Survivor",
+    "current_players": 1708,
+    "peak_24h": 3330,
+    "peak_alltime": 56943,
+    "name_cn": "深岩银河：幸存者"
+  },
+  {
+    "rank": 419,
+    "appid": 1293830,
+    "name": "Forza Horizon 4",
+    "current_players": 1703,
+    "peak_24h": 6159,
+    "peak_alltime": 75689,
+    "name_cn": "极限竞速：地平线4"
+  },
+  {
+    "rank": 420,
+    "appid": 386360,
+    "name": "SMITE",
+    "current_players": 1698,
+    "peak_24h": 2236,
+    "peak_alltime": 31169,
+    "name_cn": "神之浩劫"
+  },
+  {
+    "rank": 421,
+    "appid": 1343370,
+    "name": "Old School RuneScape",
+    "current_players": 1691,
+    "peak_24h": 2114,
+    "peak_alltime": 6151,
+    "name_cn": "老学校符文之地"
+  },
+  {
+    "rank": 422,
+    "appid": 1176470,
+    "name": "Terra Invicta",
+    "current_players": 1666,
+    "peak_24h": 2908,
+    "peak_alltime": 9826,
+    "name_cn": "不屈大地"
+  },
+  {
+    "rank": 423,
+    "appid": 2072560,
+    "name": "DRAGON BALL GEKISHIN SQUADRA",
+    "current_players": 1655,
+    "peak_24h": 2191,
+    "peak_alltime": 13908,
+    "name_cn": "龙珠激神中队"
+  },
+  {
+    "rank": 424,
+    "appid": 2651280,
+    "name": "Marvel's Spider-Man 2",
+    "current_players": 1649,
+    "peak_24h": 2782,
+    "peak_alltime": 28189,
+    "name_cn": "漫威蜘蛛侠2"
+  },
+  {
+    "rank": 426,
+    "appid": 835570,
+    "name": "Conqueror's Blade",
+    "current_players": 1642,
+    "peak_24h": 5634,
+    "peak_alltime": 19178,
+    "name_cn": "战意"
+  },
+  {
+    "rank": 427,
+    "appid": 1535560,
+    "name": "Farmer Against Potatoes Idle",
+    "current_players": 1642,
+    "peak_24h": 2155,
+    "peak_alltime": 8951,
+    "name_cn": "农夫对抗土豆放置"
+  },
+  {
+    "rank": 428,
+    "appid": 1447430,
+    "name": "Heybox Accelerator",
+    "current_players": 1632,
+    "peak_24h": 5028,
+    "peak_alltime": 11085,
+    "name_cn": "小黑盒加速器"
+  },
+  {
+    "rank": 429,
+    "appid": 1604270,
+    "name": "Broken Arrow",
+    "current_players": 1632,
+    "peak_24h": 4358,
+    "peak_alltime": 38753,
+    "name_cn": "断箭"
+  },
+  {
+    "rank": 430,
+    "appid": 2968420,
+    "name": "PowerWash Simulator 2",
+    "current_players": 1627,
+    "peak_24h": 2263,
+    "peak_alltime": 21150,
+    "name_cn": "冲就完事模拟器2"
+  },
+  {
+    "rank": 431,
+    "appid": 644930,
+    "name": "They Are Billions",
+    "current_players": 1625,
+    "peak_24h": 3802,
+    "peak_alltime": 22395,
+    "name_cn": "亿万僵尸"
+  },
+  {
+    "rank": 432,
+    "appid": 1325200,
+    "name": "Nioh 2 – The Complete Edition",
+    "current_players": 1625,
+    "peak_24h": 3584,
+    "peak_alltime": 41325,
+    "name_cn": "仁王2 完整版"
+  },
+  {
+    "rank": 433,
+    "appid": 1669000,
+    "name": "Age of Wonders 4",
+    "current_players": 1625,
+    "peak_24h": 2975,
+    "peak_alltime": 42877,
+    "name_cn": "奇迹时代4"
+  },
+  {
+    "rank": 435,
+    "appid": 2231380,
+    "name": "Ghost Recon Breakpoint",
+    "current_players": 1621,
+    "peak_24h": 3321,
+    "peak_alltime": 14382,
+    "name_cn": "幽灵行动：断点"
+  },
+  {
+    "rank": 436,
+    "appid": 1904540,
+    "name": "Football Manager 2023",
+    "current_players": 1617,
+    "peak_24h": 3695,
+    "peak_alltime": 83715,
+    "name_cn": "足球经理2023"
+  },
+  {
+    "rank": 437,
+    "appid": 1599600,
+    "name": "PlateUp!",
+    "current_players": 1613,
+    "peak_24h": 2442,
+    "peak_alltime": 12460,
+    "name_cn": "开店模拟器"
+  },
+  {
+    "rank": 438,
+    "appid": 34330,
+    "name": "Total War: SHOGUN 2",
+    "current_players": 1612,
+    "peak_24h": 3132,
+    "peak_alltime": 54115,
+    "name_cn": "全面战争：幕府将军2"
+  },
+  {
+    "rank": 439,
+    "appid": 1256670,
+    "name": "Library Of Ruina",
+    "current_players": 1609,
+    "peak_24h": 2754,
+    "peak_alltime": 8015,
+    "name_cn": "废墟图书馆"
+  },
+  {
+    "rank": 441,
+    "appid": 1997040,
+    "name": "MARVEL SNAP",
+    "current_players": 1604,
+    "peak_24h": 3150,
+    "peak_alltime": 18967,
+    "name_cn": "漫威Snap"
+  },
+  {
+    "rank": 442,
+    "appid": 2878960,
+    "name": "WWE 2K25",
+    "current_players": 1604,
+    "peak_24h": 2569,
+    "peak_alltime": 6018,
+    "name_cn": "WWE 2K25"
+  },
+  {
+    "rank": 443,
+    "appid": 2444750,
+    "name": "Shape of Dreams",
+    "current_players": 1602,
+    "peak_24h": 3459,
+    "peak_alltime": 45773,
+    "name_cn": "梦的形状"
+  },
+  {
+    "rank": 445,
+    "appid": 3164330,
+    "name": "Infinity Nikki",
+    "current_players": 1581,
+    "peak_24h": 2717,
+    "peak_alltime": 6954,
+    "name_cn": "无限暖暖"
+  },
+  {
+    "rank": 446,
+    "appid": 1594320,
+    "name": "Captain of Industry",
+    "current_players": 1580,
+    "peak_24h": 3603,
+    "peak_alltime": 11121,
+    "name_cn": "工业队长"
+  },
+  {
+    "rank": 447,
+    "appid": 373420,
+    "name": "Divinity: Original Sin Enhanced Edition",
+    "current_players": 1576,
+    "peak_24h": 3654,
+    "peak_alltime": 7565,
+    "name_cn": "神界：原罪 增强版"
+  },
+  {
+    "rank": 449,
+    "appid": 958260,
+    "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+    "current_players": 1568,
+    "peak_24h": 2482,
+    "peak_alltime": 11284,
+    "name_cn": "死或生：沙滩排球 维纳斯假期"
+  },
+  {
+    "rank": 450,
+    "appid": 1237970,
+    "name": "Titanfall 2",
+    "current_players": 1562,
+    "peak_24h": 2509,
+    "peak_alltime": 27631,
+    "name_cn": "泰坦陨落2"
+  },
+  {
+    "rank": 452,
+    "appid": 1857950,
+    "name": "VEIN",
+    "current_players": 1559,
+    "peak_24h": 2281,
+    "peak_alltime": 11073,
+    "name_cn": "血脉"
+  },
+  {
+    "rank": 453,
+    "appid": 471710,
+    "name": "Rec Room",
+    "current_players": 1553,
+    "peak_24h": 2361,
+    "peak_alltime": 7154,
+    "name_cn": "休闲室"
+  },
+  {
+    "rank": 454,
+    "appid": 1790600,
+    "name": "DRAGON BALL: Sparking! ZERO",
+    "current_players": 1545,
+    "peak_24h": 2060,
+    "peak_alltime": 122554,
+    "name_cn": "龙珠：电光炸裂！零"
+  },
+  {
+    "rank": 455,
+    "appid": 1374490,
+    "name": "RuneScape: Dragonwilds",
+    "current_players": 1533,
+    "peak_24h": 2287,
+    "peak_alltime": 52641,
+    "name_cn": "符文之地：龙荒"
+  },
+  {
+    "rank": 457,
+    "appid": 568220,
+    "name": "Lobotomy Corporation",
+    "current_players": 1521,
+    "peak_24h": 2829,
+    "peak_alltime": 7928,
+    "name_cn": "脑叶公司"
+  },
+  {
+    "rank": 458,
+    "appid": 2452280,
+    "name": "Mecha BREAK",
+    "current_players": 1517,
+    "peak_24h": 3049,
+    "peak_alltime": 132816,
+    "name_cn": "机甲破坏"
+  },
+  {
+    "rank": 459,
+    "appid": 1044720,
+    "name": "Farthest Frontier",
+    "current_players": 1513,
+    "peak_24h": 3068,
+    "peak_alltime": 24910,
+    "name_cn": "最远的边境"
+  },
+  {
+    "rank": 460,
+    "appid": 1173510,
+    "name": "XSOverlay",
+    "current_players": 1507,
+    "peak_24h": 3306,
+    "peak_alltime": 4126,
+    "name_cn": "XSOverlay VR覆盖"
+  },
+  {
+    "rank": 461,
+    "appid": 3413340,
+    "name": "Wallpaper Play",
+    "current_players": 1503,
+    "peak_24h": 2861,
+    "peak_alltime": 2898,
+    "name_cn": "壁纸播放"
+  },
+  {
+    "rank": 462,
+    "appid": 1671210,
+    "name": "DELTARUNE",
+    "current_players": 1499,
+    "peak_24h": 2107,
+    "peak_alltime": 133930,
+    "name_cn": "三角符文"
+  },
+  {
+    "rank": 463,
+    "appid": 699130,
+    "name": "World War Z",
+    "current_players": 1496,
+    "peak_24h": 4243,
+    "peak_alltime": 8036,
+    "name_cn": "僵尸世界大战"
+  },
+  {
+    "rank": 464,
+    "appid": 2897580,
+    "name": "Idle Hero TD",
+    "current_players": 1496,
+    "peak_24h": 1858,
+    "peak_alltime": 1858,
+    "name_cn": "放置英雄塔防"
+  },
+  {
+    "rank": 465,
+    "appid": 2943650,
+    "name": "FragPunk",
+    "current_players": 1494,
+    "peak_24h": 2653,
+    "peak_alltime": 113946,
+    "name_cn": "碎片朋克"
+  },
+  {
+    "rank": 466,
+    "appid": 573090,
+    "name": "Stormworks: Build and Rescue",
+    "current_players": 1493,
+    "peak_24h": 2598,
+    "peak_alltime": 6820,
+    "name_cn": "风暴工程：建造与救援"
+  },
+  {
+    "rank": 467,
+    "appid": 508440,
+    "name": "Totally Accurate Battle Simulator",
+    "current_players": 1489,
+    "peak_24h": 2414,
+    "peak_alltime": 13674,
+    "name_cn": "全面战争模拟器"
+  },
+  {
+    "rank": 468,
+    "appid": 1190000,
+    "name": "Car Mechanic Simulator 2021",
+    "current_players": 1489,
+    "peak_24h": 3190,
+    "peak_alltime": 22561,
+    "name_cn": "汽车修理工模拟器2021"
+  },
+  {
+    "rank": 469,
+    "appid": 8800,
+    "name": "Sid Meier's Civilization IV: Beyond the Sword",
+    "current_players": 1481,
+    "peak_24h": 2454,
+    "peak_alltime": 2791,
+    "name_cn": "文明4：超越刀锋"
+  },
+  {
+    "rank": 470,
+    "appid": 2958130,
+    "name": "Jurassic World Evolution 3",
+    "current_players": 1478,
+    "peak_24h": 2808,
+    "peak_alltime": 21387,
+    "name_cn": "侏罗纪世界进化3"
+  },
+  {
+    "rank": 473,
+    "appid": 1943950,
+    "name": "Escape the Backrooms",
+    "current_players": 1457,
+    "peak_24h": 6469,
+    "peak_alltime": 48879,
+    "name_cn": "逃离后室"
+  },
+  {
+    "rank": 475,
+    "appid": 1013320,
+    "name": "Firestone Idle Clicker",
+    "current_players": 1456,
+    "peak_24h": 2176,
+    "peak_alltime": 3343,
+    "name_cn": "火石放置点击"
+  },
+  {
+    "rank": 476,
+    "appid": 1029690,
+    "name": "Sniper Elite 5",
+    "current_players": 1455,
+    "peak_24h": 3934,
+    "peak_alltime": 14870,
+    "name_cn": "狙击精英5"
+  },
+  {
+    "rank": 477,
+    "appid": 2384580,
+    "name": "DYNASTY WARRIORS: ORIGINS",
+    "current_players": 1452,
+    "peak_24h": 5706,
+    "peak_alltime": 69483,
+    "name_cn": "真·三国无双：起源"
+  },
+  {
+    "rank": 478,
+    "appid": 1222700,
+    "name": "A Way Out",
+    "current_players": 1450,
+    "peak_24h": 4723,
+    "peak_alltime": 8582,
+    "name_cn": "逃出生天"
+  },
+  {
+    "rank": 479,
+    "appid": 2427700,
+    "name": "Backpack Battles",
+    "current_players": 1448,
+    "peak_24h": 3357,
+    "peak_alltime": 36557,
+    "name_cn": "背包乱斗"
+  },
+  {
+    "rank": 480,
+    "appid": 4241850,
+    "name": "Dreadmyst",
+    "current_players": 1448,
+    "peak_24h": 2125,
+    "peak_alltime": 8049,
+    "name_cn": "恐雾"
+  },
+  {
+    "rank": 481,
+    "appid": 877280,
+    "name": "SAO Utils 2: Progressive",
+    "current_players": 1446,
+    "peak_24h": 3431,
+    "peak_alltime": 6966,
+    "name_cn": "SAO工具2"
+  },
+  {
+    "rank": 482,
+    "appid": 1888160,
+    "name": "ARMORED CORE VI FIRES OF RUBICON",
+    "current_players": 1444,
+    "peak_24h": 1927,
+    "peak_alltime": 156171,
+    "name_cn": "装甲核心6：卢比孔之火"
+  },
+  {
+    "rank": 483,
+    "appid": 552520,
+    "name": "Far Cry 5",
+    "current_players": 1435,
+    "peak_24h": 3673,
+    "peak_alltime": 92445,
+    "name_cn": "孤岛惊魂5"
+  },
+  {
+    "rank": 484,
+    "appid": 391220,
+    "name": "Rise of the Tomb Raider",
+    "current_players": 1425,
+    "peak_24h": 3765,
+    "peak_alltime": 44588,
+    "name_cn": "古墓丽影：崛起"
+  },
+  {
+    "rank": 485,
+    "appid": 1527950,
+    "name": "Wartales",
+    "current_players": 1425,
+    "peak_24h": 3465,
+    "peak_alltime": 35879,
+    "name_cn": "战争传说"
+  },
+  {
+    "rank": 486,
+    "appid": 1119730,
+    "name": "Ranch Simulator",
+    "current_players": 1419,
+    "peak_24h": 4028,
+    "peak_alltime": 12624,
+    "name_cn": "牧场模拟器"
+  },
+  {
+    "rank": 487,
+    "appid": 2385530,
+    "name": "PGA TOUR 2K25",
+    "current_players": 1417,
+    "peak_24h": 2131,
+    "peak_alltime": 8330,
+    "name_cn": "PGA巡回赛 2K25"
+  },
+  {
+    "rank": 490,
+    "appid": 1259420,
+    "name": "Days Gone",
+    "current_players": 1412,
+    "peak_24h": 3101,
+    "peak_alltime": 27450,
+    "name_cn": "往日不再"
+  },
+  {
+    "rank": 491,
+    "appid": 2071280,
+    "name": "Ravenswatch",
+    "current_players": 1412,
+    "peak_24h": 3015,
+    "peak_alltime": 10018,
+    "name_cn": "鸦卫"
+  },
+  {
+    "rank": 492,
+    "appid": 1787090,
+    "name": "MyDockFinder",
+    "current_players": 1411,
+    "peak_24h": 2567,
+    "peak_alltime": 3869,
+    "name_cn": "MyDockFinder桌面美化"
+  },
+  {
+    "rank": 493,
+    "appid": 3078390,
+    "name": "CORN",
+    "current_players": 1410,
+    "peak_24h": 1410,
+    "peak_alltime": 24503,
+    "name_cn": "玉米"
+  },
+  {
+    "rank": 494,
+    "appid": 637090,
+    "name": "BATTLETECH",
+    "current_players": 1403,
+    "peak_24h": 1968,
+    "peak_alltime": 35767,
+    "name_cn": "暴战机甲"
+  },
+  {
+    "rank": 496,
+    "appid": 3595270,
+    "name": "Call of Duty: Modern Warfare III",
+    "current_players": 1391,
+    "peak_24h": 2252,
+    "peak_alltime": 3708,
+    "name_cn": "使命召唤：现代战争3 (2023)"
+  },
+  {
+    "rank": 497,
+    "appid": 2679460,
+    "name": "Metaphor: ReFantazio",
+    "current_players": 1390,
+    "peak_24h": 2052,
+    "peak_alltime": 85961,
+    "name_cn": "暗喻幻想"
+  },
+  {
+    "rank": 498,
+    "appid": 784080,
+    "name": "MechWarrior 5: Mercenaries",
+    "current_players": 1389,
+    "peak_24h": 1769,
+    "peak_alltime": 6476,
+    "name_cn": "机甲战士5：雇佣兵"
+  },
+  {
+    "rank": 500,
+    "appid": 3478870,
+    "name": "GeoGuessr Steam Edition",
+    "current_players": 1376,
+    "peak_24h": 5470,
+    "peak_alltime": 5980,
+    "name_cn": "GeoGuessr 地理猜测"
+  },
+  {
+    "rank": 502,
+    "appid": 1092790,
+    "name": "Inscryption",
+    "current_players": 1361,
+    "peak_24h": 1930,
+    "peak_alltime": 17072,
+    "name_cn": "邪恶冥刻"
+  },
+  {
+    "rank": 503,
+    "appid": 784150,
+    "name": "Workers & Resources: Soviet Republic",
+    "current_players": 1357,
+    "peak_24h": 4809,
+    "peak_alltime": 8264,
+    "name_cn": "工人与资源：苏维埃共和国"
+  },
+  {
+    "rank": 504,
+    "appid": 4294230,
+    "name": "Typing Farmer Demo",
+    "current_players": 1353,
+    "peak_24h": 1533,
+    "peak_alltime": 3764,
+    "name_cn": "打字农夫 试玩版"
+  },
+  {
+    "rank": 506,
+    "appid": 1995520,
+    "name": "Pax Dei",
+    "current_players": 1346,
+    "peak_24h": 2921,
+    "peak_alltime": 11531,
+    "name_cn": "神之和平"
+  },
+  {
+    "rank": 507,
+    "appid": 2456740,
+    "name": "inZOI",
+    "current_players": 1343,
+    "peak_24h": 2446,
+    "peak_alltime": 87377,
+    "name_cn": "inZOI 人生模拟"
+  },
+  {
+    "rank": 508,
+    "appid": 635260,
+    "name": "CarX Drift Racing Online",
+    "current_players": 1340,
+    "peak_24h": 2308,
+    "peak_alltime": 5369,
+    "name_cn": "CarX漂移竞赛Online"
+  },
+  {
+    "rank": 509,
+    "appid": 2918150,
+    "name": "ONE PIECE Bounty Rush",
+    "current_players": 1340,
+    "peak_24h": 2298,
+    "peak_alltime": 5455,
+    "name_cn": "海贼王：赏金冲刺"
+  },
+  {
+    "rank": 510,
+    "appid": 1336490,
+    "name": "Against the Storm",
+    "current_players": 1338,
+    "peak_24h": 2464,
+    "peak_alltime": 12832,
+    "name_cn": "逆风停歇"
+  },
+  {
+    "rank": 511,
+    "appid": 2113850,
+    "name": "Spirit City: Lofi Sessions",
+    "current_players": 1331,
+    "peak_24h": 1677,
+    "peak_alltime": 4212,
+    "name_cn": "精灵城市：低保真时光"
+  },
+  {
+    "rank": 512,
+    "appid": 613100,
+    "name": "House Flipper",
+    "current_players": 1322,
+    "peak_24h": 2424,
+    "peak_alltime": 15910,
+    "name_cn": "房产达人"
+  },
+  {
+    "rank": 513,
+    "appid": 3116890,
+    "name": "Out of the Park Baseball 26",
+    "current_players": 1314,
+    "peak_24h": 1534,
+    "peak_alltime": 1776,
+    "name_cn": "棒球经理26"
+  },
+  {
+    "rank": 515,
+    "appid": 504230,
+    "name": "Celeste",
+    "current_players": 1304,
+    "peak_24h": 1973,
+    "peak_alltime": 7782,
+    "name_cn": "蔚蓝"
+  },
+  {
+    "rank": 517,
+    "appid": 3314790,
+    "name": "CloverPit",
+    "current_players": 1304,
+    "peak_24h": 1792,
+    "peak_alltime": 25190,
+    "name_cn": "四叶草坑"
+  },
+  {
+    "rank": 518,
+    "appid": 3707400,
+    "name": "On-Together: Virtual Co-Working",
+    "current_players": 1300,
+    "peak_24h": 1379,
+    "peak_alltime": 2099,
+    "name_cn": "一起在线：虚拟协作"
+  },
+  {
+    "rank": 519,
+    "appid": 2515020,
+    "name": "FINAL FANTASY XVI",
+    "current_players": 1298,
+    "peak_24h": 1950,
+    "peak_alltime": 27508,
+    "name_cn": "最终幻想16"
+  },
+  {
+    "rank": 520,
+    "appid": 2495100,
+    "name": "Hello Kitty Island Adventure",
+    "current_players": 1295,
+    "peak_24h": 1871,
+    "peak_alltime": 8393,
+    "name_cn": "凯蒂猫岛屿冒险"
+  },
+  {
+    "rank": 521,
+    "appid": 1898300,
+    "name": "ASKA",
+    "current_players": 1292,
+    "peak_24h": 2878,
+    "peak_alltime": 10713,
+    "name_cn": "阿斯卡"
+  },
+  {
+    "rank": 522,
+    "appid": 1533390,
+    "name": "Gorilla Tag",
+    "current_players": 1281,
+    "peak_24h": 2164,
+    "peak_alltime": 4248,
+    "name_cn": "大猩猩捉人"
+  },
+  {
+    "rank": 523,
+    "appid": 1384160,
+    "name": "GUILTY GEAR -STRIVE-",
+    "current_players": 1277,
+    "peak_24h": 1796,
+    "peak_alltime": 31156,
+    "name_cn": "罪恶装备：奋战"
+  },
+  {
+    "rank": 524,
+    "appid": 459820,
+    "name": "Crush Crush",
+    "current_players": 1271,
+    "peak_24h": 1390,
+    "peak_alltime": 4572,
+    "name_cn": "暗恋模拟器"
+  },
+  {
+    "rank": 525,
+    "appid": 2668510,
+    "name": "Red Dead Redemption",
+    "current_players": 1269,
+    "peak_24h": 2208,
+    "peak_alltime": 8697,
+    "name_cn": "荒野大镖客：救赎"
+  },
+  {
+    "rank": 527,
+    "appid": 2399420,
+    "name": "Le Mans Ultimate",
+    "current_players": 1248,
+    "peak_24h": 7312,
+    "peak_alltime": 8740,
+    "name_cn": "勒芒终极赛"
+  },
+  {
+    "rank": 528,
+    "appid": 2835570,
+    "name": "Buckshot Roulette",
+    "current_players": 1248,
+    "peak_24h": 2423,
+    "peak_alltime": 20226,
+    "name_cn": "霰弹枪轮盘赌"
+  },
+  {
+    "rank": 530,
+    "appid": 1940340,
+    "name": "Darkest Dungeon II",
+    "current_players": 1243,
+    "peak_24h": 2354,
+    "peak_alltime": 23800,
+    "name_cn": "暗黑地牢2"
+  },
+  {
+    "rank": 531,
+    "appid": 2135150,
+    "name": "Elin",
+    "current_players": 1240,
+    "peak_24h": 2254,
+    "peak_alltime": 18239,
+    "name_cn": "艾琳"
+  },
+  {
+    "rank": 537,
+    "appid": 872410,
+    "name": "ROMANCE OF THE THREE KINGDOMS XIV",
+    "current_players": 1212,
+    "peak_24h": 3132,
+    "peak_alltime": 16482,
+    "name_cn": "三国志14"
+  },
+  {
+    "rank": 538,
+    "appid": 2288150,
+    "name": "ROMANCE OF THE THREE KINGDOMS 8 REMAKE",
+    "current_players": 1212,
+    "peak_24h": 3596,
+    "peak_alltime": 18948,
+    "name_cn": "三国志8 重制版"
+  },
+  {
+    "rank": 539,
+    "appid": 632470,
+    "name": "Disco Elysium",
+    "current_players": 1209,
+    "peak_24h": 2375,
+    "peak_alltime": 8081,
+    "name_cn": "极乐迪斯科"
+  },
+  {
+    "rank": 540,
+    "appid": 2784470,
+    "name": "9 Kings",
+    "current_players": 1208,
+    "peak_24h": 1883,
+    "peak_alltime": 13905,
+    "name_cn": "九王"
+  },
+  {
+    "rank": 541,
+    "appid": 454650,
+    "name": "DRAGON BALL XENOVERSE 2",
+    "current_players": 1206,
+    "peak_24h": 1586,
+    "peak_alltime": 19416,
+    "name_cn": "龙珠超宇宙2"
+  },
+  {
+    "rank": 542,
+    "appid": 1189490,
+    "name": "Mi Chang Sheng",
+    "current_players": 1206,
+    "peak_24h": 3624,
+    "peak_alltime": 26379,
+    "name_cn": "觅长生"
+  },
+  {
+    "rank": 543,
+    "appid": 1282270,
+    "name": "Strinova",
+    "current_players": 1206,
+    "peak_24h": 3382,
+    "peak_alltime": 38043,
+    "name_cn": "卡拉彼丘"
+  },
+  {
+    "rank": 544,
+    "appid": 3024040,
+    "name": "Stronghold Crusader: Definitive Edition",
+    "current_players": 1206,
+    "peak_24h": 6208,
+    "peak_alltime": 16109,
+    "name_cn": "要塞：十字军 终极版"
+  },
+  {
+    "rank": 545,
+    "appid": 3985950,
+    "name": "R.I.P. - Reincarnation Insurance Program",
+    "current_players": 1201,
+    "peak_24h": 3417,
+    "peak_alltime": 5801,
+    "name_cn": "R.I.P. 转世保险计划"
+  },
+  {
+    "rank": 546,
+    "appid": 2229850,
+    "name": "Command & Conquer: Red Alert 2 and Yuri's Revenge",
+    "current_players": 1196,
+    "peak_24h": 2355,
+    "peak_alltime": 6617,
+    "name_cn": "命令与征服：红色警戒2及尤里的复仇"
+  },
+  {
+    "rank": 547,
+    "appid": 2195250,
+    "name": "EA SPORTS FC 24",
+    "current_players": 1194,
+    "peak_24h": 2929,
+    "peak_alltime": 107359,
+    "name_cn": "EA SPORTS FC 24"
+  },
+  {
+    "rank": 548,
+    "appid": 1062520,
+    "name": "Dinkum",
+    "current_players": 1193,
+    "peak_24h": 2284,
+    "peak_alltime": 13412,
+    "name_cn": "丁库姆"
+  },
+  {
+    "rank": 549,
+    "appid": 2212330,
+    "name": "Your Only Move Is HUSTLE",
+    "current_players": 1186,
+    "peak_24h": 1538,
+    "peak_alltime": 3405,
+    "name_cn": "你唯一的动作是HUSTLE"
+  },
+  {
+    "rank": 550,
+    "appid": 1991040,
+    "name": "Student Era",
+    "current_players": 1181,
+    "peak_24h": 4396,
+    "peak_alltime": 8662,
+    "name_cn": "学生时代"
+  },
+  {
+    "rank": 551,
+    "appid": 3271000,
+    "name": "SEGA FOOTBALL CLUB CHAMPIONS",
+    "current_players": 1178,
+    "peak_24h": 2653,
+    "peak_alltime": 10488,
+    "name_cn": "世嘉足球俱乐部冠军"
+  },
+  {
+    "rank": 552,
+    "appid": 466170,
+    "name": "Idling to Rule the Gods",
+    "current_players": 1177,
+    "peak_24h": 1441,
+    "peak_alltime": 2783,
+    "name_cn": "放置统治诸神"
+  },
+  {
+    "rank": 553,
+    "appid": 2404880,
+    "name": "Car Dealer Simulator",
+    "current_players": 1175,
+    "peak_24h": 2124,
+    "peak_alltime": 6172,
+    "name_cn": "汽车经销商模拟器"
+  },
+  {
+    "rank": 555,
+    "appid": 1973710,
+    "name": "Heaven Burns Red",
+    "current_players": 1164,
+    "peak_24h": 3037,
+    "peak_alltime": 20201,
+    "name_cn": "炽焰天穹"
+  },
+  {
+    "rank": 556,
+    "appid": 72850,
+    "name": "The Elder Scrolls V: Skyrim",
+    "current_players": 1162,
+    "peak_24h": 2551,
+    "peak_alltime": 287411,
+    "name_cn": "上古卷轴5：天际"
+  },
+  {
+    "rank": 557,
+    "appid": 2104890,
+    "name": "RoadCraft",
+    "current_players": 1161,
+    "peak_24h": 3033,
+    "peak_alltime": 33761,
+    "name_cn": "筑路工艺"
+  },
+  {
+    "rank": 558,
+    "appid": 663090,
+    "name": "Granado Espada",
+    "current_players": 1156,
+    "peak_24h": 1425,
+    "peak_alltime": 4505,
+    "name_cn": "格兰纳多之剑"
+  },
+  {
+    "rank": 559,
+    "appid": 1201540,
+    "name": "HELLCARD",
+    "current_players": 1156,
+    "peak_24h": 1891,
+    "peak_alltime": 5629,
+    "name_cn": "地狱卡牌"
+  },
+  {
+    "rank": 560,
+    "appid": 203160,
+    "name": "Tomb Raider",
+    "current_players": 1149,
+    "peak_24h": 2440,
+    "peak_alltime": 89538,
+    "name_cn": "古墓丽影"
+  },
+  {
+    "rank": 562,
+    "appid": 767560,
+    "name": "War Robots",
+    "current_players": 1127,
+    "peak_24h": 2200,
+    "peak_alltime": 3237,
+    "name_cn": "战争机器人"
+  },
+  {
+    "rank": 563,
+    "appid": 805550,
+    "name": "Assetto Corsa Competizione",
+    "current_players": 1126,
+    "peak_24h": 4124,
+    "peak_alltime": 12376,
+    "name_cn": "神力科莎：竞技版"
+  },
+  {
+    "rank": 564,
+    "appid": 2646460,
+    "name": "Soulmask",
+    "current_players": 1119,
+    "peak_24h": 2581,
+    "peak_alltime": 46833,
+    "name_cn": "灵魂面具"
+  },
+  {
+    "rank": 565,
+    "appid": 404790,
+    "name": "Godot Engine",
+    "current_players": 1106,
+    "peak_24h": 1834,
+    "peak_alltime": 2012,
+    "name_cn": "Godot游戏引擎"
+  },
+  {
+    "rank": 566,
+    "appid": 1030840,
+    "name": "Mafia: Definitive Edition",
+    "current_players": 1105,
+    "peak_24h": 2593,
+    "peak_alltime": 36679,
+    "name_cn": "四海兄弟：终极版"
+  },
+  {
+    "rank": 567,
+    "appid": 2124490,
+    "name": "SILENT HILL 2",
+    "current_players": 1102,
+    "peak_24h": 1824,
+    "peak_alltime": 23676,
+    "name_cn": "寂静岭2"
+  },
+  {
+    "rank": 568,
+    "appid": 391540,
+    "name": "Undertale",
+    "current_players": 1101,
+    "peak_24h": 1714,
+    "peak_alltime": 11071,
+    "name_cn": "传说之下"
+  },
+  {
+    "rank": 570,
+    "appid": 2987800,
+    "name": "Madoka Magica Magia Exedra",
+    "current_players": 1097,
+    "peak_24h": 1805,
+    "peak_alltime": 3297,
+    "name_cn": "魔法少女小圆 Magia Exedra"
+  },
+  {
+    "rank": 571,
+    "appid": 1084600,
+    "name": "My Time at Sandrock",
+    "current_players": 1094,
+    "peak_24h": 1646,
+    "peak_alltime": 21778,
+    "name_cn": "沙石镇时光"
+  },
+  {
+    "rank": 572,
+    "appid": 585420,
+    "name": "Trailmakers",
+    "current_players": 1088,
+    "peak_24h": 2083,
+    "peak_alltime": 4898,
+    "name_cn": "造物主"
+  },
+  {
+    "rank": 573,
+    "appid": 665300,
+    "name": "Stream Avatars",
+    "current_players": 1088,
+    "peak_24h": 1296,
+    "peak_alltime": 2158,
+    "name_cn": "直播虚拟形象"
+  },
+  {
+    "rank": 574,
+    "appid": 581320,
+    "name": "Insurgency: Sandstorm",
+    "current_players": 1076,
+    "peak_24h": 1893,
+    "peak_alltime": 14606,
+    "name_cn": "叛乱：沙漠风暴"
+  },
+  {
+    "rank": 576,
+    "appid": 2993780,
+    "name": "FANTASY LIFE i: The Girl Who Steals Time",
+    "current_players": 1069,
+    "peak_24h": 2011,
+    "peak_alltime": 65389,
+    "name_cn": "幻想生活i：偷走时间的女孩"
+  },
+  {
+    "rank": 577,
+    "appid": 287700,
+    "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+    "current_players": 1068,
+    "peak_24h": 1688,
+    "peak_alltime": 91195,
+    "name_cn": "合金装备5：幻痛"
+  },
+  {
+    "rank": 578,
+    "appid": 632810,
+    "name": "Soundpad Demo",
+    "current_players": 1066,
+    "peak_24h": 3946,
+    "peak_alltime": 8651,
+    "name_cn": "音效板 试玩版"
+  },
+  {
+    "rank": 579,
+    "appid": 2081880,
+    "name": "Kathana",
+    "current_players": 1065,
+    "peak_24h": 1157,
+    "peak_alltime": 1166,
+    "name_cn": "卡塔纳"
+  },
+  {
+    "rank": 580,
+    "appid": 2479810,
+    "name": "Gray Zone Warfare",
+    "current_players": 1065,
+    "peak_24h": 1924,
+    "peak_alltime": 72548,
+    "name_cn": "灰色地带战争"
+  },
+  {
+    "rank": 581,
+    "appid": 3556750,
+    "name": "Warhammer 40,000: Dawn of War - Definitive Edition",
+    "current_players": 1063,
+    "peak_24h": 2390,
+    "peak_alltime": 18262,
+    "name_cn": "战锤40K：战争黎明 终极版"
+  },
+  {
+    "rank": 582,
+    "appid": 3347970,
+    "name": "Girls' Frontline",
+    "current_players": 1055,
+    "peak_24h": 1702,
+    "peak_alltime": 14019,
+    "name_cn": "少女前线"
+  },
+  {
+    "rank": 583,
+    "appid": 444090,
+    "name": "Paladins",
+    "current_players": 1053,
+    "peak_24h": 1841,
+    "peak_alltime": 60743,
+    "name_cn": "枪火游侠"
+  },
+  {
+    "rank": 584,
+    "appid": 1971870,
+    "name": "Mortal Kombat 1",
+    "current_players": 1049,
+    "peak_24h": 1756,
+    "peak_alltime": 38129,
+    "name_cn": "真人快打1"
+  },
+  {
+    "rank": 585,
+    "appid": 977950,
+    "name": "A Dance of Fire and Ice",
+    "current_players": 1047,
+    "peak_24h": 2356,
+    "peak_alltime": 9330,
+    "name_cn": "冰与火之舞"
+  },
+  {
+    "rank": 587,
+    "appid": 3501070,
+    "name": "Car Service Together",
+    "current_players": 1037,
+    "peak_24h": 3152,
+    "peak_alltime": 4057,
+    "name_cn": "一起修车"
+  },
+  {
+    "rank": 588,
+    "appid": 4073960,
+    "name": "Blue Protocol: Star Resonance JP",
+    "current_players": 1036,
+    "peak_24h": 1702,
+    "peak_alltime": 1708,
+    "name_cn": "蓝色协议：星之共鸣 日服"
+  },
+  {
+    "rank": 589,
+    "appid": 1169040,
+    "name": "Necesse",
+    "current_players": 1034,
+    "peak_24h": 1812,
+    "peak_alltime": 29440,
+    "name_cn": "必需"
+  },
+  {
+    "rank": 590,
+    "appid": 2904000,
+    "name": "The Spell Brigade",
+    "current_players": 1033,
+    "peak_24h": 2430,
+    "peak_alltime": 14514,
+    "name_cn": "法术旅"
+  },
+  {
+    "rank": 592,
+    "appid": 1197260,
+    "name": "The Perfect Tower II",
+    "current_players": 1029,
+    "peak_24h": 1319,
+    "peak_alltime": 4904,
+    "name_cn": "完美之塔2"
+  },
+  {
+    "rank": 593,
+    "appid": 1162750,
+    "name": "Songs of Syx",
+    "current_players": 1026,
+    "peak_24h": 1722,
+    "peak_alltime": 3103,
+    "name_cn": "塞克斯之歌"
+  },
+  {
+    "rank": 594,
+    "appid": 2333480,
+    "name": "RAID: Shadow Legends",
+    "current_players": 1024,
+    "peak_24h": 1712,
+    "peak_alltime": 1935,
+    "name_cn": "突袭：暗影传说"
+  },
+  {
+    "rank": 595,
+    "appid": 1477830,
+    "name": "HudSight - crosshair overlay",
+    "current_players": 1018,
+    "peak_24h": 3476,
+    "peak_alltime": 4667,
+    "name_cn": "HudSight 准星覆盖"
+  },
+  {
+    "rank": 596,
+    "appid": 433850,
+    "name": "Z1 Battle Royale",
+    "current_players": 1017,
+    "peak_24h": 1059,
+    "peak_alltime": 151239,
+    "name_cn": "Z1大逃杀"
+  },
+  {
+    "rank": 597,
+    "appid": 1432860,
+    "name": "Sun Haven",
+    "current_players": 1017,
+    "peak_24h": 1356,
+    "peak_alltime": 12706,
+    "name_cn": "阳光港湾"
+  },
+  {
+    "rank": 599,
+    "appid": 505460,
+    "name": "Foxhole",
+    "current_players": 1007,
+    "peak_24h": 2226,
+    "peak_alltime": 11791,
+    "name_cn": "散兵坑"
+  },
+  {
+    "rank": 600,
+    "appid": 2524890,
+    "name": "Pixel Gun 3D: PC Edition",
+    "current_players": 1004,
+    "peak_24h": 1852,
+    "peak_alltime": 25014,
+    "name_cn": "像素枪战3D PC版"
+  },
+  {
+    "rank": 601,
+    "appid": 2168680,
+    "name": "Nuclear Option",
+    "current_players": 1002,
+    "peak_24h": 1441,
+    "peak_alltime": 2599,
+    "name_cn": "核选项"
+  },
+  {
+    "rank": 602,
+    "appid": 2315040,
+    "name": "Torchlight Infinite CN",
+    "current_players": 1002,
+    "peak_24h": 2599,
+    "peak_alltime": 10025,
+    "name_cn": "火炬之光：无限 国服"
+  },
+  {
+    "rank": 603,
+    "appid": 1721470,
+    "name": "Poppy Playtime",
+    "current_players": 997,
+    "peak_24h": 2152,
+    "peak_alltime": 25128,
+    "name_cn": "波比的游戏时间"
+  },
+  {
+    "rank": 604,
+    "appid": 899770,
+    "name": "Last Epoch",
+    "current_players": 994,
+    "peak_24h": 1815,
+    "peak_alltime": 264708,
+    "name_cn": "最后纪元"
+  },
+  {
+    "rank": 605,
+    "appid": 1846380,
+    "name": "Need for Speed Unbound",
+    "current_players": 988,
+    "peak_24h": 2227,
+    "peak_alltime": 14063,
+    "name_cn": "极品飞车：不羁"
+  },
+  {
+    "rank": 607,
+    "appid": 1113000,
+    "name": "Persona 4 Golden",
+    "current_players": 982,
+    "peak_24h": 1276,
+    "peak_alltime": 29984,
+    "name_cn": "女神异闻录4 黄金版"
+  },
+  {
+    "rank": 608,
+    "appid": 690830,
+    "name": "Foundation",
+    "current_players": 971,
+    "peak_24h": 2590,
+    "peak_alltime": 18448,
+    "name_cn": "基石"
+  },
+  {
+    "rank": 610,
+    "appid": 1501750,
+    "name": "Lords of the Fallen",
+    "current_players": 970,
+    "peak_24h": 1812,
+    "peak_alltime": 43075,
+    "name_cn": "堕落之主"
+  },
+  {
+    "rank": 611,
+    "appid": 975370,
+    "name": "Dwarf Fortress",
+    "current_players": 968,
+    "peak_24h": 1390,
+    "peak_alltime": 28340,
+    "name_cn": "矮人要塞"
+  },
+  {
+    "rank": 612,
+    "appid": 1657630,
+    "name": "Slime Rancher 2",
+    "current_players": 949,
+    "peak_24h": 1446,
+    "peak_alltime": 21524,
+    "name_cn": "史莱姆牧场2"
+  },
+  {
+    "rank": 613,
+    "appid": 1371580,
+    "name": "Myth of Empires",
+    "current_players": 948,
+    "peak_24h": 1496,
+    "peak_alltime": 47654,
+    "name_cn": "帝国神话"
+  },
+  {
+    "rank": 614,
+    "appid": 3274580,
+    "name": "Anno 117: Pax Romana",
+    "current_players": 946,
+    "peak_24h": 3974,
+    "peak_alltime": 50484,
+    "name_cn": "纪元117：罗马和平"
+  },
+  {
+    "rank": 616,
+    "appid": 1876890,
+    "name": "Wandering Sword",
+    "current_players": 937,
+    "peak_24h": 3063,
+    "peak_alltime": 22824,
+    "name_cn": "活侠传"
+  },
+  {
+    "rank": 617,
+    "appid": 466560,
+    "name": "Northgard: Definitive Edition",
+    "current_players": 934,
+    "peak_24h": 2386,
+    "peak_alltime": 20235,
+    "name_cn": "北境之地 终极版"
+  },
+  {
+    "rank": 618,
+    "appid": 1056640,
+    "name": "Phantasy Star Online 2 New Genesis",
+    "current_players": 933,
+    "peak_24h": 1008,
+    "peak_alltime": 59558,
+    "name_cn": "梦幻之星Online2 新创世纪"
+  },
+  {
+    "rank": 620,
+    "appid": 485510,
+    "name": "Nioh: Complete Edition",
+    "current_players": 917,
+    "peak_24h": 1903,
+    "peak_alltime": 10649,
+    "name_cn": "仁王 完整版"
+  },
+  {
+    "rank": 621,
+    "appid": 976310,
+    "name": "Mortal Kombat 11",
+    "current_players": 916,
+    "peak_24h": 1958,
+    "peak_alltime": 35147,
+    "name_cn": "真人快打11"
+  },
+  {
+    "rank": 622,
+    "appid": 2185060,
+    "name": "Two Point Museum",
+    "current_players": 915,
+    "peak_24h": 1962,
+    "peak_alltime": 19439,
+    "name_cn": "双点博物馆"
+  },
+  {
+    "rank": 623,
+    "appid": 2688950,
+    "name": "Planet Coaster 2",
+    "current_players": 910,
+    "peak_24h": 1977,
+    "peak_alltime": 20048,
+    "name_cn": "过山车之星2"
+  },
+  {
+    "rank": 625,
+    "appid": 433340,
+    "name": "Slime Rancher",
+    "current_players": 891,
+    "peak_24h": 1548,
+    "peak_alltime": 17059,
+    "name_cn": "史莱姆牧场"
+  },
+  {
+    "rank": 627,
+    "appid": 1845910,
+    "name": "Dragon Age: The Veilguard",
+    "current_players": 868,
+    "peak_24h": 1552,
+    "peak_alltime": 89418,
+    "name_cn": "龙腾世纪：帷幕守卫"
+  },
+  {
+    "rank": 628,
+    "appid": 3117820,
+    "name": "Sultan's Game",
+    "current_players": 867,
+    "peak_24h": 2978,
+    "peak_alltime": 46106,
+    "name_cn": "苏丹的游戏"
+  },
+  {
+    "rank": 629,
+    "appid": 1625450,
+    "name": "Muck",
+    "current_players": 863,
+    "peak_24h": 1739,
+    "peak_alltime": 16715,
+    "name_cn": "Muck生存"
+  },
+  {
+    "rank": 630,
+    "appid": 1676840,
+    "name": "For The King II",
+    "current_players": 863,
+    "peak_24h": 1750,
+    "peak_alltime": 28528,
+    "name_cn": "为了国王2"
+  },
+  {
+    "rank": 631,
+    "appid": 880940,
+    "name": "Pummel Party",
+    "current_players": 861,
+    "peak_24h": 3616,
+    "peak_alltime": 20957,
+    "name_cn": "乱揍派对"
+  },
+  {
+    "rank": 632,
+    "appid": 3014320,
+    "name": "OCTOPATH TRAVELER 0",
+    "current_players": 861,
+    "peak_24h": 1681,
+    "peak_alltime": 14046,
+    "name_cn": "八方旅人0"
+  },
+  {
+    "rank": 635,
+    "appid": 2394010,
+    "name": "Palworld Dedicated Server",
+    "current_players": 831,
+    "peak_24h": 906,
+    "peak_alltime": 35380,
+    "name_cn": "幻兽帕鲁 专用服务器"
+  },
+  {
+    "rank": 637,
+    "appid": 2567870,
+    "name": "Chained Together",
+    "current_players": 824,
+    "peak_24h": 4510,
+    "peak_alltime": 94480,
+    "name_cn": "锁链相连"
+  },
+  {
+    "rank": 638,
+    "appid": 2369390,
+    "name": "Far Cry 6",
+    "current_players": 821,
+    "peak_24h": 2629,
+    "peak_alltime": 20080,
+    "name_cn": "孤岛惊魂6"
+  },
+  {
+    "rank": 639,
+    "appid": 1004640,
+    "name": "FINAL FANTASY TACTICS",
+    "current_players": 816,
+    "peak_24h": 1101,
+    "peak_alltime": 21010,
+    "name_cn": "最终幻想战略版"
+  },
+  {
+    "rank": 640,
+    "appid": 1336980,
+    "name": "NOBUNAGA'S AMBITION: Awakening",
+    "current_players": 816,
+    "peak_24h": 2602,
+    "peak_alltime": 11783,
+    "name_cn": "信长之野望：觉醒"
+  },
+  {
+    "rank": 641,
+    "appid": 2947440,
+    "name": "SILENT HILL f",
+    "current_players": 814,
+    "peak_24h": 1217,
+    "peak_alltime": 22621,
+    "name_cn": "寂静岭f"
+  },
+  {
+    "rank": 643,
+    "appid": 848450,
+    "name": "Subnautica: Below Zero",
+    "current_players": 805,
+    "peak_24h": 1701,
+    "peak_alltime": 42115,
+    "name_cn": "深海迷航：冰点之下"
+  },
+  {
+    "rank": 644,
+    "appid": 594570,
+    "name": "Total War: WARHAMMER II",
+    "current_players": 804,
+    "peak_24h": 1593,
+    "peak_alltime": 84920,
+    "name_cn": "全面战争：战锤2"
+  },
+  {
+    "rank": 646,
+    "appid": 885970,
+    "name": "Total War: ROME REMASTERED",
+    "current_players": 803,
+    "peak_24h": 1709,
+    "peak_alltime": 18526,
+    "name_cn": "全面战争：罗马 重制版"
+  },
+  {
+    "rank": 647,
+    "appid": 2103140,
+    "name": "Magicraft",
+    "current_players": 803,
+    "peak_24h": 2243,
+    "peak_alltime": 18834,
+    "name_cn": "魔法工艺"
+  },
+  {
+    "rank": 648,
+    "appid": 1404210,
+    "name": "Red Dead Online",
+    "current_players": 800,
+    "peak_24h": 1438,
+    "peak_alltime": 19921,
+    "name_cn": "荒野大镖客Online"
+  },
+  {
+    "rank": 649,
+    "appid": 4124950,
+    "name": "Ashes of Creation",
+    "current_players": 795,
+    "peak_24h": 1013,
+    "peak_alltime": 31882,
+    "name_cn": "创造之灰"
+  },
+  {
+    "rank": 651,
+    "appid": 2918300,
+    "name": "SPLITGATE: Arena Reloaded",
+    "current_players": 785,
+    "peak_24h": 969,
+    "peak_alltime": 25785,
+    "name_cn": "分裂之门：竞技场重装"
+  },
+  {
+    "rank": 652,
+    "appid": 3167550,
+    "name": "Tiny Pasture",
+    "current_players": 785,
+    "peak_24h": 1043,
+    "peak_alltime": 19732,
+    "name_cn": "小小牧场"
+  },
+  {
+    "rank": 653,
+    "appid": 678950,
+    "name": "DRAGON BALL FighterZ",
+    "current_players": 783,
+    "peak_24h": 955,
+    "peak_alltime": 44303,
+    "name_cn": "龙珠斗士Z"
+  },
+  {
+    "rank": 655,
+    "appid": 1211020,
+    "name": "Wobbly Life",
+    "current_players": 779,
+    "peak_24h": 2007,
+    "peak_alltime": 10421,
+    "name_cn": "摇摆人生"
+  },
+  {
+    "rank": 658,
+    "appid": 386180,
+    "name": "Crossout",
+    "current_players": 772,
+    "peak_24h": 2470,
+    "peak_alltime": 12170,
+    "name_cn": "创世战车"
+  },
+  {
+    "rank": 659,
+    "appid": 4164420,
+    "name": "My Winter Car",
+    "current_players": 764,
+    "peak_24h": 2977,
+    "peak_alltime": 24107,
+    "name_cn": "我的冬季汽车"
+  },
+  {
+    "rank": 660,
+    "appid": 838350,
+    "name": "The Scroll Of Taiwu",
+    "current_players": 759,
+    "peak_24h": 2123,
+    "peak_alltime": 72533,
+    "name_cn": "太吾绘卷"
+  },
+  {
+    "rank": 664,
+    "appid": 2277560,
+    "name": "WUCHANG: Fallen Feathers",
+    "current_players": 754,
+    "peak_24h": 2887,
+    "peak_alltime": 131518,
+    "name_cn": "无常：陨羽"
+  },
+  {
+    "rank": 665,
+    "appid": 2488370,
+    "name": "Cash Cleaner Simulator",
+    "current_players": 743,
+    "peak_24h": 1282,
+    "peak_alltime": 10747,
+    "name_cn": "洗钱模拟器"
+  },
+  {
+    "rank": 666,
+    "appid": 2881650,
+    "name": "Content Warning",
+    "current_players": 742,
+    "peak_24h": 1702,
+    "peak_alltime": 204439,
+    "name_cn": "内容警告"
+  },
+  {
+    "rank": 667,
+    "appid": 1549250,
+    "name": "Undecember",
+    "current_players": 737,
+    "peak_24h": 1491,
+    "peak_alltime": 46103,
+    "name_cn": "十一月"
+  },
+  {
+    "rank": 668,
+    "appid": 1449110,
+    "name": "The Outer Worlds 2",
+    "current_players": 736,
+    "peak_24h": 1173,
+    "peak_alltime": 18251,
+    "name_cn": "外部世界2"
+  },
+  {
+    "rank": 669,
+    "appid": 780310,
+    "name": "The Riftbreaker",
+    "current_players": 730,
+    "peak_24h": 1955,
+    "peak_alltime": 21741,
+    "name_cn": "裂缝破坏者"
+  },
+  {
+    "rank": 671,
+    "appid": 1040200,
+    "name": "Crime Scene Cleaner",
+    "current_players": 722,
+    "peak_24h": 1142,
+    "peak_alltime": 13577,
+    "name_cn": "犯罪现场清洁工"
+  },
+  {
+    "rank": 672,
+    "appid": 1259970,
+    "name": "eFootball PES 2021 SEASON UPDATE",
+    "current_players": 721,
+    "peak_24h": 1388,
+    "peak_alltime": 20674,
+    "name_cn": "实况足球2021"
+  },
+  {
+    "rank": 674,
+    "appid": 2336220,
+    "name": "Feed The Cups",
+    "current_players": 714,
+    "peak_24h": 2944,
+    "peak_alltime": 11413,
+    "name_cn": "喂杯子"
+  },
+  {
+    "rank": 675,
+    "appid": 1928420,
+    "name": "Farlight 84",
+    "current_players": 709,
+    "peak_24h": 1022,
+    "peak_alltime": 41396,
+    "name_cn": "远光84"
+  },
+  {
+    "rank": 676,
+    "appid": 2072450,
+    "name": "Like a Dragon: Infinite Wealth",
+    "current_players": 706,
+    "peak_24h": 1634,
+    "peak_alltime": 46161,
+    "name_cn": "如龙：无尽财富"
+  },
+  {
+    "rank": 678,
+    "appid": 3231090,
+    "name": "Amarillo's Butt Slapper",
+    "current_players": 698,
+    "peak_24h": 787,
+    "peak_alltime": 113068,
+    "name_cn": "阿马里洛的拍臀器"
+  },
+  {
+    "rank": 679,
+    "appid": 599140,
+    "name": "Graveyard Keeper",
+    "current_players": 696,
+    "peak_24h": 1447,
+    "peak_alltime": 16993,
+    "name_cn": "守墓人"
+  },
+  {
+    "rank": 680,
+    "appid": 2680010,
+    "name": "The First Berserker: Khazan",
+    "current_players": 694,
+    "peak_24h": 1310,
+    "peak_alltime": 32929,
+    "name_cn": "第一狂战士：卡赞"
+  },
+  {
+    "rank": 681,
+    "appid": 701160,
+    "name": "Kingdom Two Crowns",
+    "current_players": 682,
+    "peak_24h": 1438,
+    "peak_alltime": 26623,
+    "name_cn": "王国：两位君主"
+  },
+  {
+    "rank": 683,
+    "appid": 1277400,
+    "name": "Monster Hunter Stories 2: Wings of Ruin",
+    "current_players": 681,
+    "peak_24h": 891,
+    "peak_alltime": 34995,
+    "name_cn": "怪物猎人物语2：毁灭之翼"
+  },
+  {
+    "rank": 684,
+    "appid": 2551020,
+    "name": "One-armed robber",
+    "current_players": 673,
+    "peak_24h": 2213,
+    "peak_alltime": 13663,
+    "name_cn": "独臂大盗"
+  },
+  {
+    "rank": 685,
+    "appid": 2373990,
+    "name": "Solo Leveling: ARISE OVERDRIVE",
+    "current_players": 669,
+    "peak_24h": 1157,
+    "peak_alltime": 12839,
+    "name_cn": "我独自升级：崛起 超速"
+  },
+  {
+    "rank": 686,
+    "appid": 1782210,
+    "name": "Crab Game",
+    "current_players": 667,
+    "peak_24h": 1055,
+    "peak_alltime": 75967,
+    "name_cn": "螃蟹游戏"
+  },
+  {
+    "rank": 687,
+    "appid": 1029780,
+    "name": "Going Medieval",
+    "current_players": 666,
+    "peak_24h": 1402,
+    "peak_alltime": 14676,
+    "name_cn": "走向中世纪"
+  },
+  {
+    "rank": 688,
+    "appid": 502500,
+    "name": "ACE COMBAT 7: SKIES UNKNOWN",
+    "current_players": 665,
+    "peak_24h": 1144,
+    "peak_alltime": 13758,
+    "name_cn": "皇牌空战7：未知空域"
+  },
+  {
+    "rank": 689,
+    "appid": 625960,
+    "name": "Stoneshard",
+    "current_players": 664,
+    "peak_24h": 1611,
+    "peak_alltime": 10738,
+    "name_cn": "石质碎片"
+  },
+  {
+    "rank": 690,
+    "appid": 492720,
+    "name": "Tropico 6",
+    "current_players": 663,
+    "peak_24h": 1445,
+    "peak_alltime": 15294,
+    "name_cn": "海岛大亨6"
+  },
+  {
+    "rank": 691,
+    "appid": 920210,
+    "name": "LEGO Star Wars: The Skywalker Saga",
+    "current_players": 663,
+    "peak_24h": 1431,
+    "peak_alltime": 82517,
+    "name_cn": "乐高星球大战：天行者传奇"
+  },
+  {
+    "rank": 693,
+    "appid": 2486820,
+    "name": "Sonic Racing: CrossWorlds",
+    "current_players": 653,
+    "peak_24h": 801,
+    "peak_alltime": 13630,
+    "name_cn": "索尼克赛车：跨世界"
+  },
+  {
+    "rank": 695,
+    "appid": 2217000,
+    "name": "Rivals of Aether II",
+    "current_players": 652,
+    "peak_24h": 778,
+    "peak_alltime": 11765,
+    "name_cn": "以太之争2"
+  },
+  {
+    "rank": 696,
+    "appid": 1971650,
+    "name": "OCTOPATH TRAVELER II",
+    "current_players": 648,
+    "peak_24h": 1320,
+    "peak_alltime": 17008,
+    "name_cn": "八方旅人2"
+  },
+  {
+    "rank": 697,
+    "appid": 2508780,
+    "name": "STORY OF SEASONS: Grand Bazaar",
+    "current_players": 647,
+    "peak_24h": 1023,
+    "peak_alltime": 12898,
+    "name_cn": "牧场物语：大集市"
+  },
+  {
+    "rank": 698,
+    "appid": 787860,
+    "name": "Farming Simulator 19",
+    "current_players": 645,
+    "peak_24h": 2224,
+    "peak_alltime": 59466,
+    "name_cn": "模拟农场19"
+  },
+  {
+    "rank": 700,
+    "appid": 3020510,
+    "name": "Legend of Heroes: Three Kingdoms",
+    "current_players": 638,
+    "peak_24h": 2045,
+    "peak_alltime": 19153,
+    "name_cn": "三国群英传"
+  },
+  {
+    "rank": 701,
+    "appid": 447040,
+    "name": "Watch Dogs 2",
+    "current_players": 633,
+    "peak_24h": 1542,
+    "peak_alltime": 18138,
+    "name_cn": "看门狗2"
+  },
+  {
+    "rank": 702,
+    "appid": 637650,
+    "name": "FINAL FANTASY XV WINDOWS EDITION",
+    "current_players": 630,
+    "peak_24h": 1029,
+    "peak_alltime": 29498,
+    "name_cn": "最终幻想15 Windows版"
+  },
+  {
+    "rank": 703,
+    "appid": 2119830,
+    "name": "MISERY",
+    "current_players": 630,
+    "peak_24h": 1098,
+    "peak_alltime": 12291,
+    "name_cn": "苦难"
+  },
+  {
+    "rank": 705,
+    "appid": 489630,
+    "name": "Warhammer 40,000: Gladius - Relics of War",
+    "current_players": 628,
+    "peak_24h": 1182,
+    "peak_alltime": 11136,
+    "name_cn": "战锤40K：角斗士 战争遗物"
+  },
+  {
+    "rank": 706,
+    "appid": 368260,
+    "name": "Marvel's Midnight Suns",
+    "current_players": 624,
+    "peak_24h": 883,
+    "peak_alltime": 15500,
+    "name_cn": "漫威暗夜之子"
+  },
+  {
+    "rank": 707,
+    "appid": 1506830,
+    "name": "FIFA 22",
+    "current_players": 621,
+    "peak_24h": 1247,
+    "peak_alltime": 108295,
+    "name_cn": "FIFA 22"
+  },
+  {
+    "rank": 708,
+    "appid": 1575940,
+    "name": "Sins of a Solar Empire II",
+    "current_players": 621,
+    "peak_24h": 1087,
+    "peak_alltime": 13394,
+    "name_cn": "太阳帝国的原罪2"
+  },
+  {
+    "rank": 709,
+    "appid": 1562430,
+    "name": "DREDGE",
+    "current_players": 618,
+    "peak_24h": 1111,
+    "peak_alltime": 12686,
+    "name_cn": "渔帆暗涌"
+  },
+  {
+    "rank": 710,
+    "appid": 2753900,
+    "name": "The King is Watching",
+    "current_players": 618,
+    "peak_24h": 1230,
+    "peak_alltime": 17988,
+    "name_cn": "国王在看"
+  },
+  {
+    "rank": 711,
+    "appid": 477160,
+    "name": "Human Fall Flat",
+    "current_players": 616,
+    "peak_24h": 3187,
+    "peak_alltime": 127517,
+    "name_cn": "人类一败涂地"
+  },
+  {
+    "rank": 712,
+    "appid": 851850,
+    "name": "DRAGON BALL Z: KAKAROT",
+    "current_players": 616,
+    "peak_24h": 907,
+    "peak_alltime": 25852,
+    "name_cn": "龙珠Z：卡卡罗特"
+  },
+  {
+    "rank": 713,
+    "appid": 1213210,
+    "name": "Command & Conquer Remastered Collection",
+    "current_players": 616,
+    "peak_24h": 1494,
+    "peak_alltime": 42587,
+    "name_cn": "命令与征服 重制合集"
+  },
+  {
+    "rank": 714,
+    "appid": 1659420,
+    "name": "UNCHARTED: Legacy of Thieves Collection",
+    "current_players": 615,
+    "peak_24h": 1633,
+    "peak_alltime": 10851,
+    "name_cn": "神秘海域：盗贼传奇合集"
+  },
+  {
+    "rank": 715,
+    "appid": 2338770,
+    "name": "NBA 2K24",
+    "current_players": 615,
+    "peak_24h": 1862,
+    "peak_alltime": 30363,
+    "name_cn": "NBA 2K24"
+  },
+  {
+    "rank": 716,
+    "appid": 3097560,
+    "name": "Liar's Bar",
+    "current_players": 614,
+    "peak_24h": 1484,
+    "peak_alltime": 113798,
+    "name_cn": "骗子酒吧"
+  },
+  {
+    "rank": 717,
+    "appid": 794260,
+    "name": "Outward",
+    "current_players": 611,
+    "peak_24h": 969,
+    "peak_alltime": 11296,
+    "name_cn": "物质世界"
+  },
+  {
+    "rank": 718,
+    "appid": 924970,
+    "name": "Back 4 Blood",
+    "current_players": 609,
+    "peak_24h": 1466,
+    "peak_alltime": 65987,
+    "name_cn": "喋血复仇"
+  },
+  {
+    "rank": 719,
+    "appid": 1385380,
+    "name": "Across the Obelisk",
+    "current_players": 606,
+    "peak_24h": 867,
+    "peak_alltime": 14037,
+    "name_cn": "穿越方尖碑"
+  },
+  {
+    "rank": 721,
+    "appid": 412220,
+    "name": "DDNet",
+    "current_players": 598,
+    "peak_24h": 3669,
+    "peak_alltime": 10726,
+    "name_cn": "DDNet (弹弹网)"
+  },
+  {
+    "rank": 722,
+    "appid": 640820,
+    "name": "Pathfinder: Kingmaker",
+    "current_players": 590,
+    "peak_24h": 1079,
+    "peak_alltime": 22643,
+    "name_cn": "开拓者：拥王者"
+  },
+  {
+    "rank": 723,
+    "appid": 1046930,
+    "name": "Dota Underlords",
+    "current_players": 584,
+    "peak_24h": 1231,
+    "peak_alltime": 202334,
+    "name_cn": "刀塔霸业"
+  },
+  {
+    "rank": 724,
+    "appid": 1244460,
+    "name": "Jurassic World Evolution 2",
+    "current_players": 579,
+    "peak_24h": 1288,
+    "peak_alltime": 20993,
+    "name_cn": "侏罗纪世界进化2"
+  },
+  {
+    "rank": 725,
+    "appid": 2625420,
+    "name": "Drive Beyond Horizons",
+    "current_players": 578,
+    "peak_24h": 1222,
+    "peak_alltime": 14797,
+    "name_cn": "驾驭无界"
+  },
+  {
+    "rank": 726,
+    "appid": 1100600,
+    "name": "Football Manager 2020",
+    "current_players": 569,
+    "peak_24h": 1365,
+    "peak_alltime": 189464,
+    "name_cn": "足球经理2020"
+  },
+  {
+    "rank": 728,
+    "appid": 744900,
+    "name": "Dead Frontier 2",
+    "current_players": 554,
+    "peak_24h": 1074,
+    "peak_alltime": 10101,
+    "name_cn": "死亡边境2"
+  },
+  {
+    "rank": 729,
+    "appid": 1263850,
+    "name": "Football Manager 2021",
+    "current_players": 554,
+    "peak_24h": 1276,
+    "peak_alltime": 93865,
+    "name_cn": "足球经理2021"
+  },
+  {
+    "rank": 731,
+    "appid": 678960,
+    "name": "CODE VEIN",
+    "current_players": 550,
+    "peak_24h": 806,
+    "peak_alltime": 33895,
+    "name_cn": "噬血代码"
+  },
+  {
+    "rank": 732,
+    "appid": 1324780,
+    "name": "Easy Red 2",
+    "current_players": 542,
+    "peak_24h": 1174,
+    "peak_alltime": 12026,
+    "name_cn": "简单红色2"
+  },
+  {
+    "rank": 734,
+    "appid": 3241970,
+    "name": "Heroes of Might and Magic: Olden Era Demo",
+    "current_players": 532,
+    "peak_24h": 1899,
+    "peak_alltime": 24157,
+    "name_cn": "魔法门之英雄无敌：远古时代 试玩版"
+  },
+  {
+    "rank": 735,
+    "appid": 387990,
+    "name": "Scrap Mechanic",
+    "current_players": 530,
+    "peak_24h": 1884,
+    "peak_alltime": 46643,
+    "name_cn": "废品机械师"
+  },
+  {
+    "rank": 736,
+    "appid": 1084160,
+    "name": "Jagged Alliance 3",
+    "current_players": 530,
+    "peak_24h": 1647,
+    "peak_alltime": 25366,
+    "name_cn": "铁血联盟3"
+  },
+  {
+    "rank": 737,
+    "appid": 1238860,
+    "name": "Battlefield 4",
+    "current_players": 528,
+    "peak_24h": 1026,
+    "peak_alltime": 12425,
+    "name_cn": "战地4"
+  },
+  {
+    "rank": 739,
+    "appid": 729040,
+    "name": "Borderlands GOTY Enhanced",
+    "current_players": 519,
+    "peak_24h": 851,
+    "peak_alltime": 26446,
+    "name_cn": "无主之地 年度加强版"
+  },
+  {
+    "rank": 741,
+    "appid": 972660,
+    "name": "Spiritfarer: Farewell Edition",
+    "current_players": 515,
+    "peak_24h": 1152,
+    "peak_alltime": 11726,
+    "name_cn": "灵魂旅人：告别版"
+  },
+  {
+    "rank": 742,
+    "appid": 1273400,
+    "name": "Construction Simulator",
+    "current_players": 515,
+    "peak_24h": 1619,
+    "peak_alltime": 17365,
+    "name_cn": "建筑模拟器"
+  },
+  {
+    "rank": 743,
+    "appid": 2893570,
+    "name": "DRAGON QUEST I & II HD-2D Remake",
+    "current_players": 515,
+    "peak_24h": 1307,
+    "peak_alltime": 15608,
+    "name_cn": "勇者斗恶龙1&2 HD-2D重制版"
+  },
+  {
+    "rank": 744,
+    "appid": 475150,
+    "name": "Titan Quest Anniversary Edition",
+    "current_players": 512,
+    "peak_24h": 1697,
+    "peak_alltime": 19497,
+    "name_cn": "泰坦之旅 周年版"
+  },
+  {
+    "rank": 746,
+    "appid": 392110,
+    "name": "ENDLESS Space 2",
+    "current_players": 506,
+    "peak_24h": 940,
+    "peak_alltime": 53435,
+    "name_cn": "无尽空间2"
+  },
+  {
+    "rank": 747,
+    "appid": 799600,
+    "name": "Cosmoteer",
+    "current_players": 506,
+    "peak_24h": 844,
+    "peak_alltime": 13794,
+    "name_cn": "星舰设计师"
+  },
+  {
+    "rank": 748,
+    "appid": 2201320,
+    "name": "Date Everything!",
+    "current_players": 504,
+    "peak_24h": 644,
+    "peak_alltime": 14231,
+    "name_cn": "约会万物！"
+  },
+  {
+    "rank": 751,
+    "appid": 1714040,
+    "name": "Super Auto Pets",
+    "current_players": 498,
+    "peak_24h": 603,
+    "peak_alltime": 10760,
+    "name_cn": "超级自动宠物"
+  },
+  {
+    "rank": 752,
+    "appid": 1465460,
+    "name": "Infection Free Zone",
+    "current_players": 495,
+    "peak_24h": 970,
+    "peak_alltime": 19380,
+    "name_cn": "无感染区"
+  },
+  {
+    "rank": 753,
+    "appid": 2768430,
+    "name": "ATLYSS",
+    "current_players": 494,
+    "peak_24h": 539,
+    "peak_alltime": 10803,
+    "name_cn": "ATLYSS冒险"
+  },
+  {
+    "rank": 754,
+    "appid": 646910,
+    "name": "The Crew 2",
+    "current_players": 492,
+    "peak_24h": 1269,
+    "peak_alltime": 55907,
+    "name_cn": "飙酷车神2"
+  },
+  {
+    "rank": 756,
+    "appid": 413410,
+    "name": "Danganronpa: Trigger Happy Havoc",
+    "current_players": 491,
+    "peak_24h": 983,
+    "peak_alltime": 10958,
+    "name_cn": "弹丸论破：希望的学园与绝望的高中生"
+  },
+  {
+    "rank": 757,
+    "appid": 629760,
+    "name": "MORDHAU",
+    "current_players": 491,
+    "peak_24h": 893,
+    "peak_alltime": 60204,
+    "name_cn": "雷鸣之锤"
+  },
+  {
+    "rank": 758,
+    "appid": 2162800,
+    "name": "shapez 2",
+    "current_players": 487,
+    "peak_24h": 811,
+    "peak_alltime": 18806,
+    "name_cn": "图形工厂2"
+  },
+  {
+    "rank": 759,
+    "appid": 246620,
+    "name": "Plague Inc: Evolved",
+    "current_players": 486,
+    "peak_24h": 708,
+    "peak_alltime": 17889,
+    "name_cn": "瘟疫公司：进化版"
+  },
+  {
+    "rank": 762,
+    "appid": 493520,
+    "name": "GTFO",
+    "current_players": 479,
+    "peak_24h": 1033,
+    "peak_alltime": 18813,
+    "name_cn": "GTFO 极度恐慌"
+  },
+  {
+    "rank": 764,
+    "appid": 2406770,
+    "name": "Bodycam",
+    "current_players": 470,
+    "peak_24h": 764,
+    "peak_alltime": 16457,
+    "name_cn": "执法录像"
+  },
+  {
+    "rank": 765,
+    "appid": 619820,
+    "name": "Heroes of Hammerwatch II",
+    "current_players": 468,
+    "peak_24h": 746,
+    "peak_alltime": 21237,
+    "name_cn": "铁锤守卫英雄传2"
+  },
+  {
+    "rank": 766,
+    "appid": 1286680,
+    "name": "Tiny Tina's Wonderlands",
+    "current_players": 465,
+    "peak_24h": 819,
+    "peak_alltime": 15021,
+    "name_cn": "小缇娜的奇幻之地"
+  },
+  {
+    "rank": 767,
+    "appid": 1367080,
+    "name": "MOBILE SUIT GUNDAM BATTLE OPERATION 2",
+    "current_players": 465,
+    "peak_24h": 1442,
+    "peak_alltime": 25422,
+    "name_cn": "机动战士高达 战斗行动2"
+  },
+  {
+    "rank": 769,
+    "appid": 488790,
+    "name": "South Park The Fractured But Whole",
+    "current_players": 462,
+    "peak_24h": 760,
+    "peak_alltime": 21609,
+    "name_cn": "南方公园：完整破碎"
+  },
+  {
+    "rank": 770,
+    "appid": 1811260,
+    "name": "EA SPORTS FIFA 23",
+    "current_players": 461,
+    "peak_24h": 1178,
+    "peak_alltime": 110878,
+    "name_cn": "EA SPORTS FIFA 23"
+  },
+  {
+    "rank": 771,
+    "appid": 1919590,
+    "name": "NBA 2K23",
+    "current_players": 459,
+    "peak_24h": 1109,
+    "peak_alltime": 59006,
+    "name_cn": "NBA 2K23"
+  },
+  {
+    "rank": 772,
+    "appid": 3183280,
+    "name": "Game of Thrones: Kingsroad",
+    "current_players": 459,
+    "peak_24h": 1101,
+    "peak_alltime": 10727,
+    "name_cn": "权力的游戏：国王大道"
+  },
+  {
+    "rank": 773,
+    "appid": 1210320,
+    "name": "Potion Craft: Alchemist Simulator",
+    "current_players": 456,
+    "peak_24h": 853,
+    "peak_alltime": 10161,
+    "name_cn": "药剂工艺：炼金术士模拟器"
+  },
+  {
+    "rank": 774,
+    "appid": 1948980,
+    "name": "Da Xia Li Zhi Zhuan",
+    "current_players": 455,
+    "peak_24h": 1276,
+    "peak_alltime": 28936,
+    "name_cn": "大侠立志传"
+  },
+  {
+    "rank": 775,
+    "appid": 1276390,
+    "name": "Bloons TD Battles 2",
+    "current_players": 454,
+    "peak_24h": 758,
+    "peak_alltime": 17137,
+    "name_cn": "气球塔防对战2"
+  },
+  {
+    "rank": 776,
+    "appid": 1057090,
+    "name": "Ori and the Will of the Wisps",
+    "current_players": 451,
+    "peak_24h": 1266,
+    "peak_alltime": 34807,
+    "name_cn": "精灵与萤火意志"
+  },
+  {
+    "rank": 777,
+    "appid": 2977660,
+    "name": "Cats",
+    "current_players": 449,
+    "peak_24h": 484,
+    "peak_alltime": 90669,
+    "name_cn": "猫咪"
+  },
+  {
+    "rank": 778,
+    "appid": 493340,
+    "name": "Planet Coaster",
+    "current_players": 448,
+    "peak_24h": 788,
+    "peak_alltime": 21971,
+    "name_cn": "过山车之星"
+  },
+  {
+    "rank": 779,
+    "appid": 3058630,
+    "name": "Assetto Corsa EVO",
+    "current_players": 447,
+    "peak_24h": 1925,
+    "peak_alltime": 25752,
+    "name_cn": "神力科莎EVO"
+  },
+  {
+    "rank": 780,
+    "appid": 1757300,
+    "name": "Jump Space",
+    "current_players": 444,
+    "peak_24h": 812,
+    "peak_alltime": 22365,
+    "name_cn": "跳跃空间"
+  },
+  {
+    "rank": 781,
+    "appid": 1583230,
+    "name": "High On Life",
+    "current_players": 443,
+    "peak_24h": 776,
+    "peak_alltime": 11608,
+    "name_cn": "嗨翻人生"
+  },
+  {
+    "rank": 783,
+    "appid": 412020,
+    "name": "Metro Exodus",
+    "current_players": 432,
+    "peak_24h": 1956,
+    "peak_alltime": 15375,
+    "name_cn": "地铁：离去"
+  },
+  {
+    "rank": 784,
+    "appid": 1274570,
+    "name": "DEVOUR",
+    "current_players": 432,
+    "peak_24h": 1049,
+    "peak_alltime": 12331,
+    "name_cn": "吞噬"
+  },
+  {
+    "rank": 785,
+    "appid": 1909950,
+    "name": "SUPER ROBOT WARS Y",
+    "current_players": 430,
+    "peak_24h": 1258,
+    "peak_alltime": 14812,
+    "name_cn": "超级机器人大战Y"
+  },
+  {
+    "rank": 787,
+    "appid": 3014080,
+    "name": "The Hundred Line -Last Defense Academy-",
+    "current_players": 424,
+    "peak_24h": 513,
+    "peak_alltime": 10026,
+    "name_cn": "百人斩 最终防线学院"
+  },
+  {
+    "rank": 788,
+    "appid": 1875830,
+    "name": "Shin Megami Tensei V: Vengeance",
+    "current_players": 421,
+    "peak_24h": 811,
+    "peak_alltime": 21749,
+    "name_cn": "真女神转生5：复仇"
+  },
+  {
+    "rank": 790,
+    "appid": 2289750,
+    "name": "Super Fantasy Kingdom",
+    "current_players": 416,
+    "peak_24h": 790,
+    "peak_alltime": 12672,
+    "name_cn": "超级幻想王国"
+  },
+  {
+    "rank": 791,
+    "appid": 1124300,
+    "name": "HUMANKIND",
+    "current_players": 414,
+    "peak_24h": 1015,
+    "peak_alltime": 55284,
+    "name_cn": "人类"
+  },
+  {
+    "rank": 792,
+    "appid": 535930,
+    "name": "Two Point Hospital",
+    "current_players": 413,
+    "peak_24h": 1072,
+    "peak_alltime": 34009,
+    "name_cn": "双点医院"
+  },
+  {
+    "rank": 793,
+    "appid": 371660,
+    "name": "Far Cry Primal",
+    "current_players": 409,
+    "peak_24h": 881,
+    "peak_alltime": 14783,
+    "name_cn": "孤岛惊魂：原始杀戮"
+  },
+  {
+    "rank": 794,
+    "appid": 1147560,
+    "name": "Skul: The Hero Slayer",
+    "current_players": 409,
+    "peak_24h": 963,
+    "peak_alltime": 18970,
+    "name_cn": "小骨：英雄杀手"
+  },
+  {
+    "rank": 795,
+    "appid": 389730,
+    "name": "TEKKEN 7",
+    "current_players": 407,
+    "peak_24h": 985,
+    "peak_alltime": 18966,
+    "name_cn": "铁拳7"
+  },
+  {
+    "rank": 796,
+    "appid": 2066020,
+    "name": "Soulstone Survivors",
+    "current_players": 407,
+    "peak_24h": 706,
+    "peak_alltime": 18854,
+    "name_cn": "灵魂石幸存者"
+  },
+  {
+    "rank": 797,
+    "appid": 3146520,
+    "name": "WEBFISHING",
+    "current_players": 407,
+    "peak_24h": 485,
+    "peak_alltime": 24085,
+    "name_cn": "网钓"
+  },
+  {
+    "rank": 798,
+    "appid": 386940,
+    "name": "Ultimate Chicken Horse",
+    "current_players": 405,
+    "peak_24h": 752,
+    "peak_alltime": 15874,
+    "name_cn": "超级鸡马"
+  },
+  {
+    "rank": 799,
+    "appid": 2864560,
+    "name": "Rune Factory: Guardians of Azuma",
+    "current_players": 405,
+    "peak_24h": 576,
+    "peak_alltime": 13121,
+    "name_cn": "符文工房：东之守护者"
+  },
+  {
+    "rank": 801,
+    "appid": 1941540,
+    "name": "Mafia: The Old Country",
+    "current_players": 398,
+    "peak_24h": 1129,
+    "peak_alltime": 35247,
+    "name_cn": "四海兄弟：旧国"
+  },
+  {
+    "rank": 802,
+    "appid": 382030,
+    "name": "Yargis - Space Melee - Dedicated Server",
+    "current_players": 397,
+    "peak_24h": 397,
+    "peak_alltime": 13271,
+    "name_cn": "Yargis太空格斗 专服"
+  },
+  {
+    "rank": 803,
+    "appid": 1601580,
+    "name": "Frostpunk 2",
+    "current_players": 396,
+    "peak_24h": 1062,
+    "peak_alltime": 35533,
+    "name_cn": "冰汽时代2"
+  },
+  {
+    "rank": 804,
+    "appid": 668580,
+    "name": "Atomic Heart",
+    "current_players": 395,
+    "peak_24h": 1088,
+    "peak_alltime": 38469,
+    "name_cn": "原子之心"
+  },
+  {
+    "rank": 805,
+    "appid": 2408820,
+    "name": "Luma Island",
+    "current_players": 392,
+    "peak_24h": 935,
+    "peak_alltime": 35098,
+    "name_cn": "卢玛岛"
+  },
+  {
+    "rank": 808,
+    "appid": 1331550,
+    "name": "Big Ambitions",
+    "current_players": 386,
+    "peak_24h": 1000,
+    "peak_alltime": 10961,
+    "name_cn": "大志向"
+  },
+  {
+    "rank": 810,
+    "appid": 858810,
+    "name": "Dawn of Man",
+    "current_players": 377,
+    "peak_24h": 723,
+    "peak_alltime": 23864,
+    "name_cn": "人类黎明"
+  },
+  {
+    "rank": 811,
+    "appid": 2080690,
+    "name": "Sunkenland",
+    "current_players": 377,
+    "peak_24h": 858,
+    "peak_alltime": 26154,
+    "name_cn": "沉没之地"
+  },
+  {
+    "rank": 812,
+    "appid": 834910,
+    "name": "ATLAS",
+    "current_players": 375,
+    "peak_24h": 755,
+    "peak_alltime": 58939,
+    "name_cn": "阿特拉斯"
+  },
+  {
+    "rank": 813,
+    "appid": 2701660,
+    "name": "DRAGON QUEST III HD-2D Remake",
+    "current_players": 372,
+    "peak_24h": 748,
+    "peak_alltime": 45357,
+    "name_cn": "勇者斗恶龙3 HD-2D重制版"
+  },
+  {
+    "rank": 814,
+    "appid": 396160,
+    "name": "Secret Of Magia",
+    "current_players": 367,
+    "peak_24h": 460,
+    "peak_alltime": 11352,
+    "name_cn": "魔法的秘密"
+  },
+  {
+    "rank": 815,
+    "appid": 774171,
+    "name": "Muse Dash",
+    "current_players": 367,
+    "peak_24h": 934,
+    "peak_alltime": 11478,
+    "name_cn": "喵斯快跑"
+  },
+  {
+    "rank": 816,
+    "appid": 666140,
+    "name": "My Time at Portia",
+    "current_players": 366,
+    "peak_24h": 563,
+    "peak_alltime": 13299,
+    "name_cn": "波西亚时光"
+  },
+  {
+    "rank": 818,
+    "appid": 2457220,
+    "name": "Avowed",
+    "current_players": 359,
+    "peak_24h": 656,
+    "peak_alltime": 19198,
+    "name_cn": "宣誓"
+  },
+  {
+    "rank": 819,
+    "appid": 1948800,
+    "name": "Yi Xian: The Cultivation Card Game",
+    "current_players": 351,
+    "peak_24h": 736,
+    "peak_alltime": 10818,
+    "name_cn": "弈仙牌"
+  },
+  {
+    "rank": 820,
+    "appid": 2420510,
+    "name": "HoloCure - Save the Fans!",
+    "current_players": 349,
+    "peak_24h": 519,
+    "peak_alltime": 46155,
+    "name_cn": "HoloCure 拯救粉丝！"
+  },
+  {
+    "rank": 821,
+    "appid": 436150,
+    "name": "Governor of Poker 3",
+    "current_players": 348,
+    "peak_24h": 851,
+    "peak_alltime": 53943,
+    "name_cn": "扑克总督3"
+  },
+  {
+    "rank": 822,
+    "appid": 2591280,
+    "name": "F1 Manager 2024",
+    "current_players": 348,
+    "peak_24h": 1039,
+    "peak_alltime": 12066,
+    "name_cn": "F1车队经理2024"
+  },
+  {
+    "rank": 823,
+    "appid": 2488620,
+    "name": "F1 24",
+    "current_players": 347,
+    "peak_24h": 849,
+    "peak_alltime": 13327,
+    "name_cn": "F1赛车24"
+  },
+  {
+    "rank": 824,
+    "appid": 2666510,
+    "name": "Rusty's Retirement",
+    "current_players": 347,
+    "peak_24h": 437,
+    "peak_alltime": 20876,
+    "name_cn": "拉斯蒂的退休"
+  },
+  {
+    "rank": 826,
+    "appid": 719040,
+    "name": "Wasteland 3",
+    "current_players": 346,
+    "peak_24h": 721,
+    "peak_alltime": 24555,
+    "name_cn": "废土3"
+  },
+  {
+    "rank": 827,
+    "appid": 2051010,
+    "name": "Pro Baseball Spirits 2024-2025",
+    "current_players": 345,
+    "peak_24h": 1105,
+    "peak_alltime": 10005,
+    "name_cn": "职业棒球之魂2024-2025"
+  },
+  {
+    "rank": 829,
+    "appid": 1154030,
+    "name": "Titan Quest II",
+    "current_players": 343,
+    "peak_24h": 1095,
+    "peak_alltime": 27099,
+    "name_cn": "泰坦之旅2"
+  },
+  {
+    "rank": 830,
+    "appid": 671860,
+    "name": "BattleBit Remastered",
+    "current_players": 341,
+    "peak_24h": 615,
+    "peak_alltime": 87323,
+    "name_cn": "像素战地 重制版"
+  },
+  {
+    "rank": 831,
+    "appid": 641990,
+    "name": "The Escapists 2",
+    "current_players": 338,
+    "peak_24h": 960,
+    "peak_alltime": 11202,
+    "name_cn": "逃脱者2"
+  },
+  {
+    "rank": 832,
+    "appid": 243750,
+    "name": "Source SDK Base 2013 Multiplayer",
+    "current_players": 337,
+    "peak_24h": 502,
+    "peak_alltime": 184888,
+    "name_cn": "起源SDK 2013多人版"
+  },
+  {
+    "rank": 834,
+    "appid": 2291060,
+    "name": "EARTH DEFENSE FORCE 6",
+    "current_players": 334,
+    "peak_24h": 933,
+    "peak_alltime": 18641,
+    "name_cn": "地球防卫军6"
+  },
+  {
+    "rank": 835,
+    "appid": 403640,
+    "name": "Dishonored 2",
+    "current_players": 331,
+    "peak_24h": 765,
+    "peak_alltime": 22411,
+    "name_cn": "耻辱2"
+  },
+  {
+    "rank": 836,
+    "appid": 273110,
+    "name": "Counter-Strike Nexon",
+    "current_players": 326,
+    "peak_24h": 556,
+    "peak_alltime": 10007,
+    "name_cn": "反恐精英Nexon"
+  },
+  {
+    "rank": 839,
+    "appid": 2167580,
+    "name": "Summoners War: Chronicles",
+    "current_players": 323,
+    "peak_24h": 434,
+    "peak_alltime": 38641,
+    "name_cn": "魔灵召唤：编年史"
+  },
+  {
+    "rank": 841,
+    "appid": 2634950,
+    "name": "Tokyo Xtreme Racer",
+    "current_players": 318,
+    "peak_24h": 459,
+    "peak_alltime": 15824,
+    "name_cn": "东京极速赛车"
+  },
+  {
+    "rank": 842,
+    "appid": 546560,
+    "name": "Half-Life: Alyx",
+    "current_players": 315,
+    "peak_24h": 753,
+    "peak_alltime": 42858,
+    "name_cn": "半条命：艾利克斯"
+  },
+  {
+    "rank": 844,
+    "appid": 1458140,
+    "name": "Pacific Drive",
+    "current_players": 314,
+    "peak_24h": 575,
+    "peak_alltime": 18507,
+    "name_cn": "太平洋驾驶"
+  },
+  {
+    "rank": 845,
+    "appid": 872790,
+    "name": "Football Manager 2019",
+    "current_players": 313,
+    "peak_24h": 795,
+    "peak_alltime": 75982,
+    "name_cn": "足球经理2019"
+  },
+  {
+    "rank": 846,
+    "appid": 955900,
+    "name": "Amazing Cultivation Simulator",
+    "current_players": 312,
+    "peak_24h": 830,
+    "peak_alltime": 18349,
+    "name_cn": "了不起的修仙模拟器"
+  },
+  {
+    "rank": 847,
+    "appid": 590380,
+    "name": "Into the Breach",
+    "current_players": 311,
+    "peak_24h": 414,
+    "peak_alltime": 14682,
+    "name_cn": "陷阵之志"
+  },
+  {
+    "rank": 849,
+    "appid": 2527500,
+    "name": "MiSide",
+    "current_players": 311,
+    "peak_24h": 674,
+    "peak_alltime": 23741,
+    "name_cn": "MiSide 虚拟女友"
+  },
+  {
+    "rank": 851,
+    "appid": 1097840,
+    "name": "Gears 5",
+    "current_players": 307,
+    "peak_24h": 374,
+    "peak_alltime": 10196,
+    "name_cn": "战争机器5"
+  },
+  {
+    "rank": 853,
+    "appid": 1335830,
+    "name": "Len's Island",
+    "current_players": 306,
+    "peak_24h": 735,
+    "peak_alltime": 15912,
+    "name_cn": "莱恩之岛"
+  },
+  {
+    "rank": 854,
+    "appid": 434170,
+    "name": "The Jackbox Party Pack 3",
+    "current_players": 304,
+    "peak_24h": 832,
+    "peak_alltime": 10972,
+    "name_cn": "Jackbox派对包3"
+  },
+  {
+    "rank": 855,
+    "appid": 768200,
+    "name": "Smalland: Survive the Wilds",
+    "current_players": 304,
+    "peak_24h": 652,
+    "peak_alltime": 12741,
+    "name_cn": "小人国：荒野求生"
+  },
+  {
+    "rank": 856,
+    "appid": 1171690,
+    "name": "Wayfinder",
+    "current_players": 304,
+    "peak_24h": 515,
+    "peak_alltime": 24712,
+    "name_cn": "寻路者"
+  },
+  {
+    "rank": 857,
+    "appid": 1282730,
+    "name": "Loop Hero",
+    "current_players": 302,
+    "peak_24h": 520,
+    "peak_alltime": 51156,
+    "name_cn": "循环英雄"
+  },
+  {
+    "rank": 858,
+    "appid": 1496790,
+    "name": "Gotham Knights",
+    "current_players": 300,
+    "peak_24h": 466,
+    "peak_alltime": 24138,
+    "name_cn": "哥谭骑士"
+  },
+  {
+    "rank": 859,
+    "appid": 1592190,
+    "name": "BONELAB",
+    "current_players": 300,
+    "peak_24h": 434,
+    "peak_alltime": 11991,
+    "name_cn": "骨骼实验室"
+  },
+  {
+    "rank": 862,
+    "appid": 3205720,
+    "name": "Schedule I: Free Sample",
+    "current_players": 293,
+    "peak_24h": 827,
+    "peak_alltime": 36145,
+    "name_cn": "附表一：免费样品"
+  },
+  {
+    "rank": 863,
+    "appid": 2218750,
+    "name": "Halls of Torment",
+    "current_players": 292,
+    "peak_24h": 492,
+    "peak_alltime": 26061,
+    "name_cn": "折磨之厅"
+  },
+  {
+    "rank": 864,
+    "appid": 63220,
+    "name": "Monday Night Combat Dedicated Server",
+    "current_players": 289,
+    "peak_24h": 325,
+    "peak_alltime": 13061,
+    "name_cn": "周一夜战斗 专服"
+  },
+  {
+    "rank": 865,
+    "appid": 418460,
+    "name": "Rising Storm 2: Vietnam",
+    "current_players": 289,
+    "peak_24h": 545,
+    "peak_alltime": 24518,
+    "name_cn": "风暴突击2：越南"
+  },
+  {
+    "rank": 867,
+    "appid": 1268750,
+    "name": "Starship Troopers: Extermination",
+    "current_players": 288,
+    "peak_24h": 526,
+    "peak_alltime": 16372,
+    "name_cn": "星河战队：灭绝"
+  },
+  {
+    "rank": 869,
+    "appid": 2163330,
+    "name": "Yet Another Zombie Survivors",
+    "current_players": 282,
+    "peak_24h": 490,
+    "peak_alltime": 10173,
+    "name_cn": "又一个僵尸幸存者"
+  },
+  {
+    "rank": 870,
+    "appid": 10180,
+    "name": "Call of Duty: Modern Warfare 2 (2009)",
+    "current_players": 278,
+    "peak_24h": 605,
+    "peak_alltime": 22614,
+    "name_cn": "使命召唤：现代战争2 (2009)"
+  },
+  {
+    "rank": 872,
+    "appid": 1262580,
+    "name": "Need for Speed Payback",
+    "current_players": 277,
+    "peak_24h": 655,
+    "peak_alltime": 12152,
+    "name_cn": "极品飞车：复仇"
+  },
+  {
+    "rank": 877,
+    "appid": 859580,
+    "name": "Imperator: Rome",
+    "current_players": 272,
+    "peak_24h": 517,
+    "peak_alltime": 41945,
+    "name_cn": "大将军：罗马"
+  },
+  {
+    "rank": 878,
+    "appid": 871720,
+    "name": "Ultimate Custom Night",
+    "current_players": 268,
+    "peak_24h": 592,
+    "peak_alltime": 11320,
+    "name_cn": "终极自定义夜晚"
+  },
+  {
+    "rank": 879,
+    "appid": 17505,
+    "name": "Zombie Panic! Source Dedicated Server",
+    "current_players": 264,
+    "peak_24h": 282,
+    "peak_alltime": 13643,
+    "name_cn": "僵尸恐慌 专服"
+  },
+  {
+    "rank": 880,
+    "appid": 532210,
+    "name": "Life is Strange 2",
+    "current_players": 262,
+    "peak_24h": 580,
+    "peak_alltime": 468717,
+    "name_cn": "奇异人生2"
+  },
+  {
+    "rank": 881,
+    "appid": 8710,
+    "name": "STCC - The Game Demo Dedicated Server",
+    "current_players": 259,
+    "peak_24h": 339,
+    "peak_alltime": 12397,
+    "name_cn": "STCC赛车 专服"
+  },
+  {
+    "rank": 883,
+    "appid": 560130,
+    "name": "Pillars of Eternity II: Deadfire",
+    "current_players": 258,
+    "peak_24h": 585,
+    "peak_alltime": 22724,
+    "name_cn": "永恒之柱2：死火"
+  },
+  {
+    "rank": 884,
+    "appid": 1113560,
+    "name": "NieR Replicant",
+    "current_players": 258,
+    "peak_24h": 364,
+    "peak_alltime": 28684,
+    "name_cn": "尼尔：伪装者"
+  },
+  {
+    "rank": 885,
+    "appid": 2273430,
+    "name": "BlazBlue Entropy Effect",
+    "current_players": 256,
+    "peak_24h": 708,
+    "peak_alltime": 11918,
+    "name_cn": "苍翼默示录：熵变效应"
+  },
+  {
+    "rank": 886,
+    "appid": 1149620,
+    "name": "Gas Station Simulator",
+    "current_players": 255,
+    "peak_24h": 549,
+    "peak_alltime": 12229,
+    "name_cn": "加油站模拟器"
+  },
+  {
+    "rank": 887,
+    "appid": 2352620,
+    "name": "Fellowship",
+    "current_players": 253,
+    "peak_24h": 639,
+    "peak_alltime": 43841,
+    "name_cn": "同行"
+  },
+  {
+    "rank": 888,
+    "appid": 1430190,
+    "name": "Killing Floor 3",
+    "current_players": 252,
+    "peak_24h": 374,
+    "peak_alltime": 30112,
+    "name_cn": "杀戮空间3"
+  },
+  {
+    "rank": 890,
+    "appid": 464920,
+    "name": "Surviving Mars",
+    "current_players": 251,
+    "peak_24h": 511,
+    "peak_alltime": 23744,
+    "name_cn": "火星求生"
+  },
+  {
+    "rank": 891,
+    "appid": 2417610,
+    "name": "METAL GEAR SOLID: SNAKE EATER",
+    "current_players": 251,
+    "peak_24h": 416,
+    "peak_alltime": 19634,
+    "name_cn": "合金装备Δ：食蛇者"
+  },
+  {
+    "rank": 892,
+    "appid": 222840,
+    "name": "Left 4 Dead Dedicated Server",
+    "current_players": 250,
+    "peak_24h": 379,
+    "peak_alltime": 12199,
+    "name_cn": "求生之路 专服"
+  },
+  {
+    "rank": 893,
+    "appid": 34120,
+    "name": "Aliens vs Predator Dedicated Server",
+    "current_players": 249,
+    "peak_24h": 506,
+    "peak_alltime": 24768,
+    "name_cn": "异形大战铁血战士 专服"
+  },
+  {
+    "rank": 895,
+    "appid": 747660,
+    "name": "Five Nights at Freddy's: Security Breach",
+    "current_players": 244,
+    "peak_24h": 530,
+    "peak_alltime": 17219,
+    "name_cn": "玩具熊的五夜后宫：安全漏洞"
+  },
+  {
+    "rank": 896,
+    "appid": 480490,
+    "name": "Prey",
+    "current_players": 243,
+    "peak_24h": 464,
+    "peak_alltime": 24594,
+    "name_cn": "掠食"
+  },
+  {
+    "rank": 897,
+    "appid": 680420,
+    "name": "OUTRIDERS",
+    "current_players": 243,
+    "peak_24h": 526,
+    "peak_alltime": 125143,
+    "name_cn": "先驱者"
+  },
+  {
+    "rank": 898,
+    "appid": 1961460,
+    "name": "Project Playtime",
+    "current_players": 243,
+    "peak_24h": 661,
+    "peak_alltime": 21105,
+    "name_cn": "玩具工厂"
+  },
+  {
+    "rank": 899,
+    "appid": 1392860,
+    "name": "Little Nightmares III",
+    "current_players": 242,
+    "peak_24h": 555,
+    "peak_alltime": 22653,
+    "name_cn": "小小梦魇3"
+  },
+  {
+    "rank": 900,
+    "appid": 624090,
+    "name": "Football Manager 2018",
+    "current_players": 239,
+    "peak_24h": 601,
+    "peak_alltime": 71575,
+    "name_cn": "足球经理2018"
+  },
+  {
+    "rank": 901,
+    "appid": 489520,
+    "name": "Minion Masters",
+    "current_players": 238,
+    "peak_24h": 449,
+    "peak_alltime": 10329,
+    "name_cn": "小兵大师"
+  },
+  {
+    "rank": 903,
+    "appid": 2445690,
+    "name": "Lost Castle 2",
+    "current_players": 236,
+    "peak_24h": 1520,
+    "peak_alltime": 20280,
+    "name_cn": "失落城堡2"
+  },
+  {
+    "rank": 904,
+    "appid": 1433140,
+    "name": "The Texas Chain Saw Massacre",
+    "current_players": 235,
+    "peak_24h": 304,
+    "peak_alltime": 17198,
+    "name_cn": "德州电锯杀人狂"
+  },
+  {
+    "rank": 905,
+    "appid": 872200,
+    "name": "Rogue Company",
+    "current_players": 234,
+    "peak_24h": 354,
+    "peak_alltime": 12189,
+    "name_cn": "侠盗公司"
+  },
+  {
+    "rank": 906,
+    "appid": 704270,
+    "name": "Generation Zero",
+    "current_players": 233,
+    "peak_24h": 541,
+    "peak_alltime": 11416,
+    "name_cn": "零世代"
+  },
+  {
+    "rank": 907,
+    "appid": 740130,
+    "name": "Tales of ARISE",
+    "current_players": 231,
+    "peak_24h": 499,
+    "peak_alltime": 60274,
+    "name_cn": "破晓传奇"
+  },
+  {
+    "rank": 908,
+    "appid": 2725260,
+    "name": "ENDER MAGNOLIA: Bloom in the Mist",
+    "current_players": 230,
+    "peak_24h": 612,
+    "peak_alltime": 14134,
+    "name_cn": "终结木兰：雾中绽放"
+  },
+  {
+    "rank": 910,
+    "appid": 42680,
+    "name": "Call of Duty: Modern Warfare 3 (2011)",
+    "current_players": 228,
+    "peak_24h": 493,
+    "peak_alltime": 46327,
+    "name_cn": "使命召唤：现代战争3 (2011)"
+  },
+  {
+    "rank": 911,
+    "appid": 70010,
+    "name": "Dino D-Day - Dedicated Server",
+    "current_players": 226,
+    "peak_24h": 313,
+    "peak_alltime": 14248,
+    "name_cn": "恐龙D日 专服"
+  },
+  {
+    "rank": 912,
+    "appid": 751780,
+    "name": "Forager",
+    "current_players": 225,
+    "peak_24h": 436,
+    "peak_alltime": 13438,
+    "name_cn": "浮岛物语"
+  },
+  {
+    "rank": 913,
+    "appid": 1611910,
+    "name": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+    "current_players": 225,
+    "peak_24h": 485,
+    "peak_alltime": 12455,
+    "name_cn": "战锤40K：混沌之门 恶魔猎人"
+  },
+  {
+    "rank": 915,
+    "appid": 2198150,
+    "name": "Tiny Glade",
+    "current_players": 224,
+    "peak_24h": 382,
+    "peak_alltime": 10692,
+    "name_cn": "小小空地"
+  },
+  {
+    "rank": 916,
+    "appid": 946050,
+    "name": "Soda Dungeon 2",
+    "current_players": 223,
+    "peak_24h": 287,
+    "peak_alltime": 13385,
+    "name_cn": "苏打地牢2"
+  },
+  {
+    "rank": 917,
+    "appid": 1211630,
+    "name": "The Jackbox Party Pack 7",
+    "current_players": 221,
+    "peak_24h": 570,
+    "peak_alltime": 10599,
+    "name_cn": "Jackbox派对包7"
+  },
+  {
+    "rank": 918,
+    "appid": 1451090,
+    "name": "Tactics Ogre: Reborn",
+    "current_players": 221,
+    "peak_24h": 368,
+    "peak_alltime": 10677,
+    "name_cn": "皇家骑士团：重生"
+  },
+  {
+    "rank": 921,
+    "appid": 1307550,
+    "name": "Craftopia",
+    "current_players": 215,
+    "peak_24h": 280,
+    "peak_alltime": 27246,
+    "name_cn": "创世理想乡"
+  },
+  {
+    "rank": 922,
+    "appid": 939960,
+    "name": "Far Cry New Dawn",
+    "current_players": 213,
+    "peak_24h": 496,
+    "peak_alltime": 16975,
+    "name_cn": "孤岛惊魂：新曙光"
+  },
+  {
+    "rank": 923,
+    "appid": 1102190,
+    "name": "Monster Train",
+    "current_players": 212,
+    "peak_24h": 318,
+    "peak_alltime": 14073,
+    "name_cn": "怪物火车"
+  },
+  {
+    "rank": 925,
+    "appid": 1644960,
+    "name": "NBA 2K22",
+    "current_players": 210,
+    "peak_24h": 519,
+    "peak_alltime": 46661,
+    "name_cn": "NBA 2K22"
+  },
+  {
+    "rank": 926,
+    "appid": 2909110,
+    "name": "Nuclear Nightmare",
+    "current_players": 210,
+    "peak_24h": 398,
+    "peak_alltime": 10441,
+    "name_cn": "核噩梦"
+  },
+  {
+    "rank": 927,
+    "appid": 420970,
+    "name": "RoBoRumble",
+    "current_players": 209,
+    "peak_24h": 209,
+    "peak_alltime": 13029,
+    "name_cn": "机器人大乱斗"
+  },
+  {
+    "rank": 930,
+    "appid": 3142050,
+    "name": "Warborne Above Ashes",
+    "current_players": 207,
+    "peak_24h": 299,
+    "peak_alltime": 16771,
+    "name_cn": "战火余生"
+  },
+  {
+    "rank": 931,
+    "appid": 1857090,
+    "name": "Norland",
+    "current_players": 206,
+    "peak_24h": 478,
+    "peak_alltime": 11866,
+    "name_cn": "诺兰"
+  },
+  {
+    "rank": 932,
+    "appid": 578650,
+    "name": "The Outer Worlds",
+    "current_players": 205,
+    "peak_24h": 375,
+    "peak_alltime": 20349,
+    "name_cn": "外部世界"
+  },
+  {
+    "rank": 933,
+    "appid": 860510,
+    "name": "Little Nightmares II",
+    "current_players": 205,
+    "peak_24h": 588,
+    "peak_alltime": 10563,
+    "name_cn": "小小梦魇2"
+  },
+  {
+    "rank": 934,
+    "appid": 3061810,
+    "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+    "current_players": 205,
+    "peak_24h": 436,
+    "peak_alltime": 22327,
+    "name_cn": "如龙：夏威夷海盗极道"
+  },
+  {
+    "rank": 935,
+    "appid": 482730,
+    "name": "Football Manager 2017",
+    "current_players": 204,
+    "peak_24h": 567,
+    "peak_alltime": 72824,
+    "name_cn": "足球经理2017"
+  },
+  {
+    "rank": 936,
+    "appid": 1340990,
+    "name": "Rise of the Ronin",
+    "current_players": 204,
+    "peak_24h": 536,
+    "peak_alltime": 12683,
+    "name_cn": "浪人崛起"
+  },
+  {
+    "rank": 937,
+    "appid": 3716600,
+    "name": "Mage Arena",
+    "current_players": 204,
+    "peak_24h": 252,
+    "peak_alltime": 17404,
+    "name_cn": "法师竞技场"
+  },
+  {
+    "rank": 938,
+    "appid": 372000,
+    "name": "Tree of Savior",
+    "current_players": 203,
+    "peak_24h": 221,
+    "peak_alltime": 53554,
+    "name_cn": "救世之树"
+  },
+  {
+    "rank": 939,
+    "appid": 1601570,
+    "name": "The Alters",
+    "current_players": 203,
+    "peak_24h": 601,
+    "peak_alltime": 18120,
+    "name_cn": "替身"
+  },
+  {
+    "rank": 941,
+    "appid": 1669980,
+    "name": "Volcano Princess",
+    "current_players": 201,
+    "peak_24h": 801,
+    "peak_alltime": 31057,
+    "name_cn": "火山的女儿"
+  },
+  {
+    "rank": 942,
+    "appid": 1418630,
+    "name": "Dread Hunger",
+    "current_players": 200,
+    "peak_24h": 973,
+    "peak_alltime": 107982,
+    "name_cn": "恐惧饥荒"
+  },
+  {
+    "rank": 943,
+    "appid": 10190,
+    "name": "Call of Duty: Modern Warfare 2 (2009) - Multiplayer",
+    "current_players": 198,
+    "peak_24h": 536,
+    "peak_alltime": 112874,
+    "name_cn": "使命召唤：现代战争2 (2009) 多人"
+  },
+  {
+    "rank": 944,
+    "appid": 1034140,
+    "name": "Subverse",
+    "current_players": 197,
+    "peak_24h": 262,
+    "peak_alltime": 25318,
+    "name_cn": "颠覆"
+  },
+  {
+    "rank": 945,
+    "appid": 1296830,
+    "name": "Warm Snow",
+    "current_players": 195,
+    "peak_24h": 718,
+    "peak_alltime": 44702,
+    "name_cn": "暖雪"
+  },
+  {
+    "rank": 946,
+    "appid": 2334730,
+    "name": "Death Must Die",
+    "current_players": 195,
+    "peak_24h": 326,
+    "peak_alltime": 15905,
+    "name_cn": "死亡必须死"
+  },
+  {
+    "rank": 948,
+    "appid": 712100,
+    "name": "A Total War Saga: THRONES OF BRITANNIA",
+    "current_players": 194,
+    "peak_24h": 419,
+    "peak_alltime": 22797,
+    "name_cn": "全面战争传奇：不列颠王座"
+  },
+  {
+    "rank": 950,
+    "appid": 2849080,
+    "name": "Kingdom Rush 5: Alliance TD",
+    "current_players": 189,
+    "peak_24h": 427,
+    "peak_alltime": 21133,
+    "name_cn": "王国保卫战5：联盟"
+  },
+  {
+    "rank": 952,
+    "appid": 584400,
+    "name": "Sonic Mania",
+    "current_players": 184,
+    "peak_24h": 280,
+    "peak_alltime": 11937,
+    "name_cn": "索尼克：狂欢"
+  },
+  {
+    "rank": 953,
+    "appid": 1337520,
+    "name": "Risk of Rain Returns",
+    "current_players": 180,
+    "peak_24h": 262,
+    "peak_alltime": 45141,
+    "name_cn": "雨中冒险：回归"
+  },
+  {
+    "rank": 955,
+    "appid": 2455640,
+    "name": "Romancing SaGa 2: Revenge of the Seven",
+    "current_players": 178,
+    "peak_24h": 521,
+    "peak_alltime": 16429,
+    "name_cn": "浪漫沙加2：七英雄的复仇"
+  },
+  {
+    "rank": 956,
+    "appid": 2791440,
+    "name": "Brighter Shores",
+    "current_players": 178,
+    "peak_24h": 238,
+    "peak_alltime": 21272,
+    "name_cn": "明亮海岸"
+  },
+  {
+    "rank": 957,
+    "appid": 2828860,
+    "name": "The Forever Winter",
+    "current_players": 175,
+    "peak_24h": 315,
+    "peak_alltime": 12611,
+    "name_cn": "永恒寒冬"
+  },
+  {
+    "rank": 958,
+    "appid": 1869590,
+    "name": "Omega Strikers",
+    "current_players": 174,
+    "peak_24h": 232,
+    "peak_alltime": 19257,
+    "name_cn": "欧米茄前锋"
+  },
+  {
+    "rank": 959,
+    "appid": 56400,
+    "name": "Warhammer 40,000: Dawn of War II - Retribution",
+    "current_players": 172,
+    "peak_24h": 377,
+    "peak_alltime": 15143,
+    "name_cn": "战锤40K：战争黎明2 惩罚"
+  },
+  {
+    "rank": 960,
+    "appid": 736190,
+    "name": "Chinese Parents",
+    "current_players": 172,
+    "peak_24h": 422,
+    "peak_alltime": 32593,
+    "name_cn": "中国式家长"
+  },
+  {
+    "rank": 961,
+    "appid": 1842810,
+    "name": "Taiko Risshiden V DX",
+    "current_players": 171,
+    "peak_24h": 422,
+    "peak_alltime": 10663,
+    "name_cn": "太阁立志传5 DX"
+  },
+  {
+    "rank": 962,
+    "appid": 461040,
+    "name": "PICO PARK: Classic Edition",
+    "current_players": 170,
+    "peak_24h": 706,
+    "peak_alltime": 18798,
+    "name_cn": "皮克公园 经典版"
+  },
+  {
+    "rank": 963,
+    "appid": 1113120,
+    "name": "IXION",
+    "current_players": 169,
+    "peak_24h": 364,
+    "peak_alltime": 17189,
+    "name_cn": "伊克西翁"
+  },
+  {
+    "rank": 964,
+    "appid": 378120,
+    "name": "Football Manager 2016",
+    "current_players": 168,
+    "peak_24h": 447,
+    "peak_alltime": 82916,
+    "name_cn": "足球经理2016"
+  },
+  {
+    "rank": 966,
+    "appid": 2285150,
+    "name": "The Front",
+    "current_players": 164,
+    "peak_24h": 259,
+    "peak_alltime": 19585,
+    "name_cn": "前线"
+  },
+  {
+    "rank": 968,
+    "appid": 2627260,
+    "name": "Ninja Gaiden 4",
+    "current_players": 162,
+    "peak_24h": 301,
+    "peak_alltime": 11217,
+    "name_cn": "忍者龙剑传4"
+  },
+  {
+    "rank": 969,
+    "appid": 3478050,
+    "name": "Road to Empress I",
+    "current_players": 162,
+    "peak_24h": 443,
+    "peak_alltime": 17170,
+    "name_cn": "女帝之路"
+  },
+  {
+    "rank": 970,
+    "appid": 295270,
+    "name": "Football Manager 2015",
+    "current_players": 161,
+    "peak_24h": 432,
+    "peak_alltime": 82071,
+    "name_cn": "足球经理2015"
+  },
+  {
+    "rank": 971,
+    "appid": 745920,
+    "name": "Temtem",
+    "current_players": 160,
+    "peak_24h": 275,
+    "peak_alltime": 39572,
+    "name_cn": "腾兽"
+  },
+  {
+    "rank": 972,
+    "appid": 1254120,
+    "name": "Bless Unleashed",
+    "current_players": 160,
+    "peak_24h": 276,
+    "peak_alltime": 76377,
+    "name_cn": "神佑释放"
+  },
+  {
+    "rank": 973,
+    "appid": 1818750,
+    "name": "MultiVersus",
+    "current_players": 160,
+    "peak_24h": 201,
+    "peak_alltime": 153433,
+    "name_cn": "多元宇宙大乱斗"
+  },
+  {
+    "rank": 976,
+    "appid": 875210,
+    "name": "Kingdom Heroes 8",
+    "current_players": 157,
+    "peak_24h": 403,
+    "peak_alltime": 25160,
+    "name_cn": "三国群英传8"
+  },
+  {
+    "rank": 979,
+    "appid": 597820,
+    "name": "BIOMUTANT",
+    "current_players": 156,
+    "peak_24h": 267,
+    "peak_alltime": 55048,
+    "name_cn": "生化变种"
+  },
+  {
+    "rank": 980,
+    "appid": 621830,
+    "name": "WRC 7",
+    "current_players": 151,
+    "peak_24h": 587,
+    "peak_alltime": 11215,
+    "name_cn": "世界拉力锦标赛7"
+  },
+  {
+    "rank": 981,
+    "appid": 2407270,
+    "name": "AI Limit",
+    "current_players": 148,
+    "peak_24h": 416,
+    "peak_alltime": 14480,
+    "name_cn": "AI极限"
+  },
+  {
+    "rank": 983,
+    "appid": 447020,
+    "name": "Farming Simulator 17",
+    "current_players": 146,
+    "peak_24h": 608,
+    "peak_alltime": 32313,
+    "name_cn": "模拟农场17"
+  },
+  {
+    "rank": 984,
+    "appid": 1253920,
+    "name": "Rogue Legacy 2",
+    "current_players": 145,
+    "peak_24h": 258,
+    "peak_alltime": 22811,
+    "name_cn": "盗贼遗产2"
+  },
+  {
+    "rank": 986,
+    "appid": 202970,
+    "name": "Call of Duty: Black Ops II",
+    "current_players": 143,
+    "peak_24h": 194,
+    "peak_alltime": 18277,
+    "name_cn": "使命召唤：黑色行动2"
+  },
+  {
+    "rank": 987,
+    "appid": 1690940,
+    "name": "DELTARUNE (Chapter 1 & 2 DEMO)",
+    "current_players": 143,
+    "peak_24h": 300,
+    "peak_alltime": 102916,
+    "name_cn": "三角符文 (第1&2章试玩)"
+  },
+  {
+    "rank": 988,
+    "appid": 424840,
+    "name": "Little Nightmares",
+    "current_players": 141,
+    "peak_24h": 298,
+    "peak_alltime": 78169,
+    "name_cn": "小小梦魇"
+  },
+  {
+    "rank": 989,
+    "appid": 1089350,
+    "name": "NBA 2K20",
+    "current_players": 141,
+    "peak_24h": 367,
+    "peak_alltime": 48375,
+    "name_cn": "NBA 2K20"
+  },
+  {
+    "rank": 990,
+    "appid": 823130,
+    "name": "Totally Accurate Battlegrounds",
+    "current_players": 140,
+    "peak_24h": 274,
+    "peak_alltime": 29438,
+    "name_cn": "全面吃鸡模拟器"
+  },
+  {
+    "rank": 991,
+    "appid": 1949740,
+    "name": "Banana Shooter",
+    "current_players": 138,
+    "peak_24h": 223,
+    "peak_alltime": 16242,
+    "name_cn": "香蕉射手"
+  },
+  {
+    "rank": 992,
+    "appid": 42710,
+    "name": "Call of Duty: Black Ops - Multiplayer",
+    "current_players": 137,
+    "peak_24h": 338,
+    "peak_alltime": 118593,
+    "name_cn": "使命召唤：黑色行动 多人"
+  },
+  {
+    "rank": 994,
+    "appid": 648350,
+    "name": "Jurassic World Evolution",
+    "current_players": 135,
+    "peak_24h": 362,
+    "peak_alltime": 60296,
+    "name_cn": "侏罗纪世界进化"
+  },
+  {
+    "rank": 995,
+    "appid": 1220010,
+    "name": "Home Behind 2",
+    "current_players": 135,
+    "peak_24h": 323,
+    "peak_alltime": 20081,
+    "name_cn": "归家异途2"
+  },
+  {
+    "rank": 996,
+    "appid": 2134320,
+    "name": "ENA: Dream BBQ",
+    "current_players": 133,
+    "peak_24h": 189,
+    "peak_alltime": 10988,
+    "name_cn": "ENA：梦境烧烤"
+  },
+  {
+    "rank": 997,
+    "appid": 611500,
+    "name": "Quake Champions",
+    "current_players": 132,
+    "peak_24h": 480,
+    "peak_alltime": 17476,
+    "name_cn": "雷神之锤冠军"
+  },
+  {
+    "rank": 999,
+    "appid": 503560,
+    "name": "911 Operator",
+    "current_players": 131,
+    "peak_24h": 244,
+    "peak_alltime": 10019,
+    "name_cn": "911接线员"
+  },
+  {
+    "rank": 1000,
+    "appid": 1549970,
+    "name": "Aliens: Fireteam Elite",
+    "current_players": 130,
+    "peak_24h": 260,
+    "peak_alltime": 15568,
+    "name_cn": "异形：火力小队精英"
+  }
+]

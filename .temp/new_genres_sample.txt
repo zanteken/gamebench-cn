@@ -1,0 +1,114 @@
+Sample genres from newly fetched games:
+
+1. Bongo Cat:
+   Genres: 休闲, 独立, 大型多人在线, 模拟, 免费开玩
+   Raw: ['休闲', '独立', '大型多人在线']
+
+3. Deadlock:
+   Genres: 动作
+   Raw: ['动作']
+
+4. Stardew Valley:
+   Genres: 独立, 角色扮演, 模拟
+   Raw: ['独立', '角色扮演', '模拟']
+
+5. 《守望先锋® 2》:
+   Genres: 动作, 免费开玩
+   Raw: ['动作', '免费开玩']
+
+6. 黎明杀机:
+   Genres: 动作
+   Raw: ['动作']
+
+7. 三角洲行动 :
+   Genres: 动作, 冒险, 大型多人在线, 免费开玩
+   Raw: ['动作', '冒险', '大型多人在线']
+
+8. VRChat:
+   Genres: 冒险, 休闲, 大型多人在线, 模拟, 体育
+   Raw: ['冒险', '休闲', '大型多人在线']
+
+9. Grand Theft Auto V 增强版:
+   Genres: 动作, 冒险, 竞速
+   Raw: ['动作', '冒险', '竞速']
+
+10. tModLoader:
+   Genres: 动作, 冒险, 独立, 角色扮演, 免费开玩
+   Raw: ['动作', '冒险', '独立']
+
+11. 仁王３:
+   Genres: 动作, 角色扮演
+   Raw: ['动作', '角色扮演']
+
+12. Crosshair X:
+   Genres: 动作, 冒险, 独立, 动画制作和建模, 设计和插画
+   Raw: ['动作', '冒险', '独立']
+
+13. 战地风云™ 6:
+   Genres: 动作
+   Raw: ['动作']
+
+14. Banana:
+   Genres: 冒险, 休闲, 模拟, 策略, 免费开玩
+   Raw: ['冒险', '休闲', '模拟']
+
+15. Palworld / 幻兽帕鲁:
+   Genres: 动作, 冒险, 独立, 角色扮演, 抢先体验
+   Raw: ['动作', '冒险', '独立']
+
+16. EA SPORTS FC™ 26:
+   Genres: 模拟, 体育
+   Raw: ['模拟', '体育']
+
+17. The Elder Scrolls V: Skyrim Special Edition:
+   Genres: 角色扮演
+   Raw: ['角色扮演']
+
+18. World of Warships:
+   Genres: 动作, 大型多人在线, 模拟, 策略, 免费开玩
+   Raw: ['动作', '大型多人在线', '模拟']
+
+19. R.E.P.O.:
+   Genres: 动作, 抢先体验
+   Raw: ['动作', '抢先体验']
+
+21. 《恶意不息》:
+   Genres: 动作, 冒险, 角色扮演, 抢先体验
+   Raw: ['动作', '冒险', '角色扮演']
+
+22. 艾尔登法环 黑夜君临:
+   Genres: 动作, 角色扮演
+   Raw: ['动作', '角色扮演']
+
+23. Yu-Gi-Oh! Master Duel:
+   Genres: 模拟, 策略, 免费开玩
+   Raw: ['模拟', '策略', '免费开玩']
+
+24. Schedule I:
+   Genres: 动作, 独立, 模拟, 策略, 抢先体验
+   Raw: ['动作', '独立', '模拟']
+
+25. NBA 2K26:
+   Genres: 体育
+   Raw: ['体育']
+
+26. 暗区突围：无限:
+   Genres: 动作, 冒险, 大型多人在线, 角色扮演, 策略
+   Raw: ['动作', '冒险', '大型多人在线']
+
+27. 足球经理26:
+   Genres: 模拟, 体育, 策略
+   Raw: ['模拟', '体育', '策略']
+
+28. Slay the Spire:
+   Genres: 独立, 策略
+   Raw: ['独立', '策略']
+
+29. Age of Empires II: Definitive Edition:
+   Genres: 策略
+   Raw: ['策略']
+
+30. 天国：拯救2:
+   Genres: 动作, 冒险, 角色扮演
+   Raw: ['动作', '冒险', '角色扮演']
+
