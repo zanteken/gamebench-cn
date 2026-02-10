@@ -63,3 +63,103 @@ export interface GameCardData {
     ram_gb: number | null;
   };
 }
+
+// ==================== 玩家印记系统 ====================
+
+export interface PlayerMark {
+  id: string;
+  game_app_id: number;
+  game_slug: string;
+  nickname: string;
+  avatar: string;
+  cpu: string;
+  gpu: string;
+  ram: string;
+  fps_avg: number | null;
+  fps_1_low: number | null;
+  fps_01_low: number | null;
+  resolution: string;
+  quality: string;
+  message: string;
+  tags: string[];
+  looking_for_friends: boolean;
+  source: "manual" | "desktop_app" | "auto";
+  likes_count: number;
+  replies_count: number;
+  created_at: string;
+}
+
+export interface CreateMarkInput {
+  game_app_id: number;
+  game_slug: string;
+  nickname: string;
+  avatar?: string;
+  cpu: string;
+  gpu: string;
+  ram?: string;
+  fps_avg?: number;
+  fps_1_low?: number;
+  resolution?: string;
+  quality?: string;
+  message: string;
+  tags?: string[];
+  looking_for_friends?: boolean;
+  source?: "manual" | "desktop_app";
+}
+
+export interface MarkReply {
+  id: string;
+  mark_id: string;
+  nickname: string;
+  avatar: string;
+  content: string;
+  likes_count: number;
+  created_at: string;
+}
+
+export interface CreateReplyInput {
+  mark_id: string;
+  nickname: string;
+  avatar?: string;
+  content: string;
+}
+
+export type SortType = "latest" | "popular" | "similar" | "friends";
+
+export interface MarksQuery {
+  gameSlug: string;
+  sort?: SortType;
+  gpu?: string;
+  page?: number;
+  limit?: number;
+}
+
+export interface FpsSessionUpload {
+  game_app_id: number;
+  cpu: string;
+  gpu: string;
+  ram_gb: number;
+  os: string;
+  fps_avg: number;
+  fps_1_low: number;
+  fps_01_low: number;
+  fps_max: number;
+  fps_min: number;
+  total_frames: number;
+  duration_secs: number;
+  resolution: string;
+  quality: string;
+  fps_timeline: { elapsed_secs: number; fps: number; frametime_ms: number }[];
+}
+
+export interface MarksResponse {
+  marks: PlayerMark[];
+  total: number;
+  stats: {
+    avg_fps: number;
+    mark_count: number;
+    friends_count: number;
+    gpu_distribution: { gpu: string; count: number }[];
+    fps_distribution: { bucket: string; count: number }[];
+  };
+}

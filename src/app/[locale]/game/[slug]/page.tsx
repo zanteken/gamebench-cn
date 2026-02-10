@@ -17,6 +17,7 @@ import Link from "next/link";
 import { getDictionary, type Locale, t } from "@/i18n/dictionaries";
 import { getAllGames, getGameBySlug } from "@/lib/games";
 import { getShopLink } from "@/lib/affiliate";
+import PlayerMarksSection from "@/components/player-marks/PlayerMarksSection";
 
 // Enable dynamic rendering for this page
 export const dynamic = 'force-dynamic';
@@ -166,6 +167,14 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
           {dict.game.viewOnSteam} ↗
         </a>
       </div>
+
+      {/* 玩家印记区域 */}
+      <PlayerMarksSection
+        gameSlug={game.slug}
+        gameAppId={game.appId}
+        gameName={displayName}
+        locale={locale}
+      />
     </div>
   );
 }
