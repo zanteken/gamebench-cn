@@ -12,11 +12,11 @@ export async function generateMetadata({
 
   return {
     title: locale === "zh"
-      ? "下载 GameBench CN 桌面端 - PC游戏性能检测工具"
-      : "Download GameBench CN Desktop - PC Game Performance Tool",
+      ? "下载 GameBencher 桌面端 - PC游戏性能检测工具"
+      : "Download GameBencher Desktop - PC Game Performance Tool",
     description: locale === "zh"
-      ? "免费下载 GameBench CN 桌面端，自动检测硬件配置，实时监测游戏帧率，一键生成性能报告。支持 Windows 和 macOS。"
-      : "Free download GameBench CN Desktop. Auto-detect hardware, monitor game FPS, generate performance reports. Supports Windows and macOS.",
+      ? "免费下载 GameBencher 桌面端，自动检测硬件配置，实时监测游戏帧率，一键生成性能报告。支持 Windows 和 macOS。"
+      : "Free download GameBencher Desktop. Auto-detect hardware, monitor game FPS, generate performance reports. Supports Windows and macOS.",
     keywords: locale === "zh"
       ? "游戏性能检测,FPS监测,硬件检测,GameBench下载,PC性能工具"
       : "game performance,FPS monitor,hardware detection,GameBench download,PC benchmark",
@@ -79,7 +79,7 @@ export default function DownloadPage({
           </div>
 
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4 tracking-tight">
-            GameBench CN
+            GameBencher
             <span className="block text-2xl sm:text-3xl font-normal text-slate-400 mt-2">
               {isZh ? "PC 游戏性能检测工具" : "PC Game Performance Tool"}
             </span>
@@ -264,7 +264,7 @@ export default function DownloadPage({
             {isZh ? "准备好了吗？" : "Ready to Go?"}
           </h3>
           <p className="text-slate-400 text-sm mb-6">
-            {isZh ? "下载 GameBench CN，用数据说话。" : "Download GameBench CN and let the data speak."}
+            {isZh ? "下载 GameBencher，用数据说话。" : "Download GameBencher and let the data speak."}
           </p>
           <DownloadButtons isZh={isZh} compact />
         </div>
