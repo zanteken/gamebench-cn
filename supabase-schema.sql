@@ -72,16 +72,30 @@ CREATE TABLE mark_likes (
 -- 4. 好友请求表
 CREATE TABLE friend_requests (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  from_mark_id UUID NOT NULL REFERENCES player_marks(id) ON DELETE CASCADE,
+  from_mark_id UUID REFERENCES player_marks(id) ON DELETE CASCADE,  -- 可为空（非印记用户发起）
   to_mark_id UUID NOT NULL REFERENCES player_marks(id) ON DELETE CASCADE,
-  
-  message TEXT DEFAULT '',
-  contact_info TEXT DEFAULT '',            -- 微信/QQ/Steam ID (加密存储)
-  status TEXT DEFAULT 'pending',           -- 'pending' | 'accepted' | 'rejected'
-  
+
+  -- 发起方信息（冗余存储，便于显示）
+  from_nickname TEXT NOT NULL CHECK (char_length(from_nickname) BETWEEN 1 AND 30),
+  from_avatar TEXT NOT NULL DEFAULT '🎮',
+  from_contact TEXT NOT NULL CHECK (char_length(from_contact) <= 50),
+  from_contact_type TEXT DEFAULT 'wechat',    -- 'wechat' | 'qq' | 'steam' | 'discord'
+  from_message TEXT DEFAULT '',               -- 附言（最多200字）
+
+  -- 接收方信息（接受后填写）
+  to_contact TEXT,                         -- 接收方的联系方式
+  to_contact_type TEXT,                      -- 接收方的联系方式类型
+  to_message TEXT,                           -- 接收方的回复
+
+  -- IP 频率限制
+  from_ip_hash TEXT,                         -- 发起方 IP 哈希（防滥用）
+
+  status TEXT DEFAULT 'pending',               -- 'pending' | 'accepted' | 'rejected'
   created_at TIMESTAMPTZ DEFAULT now(),
-  
-  UNIQUE(from_mark_id, to_mark_id)
+  responded_at TIMESTAMPTZ,                 -- 处理时间
+
+  -- 防止同一对用户重复请求
+  UNIQUE(to_mark_id, from_contact)
 );
 
 -- 5. FPS Session 详细数据 (桌面端上传)
@@ -125,6 +139,8 @@ CREATE INDEX idx_marks_created ON player_marks(created_at DESC);
 CREATE INDEX idx_marks_likes ON player_marks(likes_count DESC);
 CREATE INDEX idx_marks_friends ON player_marks(looking_for_friends) WHERE looking_for_friends = true;
 CREATE INDEX idx_marks_gpu ON player_marks(gpu);
+CREATE INDEX idx_friend_requests_to ON friend_requests(to_mark_id);
+CREATE INDEX idx_friend_requests_ip_time ON friend_requests(from_ip_hash, created_at);
 
 CREATE INDEX idx_replies_mark ON mark_replies(mark_id);
 CREATE INDEX idx_likes_mark ON mark_likes(mark_id);
