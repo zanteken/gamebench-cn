@@ -28,7 +28,7 @@ export default function PlayerMarksSection({
 
   const {
     marks, total, stats, loading, error,
-    sort, setSort, postMark, toggleLike, refresh,
+    sort, setSort, postMark, refresh,
   } = usePlayerMarks(gameSlug);
 
   const [showForm, setShowForm] = useState(false);
@@ -172,7 +172,6 @@ export default function PlayerMarksSection({
             onToggleExpand={() =>
               setExpandedId(expandedId === mark.id ? null : mark.id)
             }
-            onLike={() => toggleLike(mark.id)}
           />
         ))}
       </div>

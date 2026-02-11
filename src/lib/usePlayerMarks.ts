@@ -111,36 +111,12 @@ export function usePlayerMarks(gameSlug: string) {
     }
   };
 
-  // 点赞
-  const toggleLike = async (markId: string): Promise<boolean> => {
-    const fp = getFingerprint();
-    try {
-      const res = await fetch(`${API_BASE}/likes`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ mark_id: markId, fingerprint: fp }),
-      });
-      const { liked, likes_count } = await res.json();
-      // 使用 API 返回的新计数
-      setMarks((prev) =>
-        prev.map((m) =>
-          m.id === markId
-            ? { ...m, likes_count: likes_count ?? (m.likes_count || 0) + (liked ? 1 : -1) }
-            : m
-        )
-      );
-      return liked;
-    } catch {
-      return false;
-    }
-  };
-
   return {
     marks, total, stats, loading, error,
     myMarkId,
     sort, setSort,
     page, setPage,
-    postMark, toggleLike,
+    postMark,
     refresh: fetchMarks,
   };
 }
