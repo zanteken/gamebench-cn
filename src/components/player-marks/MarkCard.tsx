@@ -178,13 +178,13 @@ export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, onL
                 liked ? "bg-red-500/10 text-red-400" : "text-slate-600 hover:text-slate-400"
               }`}
             >
-              {liked ? "❤️" : "🤍"} {mark.likes_count}
+              {liked ? "❤️" : "🤍"} {mark.likes_count || 0}
             </button>
             <button
               onClick={onToggleExpand}
               className="flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs text-slate-600 hover:text-slate-400"
             >
-              {d.replies} {mark.replies_count}
+              {d.replies} {mark.replies_count || 0}
             </button>
 
             {/* 加为好友按钮 (不是自己的印记 + 对方开启了交友) */}

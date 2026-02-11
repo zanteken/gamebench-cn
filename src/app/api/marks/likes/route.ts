@@ -21,11 +21,15 @@ export async function POST(req: NextRequest) {
     .select("id")
     .eq("mark_id", mark_id)
     .eq("fingerprint", fingerprint)
-    .single();
+    .maybeSingle();
 
   if (existing) {
     // 取消点赞
     await supabase.from("mark_likes").delete().eq("id", existing.id);
+
+    // 减少计数（使用原生SQL）
+    await supabase.rpc("decrement_likes", { mark_id });
+
     return NextResponse.json({ liked: false });
   } else {
     // 添加点赞
@@ -36,6 +40,10 @@ export async function POST(req: NextRequest) {
     if (error) {
       return NextResponse.json({ error: error.message }, { status: 500 });
     }
+
+    // 增加计数
+    await supabase.rpc("increment_likes", { mark_id });
+
     return NextResponse.json({ liked: true });
   }
 }
