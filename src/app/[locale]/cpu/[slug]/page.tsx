@@ -122,7 +122,6 @@ export default function CPUPage({ params }: { params: { locale: string; slug: st
       {[
         { list: over60, title: dict.hardware.smooth, color: "bg-lime-500", limit: 30 },
         { list: mid, title: dict.hardware.playable, color: "bg-yellow-500", limit: 20 },
-        { list: predictions.slice(over60.length).filter(p => p.pred.fps >= 30 && p.pred.fps < 60), title: dict.hardware.playable, color: "bg-yellow-500", limit: 20 },
         { list: predictions.filter(p => p.pred.fps < 30), title: dict.hardware.notRecommended, color: "bg-red-500", limit: 10 },
       ].map(({ list, title, color, limit }) => list.length > 0 && (
         <section key={title} className="mb-8">
