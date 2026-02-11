@@ -87,8 +87,8 @@ export default function SendFriendRequestDialog({
           </p>
           <p className="text-xs text-slate-600 mb-4">
             {isEn
-              ? "They will see your request when they check their marks"
-              : "对方下次查看印记时会看到你的请求和联系方式"}
+              ? "They'll see your request on their player mark page (look for the 📬 icon)"
+              : "对方会在他们自己的印记卡片上看到你的请求（右上角 📬 图标）"}
           </p>
           <button
             onClick={onClose}
