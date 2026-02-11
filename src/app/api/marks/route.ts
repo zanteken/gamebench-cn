@@ -3,7 +3,12 @@ import { createServiceClient, isSupabaseEnabled } from "@/lib/supabase";
 import type { CreateMarkInput } from "@/lib/types";
 import crypto from "crypto";
 
-// GET /api/marks?slug=xxx&sort=latest&page=1&limit=20
+// 生成随机 secret_token
+function generateSecretToken(): string {
+  return crypto.randomBytes(32).toString("hex");
+}
+
+// GET /api/marks?slug=xxx&sort=latest&page=1&limit=20&token=xxx
 export async function GET(req: NextRequest) {
   // 检查 Supabase 是否配置
   if (!isSupabaseEnabled()) {
@@ -26,6 +31,7 @@ export async function GET(req: NextRequest) {
   const page = parseInt(searchParams.get("page") || "1");
   const limit = Math.min(parseInt(searchParams.get("limit") || "20"), 50);
   const gpu = searchParams.get("gpu");
+  const token = searchParams.get("token");
 
   if (!slug) {
     return NextResponse.json({ error: "missing_slug" }, { status: 400 });
@@ -33,6 +39,20 @@ export async function GET(req: NextRequest) {
 
   const supabase = createServiceClient();
   const offset = (page - 1) * limit;
+
+  // 如果有 token，尝试找到我的印记 ID
+  let myMarkId: string | null = null;
+  if (token) {
+    const { data: myMark } = await supabase
+      .from("player_marks")
+      .select("id")
+      .eq("secret_token", token)
+      .eq("game_slug", slug)
+      .single();
+    if (myMark) {
+      myMarkId = myMark.id;
+    }
+  }
 
   // 构建查询
   let query = supabase
@@ -108,9 +128,25 @@ export async function GET(req: NextRequest) {
     count: fpsValues.filter((f) => f >= b.min && f < b.max).length,
   }));
 
+  // 为我的印记添加待处理请求数量
+  const marksWithPending = await Promise.all(
+    (marks || []).map(async (mark) => {
+      if (myMarkId && mark.id === myMarkId) {
+        const { count } = await supabase
+          .from("friend_requests")
+          .select("*", { count: "exact", head: true })
+          .eq("to_mark_id", mark.id)
+          .eq("status", "pending");
+        return { ...mark, pending_requests_count: count || 0 };
+      }
+      return mark;
+    })
+  );
+
   return NextResponse.json({
-    marks: marks || [],
+    marks: marksWithPending || [],
     total: count || 0,
+    myMarkId,
     stats: {
       avg_fps: avgFps,
       mark_count: allMarks.length,
@@ -172,6 +208,8 @@ export async function POST(req: NextRequest) {
     );
   }
 
+  const secretToken = generateSecretToken();
+
   // 写入
   const { data, error } = await supabase
     .from("player_marks")
@@ -192,6 +230,7 @@ export async function POST(req: NextRequest) {
       looking_for_friends: body.looking_for_friends || false,
       source: body.source || "manual",
       ip_hash: ipHash,
+      secret_token: secretToken,
     })
     .select()
     .single();
@@ -200,7 +239,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  return NextResponse.json(data, { status: 201 });
+  // 返回数据包含 secret_token（客户端会保存后移除）
+  return NextResponse.json({ ...data, secret_token: secretToken }, { status: 201 });
 }
 
 function simplifyGpuName(name: string): string {

@@ -6,12 +6,14 @@ import MarkCard from "./MarkCard";
 import PostMarkForm from "./PostMarkForm";
 import FpsDistribution from "./FpsDistribution";
 import type { SortType } from "@/lib/types";
+import type { Dictionary } from "@/i18n/dictionaries";
 
 interface Props {
   gameSlug: string;
   gameAppId: number;
   gameName: string;
   locale?: string;
+  dict: Dictionary;
 }
 
 export default function PlayerMarksSection({
@@ -19,8 +21,11 @@ export default function PlayerMarksSection({
   gameAppId,
   gameName,
   locale = "zh",
+  dict,
 }: Props) {
   const isEn = locale === "en";
+  const d = dict.marks;
+
   const {
     marks, total, stats, loading, error,
     sort, setSort, postMark, toggleLike, refresh,
@@ -29,39 +34,12 @@ export default function PlayerMarksSection({
   const [showForm, setShowForm] = useState(false);
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
-  const SORT_OPTIONS: { key: SortType; label: string; icon?: string }[] = isEn
-    ? [
-        { key: "latest", label: "Latest" },
-        { key: "popular", label: "Popular" },
-        { key: "similar", label: "Similar" },
-        { key: "friends", label: "Friends", icon: "👋" },
-      ]
-    : [
-        { key: "latest", label: "最新" },
-        { key: "popular", label: "最热" },
-        { key: "similar", label: "和我相似" },
-        { key: "friends", label: "找朋友", icon: "👋" },
-      ];
-
-  const labels = {
-    slogan: isEn
-      ? "Friends are the highest spec in gaming"
-      : "朋友是游戏最高的配置",
-    sloganSub: isEn
-      ? "Leave your mark and find players in the same world"
-      : "在这里留下你的印记，找到同一个世界的同路人",
-    statsMarks: isEn ? "players left marks" : "位玩家留下印记",
-    statsAvg: isEn ? "avg" : "平均",
-    statsFriends: isEn ? "looking for friends" : "人想交朋友",
-    leaveMark: isEn ? "Leave Mark" : "留下印记",
-    cancel: isEn ? "Cancel" : "取消",
-    loading: isEn ? "Loading..." : "加载中...",
-    noMarks: isEn ? "No marks yet" : "还没有人留下印记",
-    noMarksSub: isEn
-      ? "Be the first to share your {gameName} experience"
-      : "成为第一个分享 {gameName} 体验的人",
-    showCount: isEn ? "Showing {count} / {total} marks" : "显示 {count} / {total} 条印记",
-  };
+  const SORT_OPTIONS: { key: SortType; label: string; icon?: string }[] = [
+    { key: "latest", label: d.sortLatest },
+    { key: "popular", label: d.sortPopular },
+    { key: "similar", label: d.sortSimilar },
+    { key: "friends", label: d.sortFriends, icon: "👋" },
+  ];
 
   return (
     <section className="mt-10 border-t border-[#1e293b] pt-8">
@@ -69,10 +47,10 @@ export default function PlayerMarksSection({
       <div className="text-center mb-6">
         <div className="inline-block px-6 py-4 rounded-xl bg-gradient-to-br from-blue-600/5 to-emerald-600/5 border border-blue-500/10">
           <p className="text-lg font-semibold text-white">
-            {labels.slogan}
+            {d.slogan}
           </p>
           <p className="text-xs text-slate-500 mt-1">
-            {labels.sloganSub}
+            {d.sloganDesc}
           </p>
         </div>
       </div>
@@ -80,11 +58,11 @@ export default function PlayerMarksSection({
       {/* 统计栏 */}
       {stats && stats.mark_count > 0 && (
         <div className="flex items-center justify-center gap-6 mb-6 text-xs text-slate-500">
-          <span>{stats.mark_count} {labels.statsMarks}</span>
+          <span>{stats.mark_count} {d.statsMarks}</span>
           <span>·</span>
-          <span>{labels.statsAvg} {stats.avg_fps} FPS</span>
+          <span>{d.statsAvg} {stats.avg_fps} {d.avgFPS}</span>
           <span>·</span>
-          <span>{stats.friends_count} {labels.statsFriends}</span>
+          <span>{stats.friends_count} {d.statsFriends}</span>
         </div>
       )}
 
@@ -122,7 +100,7 @@ export default function PlayerMarksSection({
               : "bg-blue-600 text-white shadow-lg shadow-blue-600/20 hover:bg-blue-500"
           }`}
         >
-          {showForm ? labels.cancel : `✍️ ${labels.leaveMark}`}
+          {showForm ? d.cancel : `✍️ ${d.leaveMark}`}
         </button>
       </div>
 
@@ -148,7 +126,7 @@ export default function PlayerMarksSection({
       {/* 加载状态 */}
       {loading && marks.length === 0 && (
         <div className="text-center py-12 text-slate-600 text-sm">
-          {labels.loading}
+          {d.loading}
         </div>
       )}
 
@@ -163,16 +141,18 @@ export default function PlayerMarksSection({
       {!loading && marks.length === 0 && (
         <div className="text-center py-16">
           <div className="text-4xl mb-3">🎮</div>
-          <p className="text-slate-400 text-sm">{labels.noMarks}</p>
+          <p className="text-slate-400 text-sm">{d.noMarks}</p>
           <p className="text-slate-600 text-xs mt-1">
-            {labels.noMarksSub.replace("{gameName}", gameName)}
+            {isEn
+              ? `Be the first to share your ${gameName} experience`
+              : `成为第一个分享 ${gameName} 体验的人`}
           </p>
           {!showForm && (
             <button
               onClick={() => setShowForm(true)}
               className="mt-4 px-5 py-2 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-500"
             >
-              {labels.leaveMark}
+              {d.leaveMark}
             </button>
           )}
         </div>
@@ -184,6 +164,8 @@ export default function PlayerMarksSection({
           <MarkCard
             key={mark.id}
             mark={mark}
+            gameSlug={gameSlug}
+            dict={dict}
             locale={locale}
             expanded={expandedId === mark.id}
             onToggleExpand={() =>
@@ -198,9 +180,9 @@ export default function PlayerMarksSection({
       {total > 20 && (
         <div className="flex justify-center gap-2 mt-6">
           <span className="text-xs text-slate-600">
-            {labels.showCount
-              .replace("{count}", String(marks.length))
-              .replace("{total}", String(total))}
+            {isEn
+              ? `Showing ${marks.length} / ${total} marks`
+              : `显示 ${marks.length} / ${total} 条印记`}
           </span>
         </div>
       )}

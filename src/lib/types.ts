@@ -162,4 +162,43 @@ export interface MarksResponse {
     gpu_distribution: { gpu: string; count: number }[];
     fps_distribution: { bucket: string; count: number }[];
   };
+  myMarkId?: string;
+}
+
+// ==================== 好友请求系统 ====================
+
+export interface FriendRequest {
+  id: string;
+  from_mark_id: string | null;
+  from_nickname: string;
+  from_avatar: string;
+  from_contact: string;
+  from_contact_type: "wechat" | "qq" | "steam" | "discord";
+  from_message: string;
+  to_mark_id: string;
+  to_contact?: string;
+  to_contact_type?: "wechat" | "qq" | "steam" | "discord";
+  to_message?: string;
+  status: "pending" | "accepted" | "rejected";
+  created_at: string;
+  responded_at?: string;
+}
+
+export interface CreateFriendRequestInput {
+  from_mark_id?: string;
+  from_nickname: string;
+  from_avatar?: string;
+  from_contact: string;
+  from_contact_type?: "wechat" | "qq" | "steam" | "discord";
+  from_message?: string;
+  to_mark_id: string;
+}
+
+export interface UpdateFriendRequestInput {
+  request_id: string;
+  token: string;
+  action: "accept" | "reject";
+  to_contact?: string;
+  to_contact_type?: "wechat" | "qq" | "steam" | "discord";
+  to_message?: string;
 }

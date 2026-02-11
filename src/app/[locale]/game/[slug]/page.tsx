@@ -174,6 +174,7 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
         gameAppId={game.appId}
         gameName={displayName}
         locale={locale}
+        dict={dict}
       />
     </div>
   );

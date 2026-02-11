@@ -2,164 +2,231 @@
 
 import { useState } from "react";
 import { useReplies } from "@/lib/usePlayerMarks";
+import { getMyMarkId, getMyToken } from "@/lib/useFriendRequests";
+import SendFriendRequestDialog from "./SendFriendRequestDialog";
+import MyFriendRequestsPanel from "./MyFriendRequestsPanel";
 import type { PlayerMark } from "@/lib/types";
+import type { Dictionary } from "@/i18n/dictionaries";
 
 interface Props {
   mark: PlayerMark;
+  gameSlug: string;
   expanded: boolean;
   onToggleExpand: () => void;
   onLike: () => void;
+  dict: Dictionary;
   locale?: string;
 }
 
-export default function MarkCard({ mark, expanded, onToggleExpand, onLike, locale = "zh" }: Props) {
+export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, onLike, dict, locale = "zh" }: Props) {
   const [liked, setLiked] = useState(false);
+  const [showFriendDialog, setShowFriendDialog] = useState(false);
+  const [showMyRequests, setShowMyRequests] = useState(false);
+
+  const d = dict.marks;
   const fpsColor = getFpsColor(mark.fps_avg || 0);
   const timeAgo = getTimeAgo(mark.created_at, locale);
   const isEn = locale === "en";
+
+  // 判断是否是"我的印记"
+  const myMarkId = getMyMarkId(gameSlug);
+  const isMine = myMarkId === mark.id;
 
   const handleLike = () => {
     setLiked(!liked);
     onLike();
   };
 
-  const labels = {
-    desktopApp: isEn ? "Desktop" : "桌面端",
-    avgFps: isEn ? "AVG FPS" : "平均",
-    fps1Low: isEn ? "1% Low" : "1% Low",
-    resolution: isEn ? "Resolution" : "分辨率",
-    quality: isEn ? "Quality" : "画质",
-    replies: isEn ? "replies" : "回复",
-    addFriend: isEn ? "Add Friend" : "加为好友",
-    lookingForFriends: isEn ? "Looking for friends" : "想交朋友",
-    saySomething: isEn ? "Say something..." : "说点什么...",
-    send: isEn ? "Send" : "发送",
-    nickname: isEn ? "Nickname" : "昵称",
-    loadingReplies: isEn ? "Loading replies..." : "加载回复...",
-    justNow: isEn ? "just now" : "刚刚",
-  };
-
   return (
-    <div className="rounded-xl bg-[#1a2233] border border-[#1e293b] hover:border-blue-900/40 transition-colors overflow-hidden">
-      <div className="p-4 sm:p-5">
-        {/* 头部 */}
-        <div className="flex justify-between items-start mb-3">
-          <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#1e293b] to-[#1a2233] flex items-center justify-center text-lg">
-              {mark.avatar}
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-sm font-semibold text-slate-200">{mark.nickname}</span>
-                {mark.looking_for_friends && (
-                  <span className="px-2 py-0.5 rounded-md text-[10px] font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                    👋 {labels.lookingForFriends}
-                  </span>
-                )}
-                {mark.source === "desktop_app" && (
-                  <span className="px-1.5 py-0.5 rounded text-[9px] bg-blue-500/10 text-blue-400 border border-blue-500/15">
-                    {labels.desktopApp}
-                  </span>
-                )}
+    <>
+      <div
+        className={`rounded-xl overflow-hidden transition-colors ${
+          isMine
+            ? "bg-blue-950/30 border border-blue-800/30"
+            : "bg-[#1a2233] border border-[#1e293b] hover:border-blue-900/40"
+        }`}
+      >
+        <div className="p-4 sm:p-5">
+          {/* 头部 */}
+          <div className="flex justify-between items-start mb-3">
+            <div className="flex items-center gap-2.5">
+              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#1e293b] to-[#1a2233] flex items-center justify-center text-lg">
+                {mark.avatar}
               </div>
-              <div className="text-[11px] text-slate-600 mt-0.5">{timeAgo}</div>
-            </div>
-          </div>
-
-          {/* FPS 徽章 */}
-          {mark.fps_avg && (
-            <div
-              className="text-right px-3 py-1 rounded-lg"
-              style={{ background: `${fpsColor}10`, border: `1px solid ${fpsColor}30` }}
-            >
-              <div className="text-xl font-extrabold leading-none" style={{ color: fpsColor }}>
-                {Math.round(mark.fps_avg)}
-              </div>
-              <div className="text-[9px] text-slate-600 mt-0.5">{labels.avgFps}</div>
-            </div>
-          )}
-        </div>
-
-        {/* 配置条 */}
-        <div className="flex flex-wrap gap-1.5 mb-3">
-          {mark.gpu && <ConfigPill icon="🖥" text={mark.gpu} />}
-          {mark.cpu && <ConfigPill icon="⚡" text={mark.cpu} />}
-          {mark.ram && <ConfigPill icon="💾" text={mark.ram} />}
-          <ConfigPill icon="📺" text={`${mark.resolution} · ${mark.quality}`} />
-        </div>
-
-        {/* FPS 细节 */}
-        {mark.fps_avg && (
-          <div className="flex gap-5 px-3 py-2 rounded-lg bg-[#0a0e17]/50 mb-3 text-xs">
-            <div>
-              <span className="text-slate-600">{labels.avgFps}</span>
-              <span className="ml-1 font-bold" style={{ color: fpsColor }}>{mark.fps_avg}</span>
-            </div>
-            {mark.fps_1_low && (
               <div>
-                <span className="text-slate-600">{labels.fps1Low}</span>
-                <span className="ml-1 font-bold" style={{ color: getFpsColor(mark.fps_1_low) }}>
-                  {mark.fps_1_low}
-                </span>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-sm font-semibold text-slate-200">{mark.nickname}</span>
+                  {isMine && (
+                    <span className="px-1.5 py-0.5 rounded text-[9px] bg-blue-500/15 text-blue-400 border border-blue-500/20">
+                      {d.myMark}
+                    </span>
+                  )}
+                  {mark.looking_for_friends && (
+                    <span className="px-2 py-0.5 rounded-md text-[10px] font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                      👋 {d.wantFriends}
+                    </span>
+                  )}
+                  {mark.source === "desktop_app" && (
+                    <span className="px-1.5 py-0.5 rounded text-[9px] bg-blue-500/10 text-blue-400 border border-blue-500/15">
+                      {d.fromDesktop}
+                    </span>
+                  )}
+                </div>
+                <div className="text-[11px] text-slate-600 mt-0.5">{timeAgo}</div>
               </div>
-            )}
-            <div>
-              <span className="text-slate-600">{labels.resolution}</span>
-              <span className="ml-1 text-slate-400">{mark.resolution}</span>
             </div>
-            <div>
-              <span className="text-slate-600">{labels.quality}</span>
-              <span className="ml-1 text-slate-400">{mark.quality}</span>
+
+            {/* 右上角: FPS 徽章 或 好友请求通知 */}
+            <div className="flex items-center gap-2">
+              {/* 我的印记: 好友请求通知 */}
+              {isMine && (mark as any).pending_requests_count > 0 && (
+                <button
+                  onClick={() => setShowMyRequests(true)}
+                  className="relative px-2.5 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 hover:bg-emerald-500/20 transition-colors"
+                >
+                  <span className="text-sm">📬</span>
+                  <span className="absolute -top-1.5 -right-1.5 w-5 h-5 rounded-full bg-emerald-500 text-white text-[10px] font-bold flex items-center justify-center animate-pulse">
+                    {(mark as any).pending_requests_count}
+                  </span>
+                </button>
+              )}
+
+              {/* 我的印记但没通知: 查看请求入口 */}
+              {isMine && !((mark as any).pending_requests_count > 0) && (
+                <button
+                  onClick={() => setShowMyRequests(true)}
+                  className="px-2.5 py-1.5 rounded-lg text-slate-700 hover:text-slate-400 hover:bg-slate-800/50 transition-colors"
+                  title={isEn ? "View friend requests" : "查看好友请求"}
+                >
+                  <span className="text-sm">📬</span>
+                </button>
+              )}
+
+              {/* FPS 徽章 */}
+              {mark.fps_avg && (
+                <div
+                  className="text-right px-3 py-1 rounded-lg"
+                  style={{ background: `${fpsColor}10`, border: `1px solid ${fpsColor}30` }}
+                >
+                  <div className="text-xl font-extrabold leading-none" style={{ color: fpsColor }}>
+                    {Math.round(mark.fps_avg)}
+                  </div>
+                  <div className="text-[9px] text-slate-600 mt-0.5">AVG FPS</div>
+                </div>
+              )}
             </div>
           </div>
-        )}
 
-        {/* 留言 */}
-        <p className="text-[13.5px] leading-relaxed text-slate-300 mb-2">
-          {mark.message}
-        </p>
-
-        {/* 标签 */}
-        {mark.tags.length > 0 && (
+          {/* 配置条 */}
           <div className="flex flex-wrap gap-1.5 mb-3">
-            {mark.tags.map((tag) => (
-              <span
-                key={tag}
-                className="px-2 py-0.5 rounded-md text-[11px] bg-blue-500/8 text-blue-400 border border-blue-500/12"
-              >
-                #{tag}
-              </span>
-            ))}
+            {mark.gpu && <ConfigPill icon="🖥" text={mark.gpu} />}
+            {mark.cpu && <ConfigPill icon="⚡" text={mark.cpu} />}
+            {mark.ram && <ConfigPill icon="💾" text={mark.ram} />}
+            <ConfigPill icon="📺" text={`${mark.resolution} · ${mark.quality}`} />
           </div>
-        )}
 
-        {/* 操作栏 */}
-        <div className="flex items-center gap-4 pt-3 border-t border-[#1e293b]/60">
-          <button
-            onClick={handleLike}
-            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs transition-colors ${
-              liked ? "bg-red-500/10 text-red-400" : "text-slate-600 hover:text-slate-400"
-            }`}
-          >
-            {liked ? "❤️" : "🤍"} {mark.likes_count}
-          </button>
-          <button
-            onClick={onToggleExpand}
-            className="flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs text-slate-600 hover:text-slate-400"
-          >
-            💬 {mark.replies_count}
-          </button>
-          {mark.looking_for_friends && (
-            <button className="ml-auto px-3 py-1.5 rounded-lg text-xs font-medium bg-emerald-500/8 text-emerald-400 border border-emerald-500/20 hover:bg-emerald-500/15 transition-colors">
-              🤝 {labels.addFriend}
-            </button>
+          {/* FPS 细节 */}
+          {mark.fps_avg && (
+            <div className="flex gap-5 px-3 py-2 rounded-lg bg-[#0a0e17]/50 mb-3 text-xs">
+              <div>
+                <span className="text-slate-600">{d.avgFpsLabel}</span>
+                <span className="ml-1 font-bold" style={{ color: fpsColor }}>{mark.fps_avg}</span>
+              </div>
+              {mark.fps_1_low && (
+                <div>
+                  <span className="text-slate-600">{d.low1Percent}</span>
+                  <span className="ml-1 font-bold" style={{ color: getFpsColor(mark.fps_1_low) }}>
+                    {mark.fps_1_low}
+                  </span>
+                </div>
+              )}
+              <div>
+                <span className="text-slate-600">{d.resolution}</span>
+                <span className="ml-1 text-slate-400">{mark.resolution}</span>
+              </div>
+              <div>
+                <span className="text-slate-600">{d.quality}</span>
+                <span className="ml-1 text-slate-400">{mark.quality}</span>
+              </div>
+            </div>
           )}
-        </div>
 
-        {/* 回复区 */}
-        {expanded && <RepliesSection markId={mark.id} locale={locale} labels={labels} />}
+          {/* 留言 */}
+          <p className="text-[13.5px] leading-relaxed text-slate-300 mb-2">
+            {mark.message}
+          </p>
+
+          {/* 标签 */}
+          {mark.tags.length > 0 && (
+            <div className="flex flex-wrap gap-1.5 mb-3">
+              {mark.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="px-2 py-0.5 rounded-md text-[11px] bg-blue-500/8 text-blue-400 border border-blue-500/12"
+                >
+                  #{tag}
+                </span>
+              ))}
+            </div>
+          )}
+
+          {/* 操作栏 */}
+          <div className="flex items-center gap-4 pt-3 border-t border-[#1e293b]/60">
+            <button
+              onClick={handleLike}
+              className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs transition-colors ${
+                liked ? "bg-red-500/10 text-red-400" : "text-slate-600 hover:text-slate-400"
+              }`}
+            >
+              {liked ? "❤️" : "🤍"} {mark.likes_count}
+            </button>
+            <button
+              onClick={onToggleExpand}
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs text-slate-600 hover:text-slate-400"
+            >
+              {d.replies} {mark.replies_count}
+            </button>
+
+            {/* 加为好友按钮 (不是自己的印记 + 对方开启了交友) */}
+            {!isMine && mark.looking_for_friends && (
+              <button
+                onClick={() => setShowFriendDialog(true)}
+                className="ml-auto px-3 py-1.5 rounded-lg text-xs font-medium bg-emerald-500/8 text-emerald-400 border border-emerald-500/20 hover:bg-emerald-500/15 transition-colors"
+              >
+                🤝 {d.addFriend}
+              </button>
+            )}
+          </div>
+
+          {/* 回复区 */}
+          {expanded && <RepliesSection markId={mark.id} locale={locale} dict={dict} />}
+        </div>
       </div>
-    </div>
+
+      {/* 好友请求弹窗 */}
+      {showFriendDialog && (
+        <SendFriendRequestDialog
+          targetMarkId={mark.id}
+          targetNickname={mark.nickname}
+          targetGpu={mark.gpu}
+          gameSlug={gameSlug}
+          dict={dict}
+          locale={locale}
+          onClose={() => setShowFriendDialog(false)}
+        />
+      )}
+
+      {/* 我的好友请求面板 */}
+      {showMyRequests && isMine && (
+        <MyFriendRequestsPanel
+          markId={mark.id}
+          gameSlug={gameSlug}
+          dict={dict}
+          locale={locale}
+          onClose={() => setShowMyRequests(false)}
+        />
+      )}
+    </>
   );
 }
 
@@ -168,10 +235,11 @@ export default function MarkCard({ mark, expanded, onToggleExpand, onLike, local
 interface RepliesSectionProps {
   markId: string;
   locale: string;
-  labels: Record<string, string>;
+  dict: Dictionary;
 }
 
-function RepliesSection({ markId, locale, labels }: RepliesSectionProps) {
+function RepliesSection({ markId, locale, dict }: RepliesSectionProps) {
+  const d = dict.marks;
   const { replies, loading, postReply } = useReplies(markId);
   const [content, setContent] = useState("");
   const [nickname, setNickname] = useState(() =>
@@ -195,7 +263,7 @@ function RepliesSection({ markId, locale, labels }: RepliesSectionProps) {
 
   return (
     <div className="mt-3 pt-3 border-t border-[#1e293b]/40">
-      {loading && <div className="text-xs text-slate-600 py-2">{labels.loadingReplies}</div>}
+      {loading && <div className="text-xs text-slate-600 py-2">{d.loadingReplies}</div>}
 
       {replies.map((reply) => (
         <div key={reply.id} className="flex gap-2 py-2">
@@ -213,7 +281,7 @@ function RepliesSection({ markId, locale, labels }: RepliesSectionProps) {
           <input
             value={nickname}
             onChange={(e) => setNickname(e.target.value)}
-            placeholder={labels.nickname}
+            placeholder={d.nickname}
             className="w-20 px-2 py-1.5 rounded-md text-xs bg-[#0a0e17] border border-[#1e293b] text-white outline-none"
           />
         )}
@@ -221,7 +289,7 @@ function RepliesSection({ markId, locale, labels }: RepliesSectionProps) {
           value={content}
           onChange={(e) => setContent(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSubmit()}
-          placeholder={labels.saySomething}
+          placeholder={d.saySomething}
           className="flex-1 px-3 py-1.5 rounded-md text-xs bg-[#0a0e17] border border-[#1e293b] text-white outline-none focus:border-blue-600"
         />
         <button
@@ -229,7 +297,7 @@ function RepliesSection({ markId, locale, labels }: RepliesSectionProps) {
           disabled={!content.trim()}
           className="px-3 py-1.5 rounded-md text-xs bg-blue-600 text-white disabled:opacity-40"
         >
-          {labels.send}
+          {d.send}
         </button>
       </div>
     </div>

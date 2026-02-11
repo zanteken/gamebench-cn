@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { getMyToken, saveMyToken, saveMyMarkId, getMyMarkId } from "./useFriendRequests";
 import type { PlayerMark, MarksResponse, MarkReply, SortType, CreateMarkInput, CreateReplyInput } from "./types";
 
 const API_BASE = "/api/marks";
@@ -14,7 +15,7 @@ function getFingerprint(): string {
 
   const canvas = document.createElement("canvas");
   const ctx = canvas.getContext("2d");
-  ctx?.fillText("GameBench", 10, 10);
+  ctx?.fillText("GameBencher", 10, 10);
   const canvasData = canvas.toDataURL();
 
   const raw = [
@@ -41,6 +42,7 @@ export function usePlayerMarks(gameSlug: string) {
   const [marks, setMarks] = useState<PlayerMark[]>([]);
   const [total, setTotal] = useState(0);
   const [stats, setStats] = useState<MarksResponse["stats"] | null>(null);
+  const [myMarkId, setMyMarkId] = useState<string | null>(getMyMarkId(gameSlug));
   const [loading, setLoading] = useState(true);
   const [sort, setSort] = useState<SortType>("latest");
   const [page, setPage] = useState(1);
@@ -50,18 +52,22 @@ export function usePlayerMarks(gameSlug: string) {
     setLoading(true);
     setError(null);
     try {
+      const myToken = getMyToken(gameSlug);
       const params = new URLSearchParams({
         slug: gameSlug,
         sort,
         page: String(page),
         limit: "20",
       });
+      if (myToken) params.set("token", myToken);
+
       const res = await fetch(`${API_BASE}?${params}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data: MarksResponse = await res.json();
       setMarks(data.marks);
       setTotal(data.total);
       setStats(data.stats);
+      setMyMarkId(data.myMarkId || null);
     } catch (e) {
       setError(String(e));
     } finally {
@@ -73,7 +79,7 @@ export function usePlayerMarks(gameSlug: string) {
     fetchMarks();
   }, [fetchMarks]);
 
-  // 发布印记
+  // 发布印记 — 保存 secret_token
   const postMark = async (input: CreateMarkInput): Promise<PlayerMark | null> => {
     try {
       const res = await fetch(API_BASE, {
@@ -85,7 +91,17 @@ export function usePlayerMarks(gameSlug: string) {
         const err = await res.json();
         throw new Error(err.error || `HTTP ${res.status}`);
       }
-      const mark: PlayerMark = await res.json();
+      const data = await res.json();
+
+      // 保存 token 和 markId 到 localStorage
+      if (data.secret_token) {
+        saveMyToken(gameSlug, data.secret_token);
+        saveMyMarkId(gameSlug, data.id);
+        setMyMarkId(data.id);
+      }
+
+      // 从返回数据中去掉 secret_token 再存到列表
+      const { secret_token, ...mark } = data as PlayerMark & { secret_token?: string };
       setMarks((prev) => [mark, ...prev]);
       setTotal((prev) => prev + 1);
       return mark;
@@ -120,6 +136,7 @@ export function usePlayerMarks(gameSlug: string) {
 
   return {
     marks, total, stats, loading, error,
+    myMarkId,
     sort, setSort,
     page, setPage,
     postMark, toggleLike,

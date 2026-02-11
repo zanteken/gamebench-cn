@@ -143,6 +143,115 @@ export type Dictionary = {
   footer: {
     tagline: string;
   };
+
+  // ── Player Marks ──
+  marks: {
+    slogan: string;
+    sloganDesc: string;
+    statsMarks: string;
+    statsAvg: string;
+    avgFPS: string;
+    statsFriends: string;
+    sortLatest: string;
+    sortPopular: string;
+    sortSimilar: string;
+    sortFriends: string;
+    leaveMark: string;
+    cancel: string;
+    leaveMarkShort: string;
+    markLeft: string;
+    loading: string;
+    noMarks: string;
+    noMarksDesc: string;
+    myMark: string;
+    wantFriends: string;
+    fromDesktop: string;
+    avgFpsLabel: string;
+    low1Percent: string;
+    resolution: string;
+    quality: string;
+    replies: string;
+    addFriend: string;
+    justNow: string;
+    minutesAgo: string;
+    hoursAgo: string;
+    daysAgo: string;
+    monthsAgo: string;
+    sendMessage: string;
+    send: string;
+    saySomething: string;
+    nickname: string;
+    loadingReplies: string;
+  };
+
+  // ── Post Mark Form ──
+  postMark: {
+    title: string;
+    subtitle: string;
+    nickname: string;
+    nicknamePlaceholder: string;
+    avatar: string;
+    gpu: string;
+    gpuPlaceholder: string;
+    cpu: string;
+    cpuPlaceholder: string;
+    ram: string;
+    ramPlaceholder: string;
+    fps: string;
+    fpsPlaceholder: string;
+    low1: string;
+    resolution: string;
+    quality: string;
+    qualityLow: string;
+    qualityMedium: string;
+    qualityHigh: string;
+    qualityUltra: string;
+    message: string;
+    messagePlaceholder: string;
+    messageLimit: string;
+    tags: string;
+    tagsPlaceholder: string;
+    tagsLimit: string;
+    lookingForFriends: string;
+    lookingForFriendsDesc: string;
+    submit: string;
+    submitting: string;
+    errorNickname: string;
+    errorGpu: string;
+    errorMessage: string;
+    errorNicknameTooLong: string;
+    errorMessageTooLong: string;
+  };
+
+  // ── Friend Requests ──
+  friends: {
+    sendRequest: string;
+    sendRequestTitle: string;
+    yourNickname: string;
+    yourContact: string;
+    contactType: string;
+    contactWechat: string;
+    contactQq: string;
+    contactSteam: string;
+    contactDiscord: string;
+    message: string;
+    messagePlaceholder: string;
+    send: string;
+    sending: string;
+    sent: string;
+    errorAlreadySent: string;
+    errorRateLimit: string;
+    myRequests: string;
+    noRequests: string;
+    requestFrom: string;
+    accept: string;
+    reject: string;
+    accepted: string;
+    rejected: string;
+    replyContact: string;
+    replyMessage: string;
+    replyMessagePlaceholder: string;
+  };
 };
 
 const dictionaries: Record<Locale, Dictionary> = {
@@ -284,6 +393,115 @@ const dictionaries: Record<Locale, Dictionary> = {
     footer: {
       tagline: "GameBencher — 中国首个PC游戏性能检测平台",
     },
+
+    // ── Player Marks ──
+    marks: {
+      slogan: "朋友是游戏最高的配置",
+      sloganDesc: "在这里留下你的印记，找到同一个世界的同路人",
+      statsMarks: " 位玩家留下印记",
+      statsAvg: "平均 ",
+      avgFPS: " FPS",
+      statsFriends: " 人想交朋友",
+      sortLatest: "最新",
+      sortPopular: "最热",
+      sortSimilar: "和我相似",
+      sortFriends: "找朋友",
+      leaveMark: "留下印记",
+      cancel: "取消",
+      leaveMarkShort: "留下印记",
+      markLeft: "✓ 你已留下印记",
+      loading: "加载中...",
+      noMarks: "还没有人留下印记",
+      noMarksDesc: "成为第一个分享 {game} 体验的人",
+      myMark: "我的印记",
+      wantFriends: "👋 想交朋友",
+      fromDesktop: "桌面端",
+      avgFpsLabel: "平均",
+      low1Percent: "1% Low",
+      resolution: "分辨率",
+      quality: "画质",
+      replies: "💬",
+      addFriend: "🤝 加为好友",
+      justNow: "刚刚",
+      minutesAgo: "分钟前",
+      hoursAgo: "小时前",
+      daysAgo: "天前",
+      monthsAgo: "个月前",
+      sendMessage: "发送",
+      send: "发送",
+      saySomething: "说点什么...",
+      nickname: "昵称",
+      loadingReplies: "加载回复...",
+    },
+
+    // ── Post Mark Form ──
+    postMark: {
+      title: "留下你的游戏印记",
+      subtitle: "分享你的硬件配置和游戏体验，帮助其他玩家",
+      nickname: "昵称",
+      nicknamePlaceholder: "你的游戏昵称",
+      avatar: "头像",
+      gpu: "显卡",
+      gpuPlaceholder: "如：RTX 4070",
+      cpu: "处理器",
+      cpuPlaceholder: "如：i5-13600K",
+      ram: "内存",
+      ramPlaceholder: "如：16GB DDR5",
+      fps: "平均 FPS",
+      fpsPlaceholder: "可选，如 60",
+      low1: "1% Low FPS",
+      resolution: "分辨率",
+      quality: "画质",
+      qualityLow: "低",
+      qualityMedium: "中",
+      qualityHigh: "高",
+      qualityUltra: "极高",
+      message: "留言",
+      messagePlaceholder: "分享你的游戏体验、配置心得...",
+      messageLimit: "最多 500 字",
+      tags: "标签",
+      tagsPlaceholder: "用逗号分隔，最多3个",
+      tagsLimit: "最多 3 个标签",
+      lookingForFriends: "想交朋友",
+      lookingForFriendsDesc: "允许其他玩家向你发送好友请求",
+      submit: "发布印记",
+      submitting: "发布中...",
+      errorNickname: "请输入昵称",
+      errorGpu: "请输入显卡型号",
+      errorMessage: "请输入留言",
+      errorNicknameTooLong: "昵称不能超过30字",
+      errorMessageTooLong: "留言不能超过500字",
+    },
+
+    // ── Friend Requests ──
+    friends: {
+      sendRequest: "发送好友请求",
+      sendRequestTitle: "向 {nickname} 发送好友请求",
+      yourNickname: "你的昵称",
+      yourContact: "联系方式",
+      contactType: "联系方式类型",
+      contactWechat: "微信",
+      contactQq: "QQ",
+      contactSteam: "Steam",
+      contactDiscord: "Discord",
+      message: "附言",
+      messagePlaceholder: "打个招呼吧（可选）",
+      send: "发送请求",
+      sending: "发送中...",
+      sent: "已发送",
+      errorAlreadySent: "你已经向这位玩家发过请求了",
+      errorRateLimit: "请求太频繁，请稍后再试",
+      myRequests: "好友请求",
+      noRequests: "暂无好友请求",
+      requestFrom: "{nickname} 想加你为好友",
+      accept: "接受",
+      reject: "拒绝",
+      accepted: "已接受",
+      rejected: "已拒绝",
+      replyContact: "你的联系方式（可选）",
+      replyMessage: "回复留言（可选）",
+      replyMessagePlaceholder: "打个招呼吧",
+    },
   },
 
   en: {
@@ -413,6 +631,115 @@ const dictionaries: Record<Locale, Dictionary> = {
 
     footer: {
       tagline: "GameBencher — PC Game Performance Testing Platform",
+    },
+
+    // ── Player Marks ──
+    marks: {
+      slogan: "Friends are the highest gaming spec",
+      sloganDesc: "Leave your mark and find like-minded gamers",
+      statsMarks: " players left marks",
+      statsAvg: "Avg ",
+      avgFPS: " FPS",
+      statsFriends: " looking for friends",
+      sortLatest: "Latest",
+      sortPopular: "Popular",
+      sortSimilar: "Similar to Me",
+      sortFriends: "Find Friends",
+      leaveMark: "Leave Mark",
+      cancel: "Cancel",
+      leaveMarkShort: "Leave Mark",
+      markLeft: "✓ You've left a mark",
+      loading: "Loading...",
+      noMarks: "No marks yet",
+      noMarksDesc: "Be the first to share your {game} experience",
+      myMark: "My Mark",
+      wantFriends: "👋 Looking for friends",
+      fromDesktop: "Desktop",
+      avgFpsLabel: "Average",
+      low1Percent: "1% Low",
+      resolution: "Resolution",
+      quality: "Quality",
+      replies: "💬",
+      addFriend: "🤝 Add Friend",
+      justNow: "Just now",
+      minutesAgo: "m ago",
+      hoursAgo: "h ago",
+      daysAgo: "d ago",
+      monthsAgo: "mo ago",
+      sendMessage: "Send",
+      send: "Send",
+      saySomething: "Say something...",
+      nickname: "Nickname",
+      loadingReplies: "Loading replies...",
+    },
+
+    // ── Post Mark Form ──
+    postMark: {
+      title: "Leave Your Gaming Mark",
+      subtitle: "Share your hardware setup and gaming experience",
+      nickname: "Nickname",
+      nicknamePlaceholder: "Your gaming nickname",
+      avatar: "Avatar",
+      gpu: "GPU",
+      gpuPlaceholder: "e.g. RTX 4070",
+      cpu: "CPU",
+      cpuPlaceholder: "e.g. i5-13600K",
+      ram: "RAM",
+      ramPlaceholder: "e.g. 16GB DDR5",
+      fps: "Average FPS",
+      fpsPlaceholder: "Optional, e.g. 60",
+      low1: "1% Low FPS",
+      resolution: "Resolution",
+      quality: "Quality",
+      qualityLow: "Low",
+      qualityMedium: "Medium",
+      qualityHigh: "High",
+      qualityUltra: "Ultra",
+      message: "Message",
+      messagePlaceholder: "Share your gaming experience, setup tips...",
+      messageLimit: "Max 500 chars",
+      tags: "Tags",
+      tagsPlaceholder: "Comma separated, max 3",
+      tagsLimit: "Max 3 tags",
+      lookingForFriends: "Looking for friends",
+      lookingForFriendsDesc: "Allow other players to send you friend requests",
+      submit: "Post Mark",
+      submitting: "Posting...",
+      errorNickname: "Please enter nickname",
+      errorGpu: "Please enter GPU model",
+      errorMessage: "Please enter message",
+      errorNicknameTooLong: "Nickname cannot exceed 30 chars",
+      errorMessageTooLong: "Message cannot exceed 500 chars",
+    },
+
+    // ── Friend Requests ──
+    friends: {
+      sendRequest: "Send Friend Request",
+      sendRequestTitle: "Send friend request to {nickname}",
+      yourNickname: "Your nickname",
+      yourContact: "Contact info",
+      contactType: "Contact type",
+      contactWechat: "WeChat",
+      contactQq: "QQ",
+      contactSteam: "Steam",
+      contactDiscord: "Discord",
+      message: "Note",
+      messagePlaceholder: "Say hello (optional)",
+      send: "Send Request",
+      sending: "Sending...",
+      sent: "Sent",
+      errorAlreadySent: "You've already sent a request to this player",
+      errorRateLimit: "Too many requests, please try again later",
+      myRequests: "Friend Requests",
+      noRequests: "No friend requests yet",
+      requestFrom: "{nickname} wants to be your friend",
+      accept: "Accept",
+      reject: "Reject",
+      accepted: "Accepted",
+      rejected: "Rejected",
+      replyContact: "Your contact info (optional)",
+      replyMessage: "Reply message (optional)",
+      replyMessagePlaceholder: "Say hello",
     },
   },
 };
