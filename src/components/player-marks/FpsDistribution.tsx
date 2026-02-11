@@ -24,9 +24,9 @@ export default function FpsDistribution({ distribution, gpuDistribution, dict }:
   if (totalPlayers === 0) return null;
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 items-stretch">
       {/* FPS 分布 */}
-      <div className="p-4 rounded-xl bg-[#1a2233] border border-[#1e293b]">
+      <div className="p-4 rounded-xl bg-[#1a2233] border border-[#1e293b] flex flex-col">
         <div className="text-[11px] text-slate-600 mb-3">{d.fpsDistribution}</div>
         <div className="flex items-end gap-2 h-12">
           {distribution.map((d) => {
@@ -56,7 +56,7 @@ export default function FpsDistribution({ distribution, gpuDistribution, dict }:
 
       {/* GPU 分布 */}
       {gpuDistribution.length > 0 && (
-        <div className="p-4 rounded-xl bg-[#1a2233] border border-[#1e293b]">
+        <div className="p-4 rounded-xl bg-[#1a2233] border border-[#1e293b] flex flex-col">
           <div className="text-[11px] text-slate-600 mb-3">{d.popularGpus}</div>
           <div className="space-y-1.5">
             {gpuDistribution.slice(0, 5).map((g, i) => {
