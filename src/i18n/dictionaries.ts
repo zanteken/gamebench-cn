@@ -432,6 +432,8 @@ const dictionaries: Record<Locale, Dictionary> = {
       saySomething: "说点什么...",
       nickname: "昵称",
       loadingReplies: "加载回复...",
+      fpsDistribution: "玩家 FPS 分布",
+      popularGpus: "热门显卡",
     },
 
     // ── Post Mark Form ──
@@ -671,6 +673,8 @@ const dictionaries: Record<Locale, Dictionary> = {
       saySomething: "Say something...",
       nickname: "Nickname",
       loadingReplies: "Loading replies...",
+      fpsDistribution: "Player FPS Distribution",
+      popularGpus: "Popular GPUs",
     },
 
     // ── Post Mark Form ──

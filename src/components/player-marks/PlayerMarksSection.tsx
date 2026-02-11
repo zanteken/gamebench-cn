@@ -71,6 +71,7 @@ export default function PlayerMarksSection({
         <FpsDistribution
           distribution={stats.fps_distribution}
           gpuDistribution={stats.gpu_distribution}
+          dict={dict}
         />
       )}
 

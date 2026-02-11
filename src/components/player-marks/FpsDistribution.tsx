@@ -1,8 +1,11 @@
 "use client";
 
+import type { Dictionary } from "@/i18n/dictionaries";
+
 interface Props {
   distribution: { bucket: string; count: number }[];
   gpuDistribution: { gpu: string; count: number }[];
+  dict: Dictionary;
 }
 
 const BUCKET_COLORS: Record<string, string> = {
@@ -13,7 +16,8 @@ const BUCKET_COLORS: Record<string, string> = {
   "120+": "#8b5cf6",
 };
 
-export default function FpsDistribution({ distribution, gpuDistribution }: Props) {
+export default function FpsDistribution({ distribution, gpuDistribution, dict }: Props) {
+  const d = dict.marks;
   const maxCount = Math.max(...distribution.map((d) => d.count), 1);
   const totalPlayers = distribution.reduce((s, d) => s + d.count, 0);
 
@@ -23,7 +27,7 @@ export default function FpsDistribution({ distribution, gpuDistribution }: Props
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
       {/* FPS 分布 */}
       <div className="p-4 rounded-xl bg-[#1a2233] border border-[#1e293b]">
-        <div className="text-[11px] text-slate-600 mb-3">玩家 FPS 分布</div>
+        <div className="text-[11px] text-slate-600 mb-3">{d.fpsDistribution}</div>
         <div className="flex items-end gap-2 h-12">
           {distribution.map((d) => {
             const color = BUCKET_COLORS[d.bucket] || "#64748b";
@@ -53,7 +57,7 @@ export default function FpsDistribution({ distribution, gpuDistribution }: Props
       {/* GPU 分布 */}
       {gpuDistribution.length > 0 && (
         <div className="p-4 rounded-xl bg-[#1a2233] border border-[#1e293b]">
-          <div className="text-[11px] text-slate-600 mb-3">热门显卡</div>
+          <div className="text-[11px] text-slate-600 mb-3">{d.popularGpus}</div>
           <div className="space-y-1.5">
             {gpuDistribution.slice(0, 5).map((g, i) => {
               const maxGpu = gpuDistribution[0].count;
