@@ -76,10 +76,10 @@ export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, dic
               {isMine && (mark as any).pending_requests_count > 0 && (
                 <button
                   onClick={() => setShowMyRequests(true)}
-                  className="relative px-2.5 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 hover:bg-emerald-500/20 transition-colors"
+                  className="relative px-2 py-1 rounded-lg bg-emerald-500/10 border border-emerald-500/20 hover:bg-emerald-500/20 transition-colors"
                 >
-                  <span className="text-sm">📬</span>
-                  <span className="absolute -top-1.5 -right-1.5 w-5 h-5 rounded-full bg-emerald-500 text-white text-[10px] font-bold flex items-center justify-center animate-pulse">
+                  <span className="text-xs">{isEn ? "Friend Requests" : "好友请求"}</span>
+                  <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-emerald-500 text-white text-[9px] font-bold flex items-center justify-center animate-pulse">
                     {(mark as any).pending_requests_count}
                   </span>
                 </button>
@@ -89,10 +89,9 @@ export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, dic
               {isMine && !((mark as any).pending_requests_count > 0) && (
                 <button
                   onClick={() => setShowMyRequests(true)}
-                  className="px-2.5 py-1.5 rounded-lg text-slate-700 hover:text-slate-400 hover:bg-slate-800/50 transition-colors"
-                  title={isEn ? "View friend requests" : "查看好友请求"}
+                  className="px-2 py-1 rounded-lg text-slate-700 hover:text-emerald-400 hover:bg-slate-800/50 transition-colors"
                 >
-                  <span className="text-sm">📬</span>
+                  <span className="text-xs">{isEn ? "Friend Requests" : "好友请求"}</span>
                 </button>
               )}
 
