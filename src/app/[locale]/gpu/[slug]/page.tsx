@@ -42,7 +42,10 @@ export default function GPUPage({ params }: { params: { locale: string; slug: st
   if (!gpu) return notFound();
 
   const typicalCPU = getTypicalCPU(gpu);
-  const games = getAllGames();
+
+  // 只计算前 100 款热门游戏，而不是全部
+  const allGames = getAllGames();
+  const games = allGames.slice(0, 100);
   const predictions = games
     .map((game) => ({ game, pred: predictFPS(typicalCPU, gpu, 16, game, "1080p", "high") }))
     .sort((a, b) => b.pred.fps - a.pred.fps);
