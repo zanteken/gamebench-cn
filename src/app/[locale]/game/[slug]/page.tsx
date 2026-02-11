@@ -28,13 +28,16 @@ export async function generateMetadata({ params }: { params: { locale: string; s
   const game = getGameBySlug(params.slug);
   if (!game) return {};
 
+  // 根据语言选择游戏名称
+  const displayName = locale === "en" && game.nameEn ? game.nameEn : game.name;
+
   const recCPU = game.requirements?.recommended?.cpu ?? "N/A";
   const recGPU = game.requirements?.recommended?.gpu ?? "N/A";
   const recRAM = game.requirements?.recommended?.ram_gb ?? "N/A";
 
   return {
-    title: t(dict.game.metaTitle, { game: game.name }),
-    description: t(dict.game.metaDesc, { game: game.name, cpu: recCPU, gpu: recGPU, ram: String(recRAM) }),
+    title: t(dict.game.metaTitle, { game: displayName }),
+    description: t(dict.game.metaDesc, { game: displayName, cpu: recCPU, gpu: recGPU, ram: String(recRAM) }),
     alternates: {
       languages: { zh: `/zh/game/${game.slug}`, en: `/en/game/${game.slug}` },
     },
