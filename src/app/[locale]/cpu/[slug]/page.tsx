@@ -119,14 +119,19 @@ export default function CPUPage({ params }: { params: { locale: string; slug: st
       </section>
 
       {/* Game lists */}
-      {over60.length > 0 && (
-        <section className="mb-8">
+      {[
+        { list: over60, title: dict.hardware.smooth, color: "bg-lime-500", limit: 30 },
+        { list: mid, title: dict.hardware.playable, color: "bg-yellow-500", limit: 20 },
+        { list: predictions.slice(over60.length).filter(p => p.pred.fps >= 30 && p.pred.fps < 60), title: dict.hardware.playable, color: "bg-yellow-500", limit: 20 },
+        { list: predictions.filter(p => p.pred.fps < 30), title: dict.hardware.notRecommended, color: "bg-red-500", limit: 10 },
+      ].map(({ list, title, color, limit }) => list.length > 0 && (
+        <section key={title} className="mb-8">
           <h2 className="mb-3 flex items-center gap-2 text-base font-bold text-white">
-            <span className="inline-block h-3 w-3 rounded-full bg-lime-500" />
-            {dict.hardware.smooth} — {over60.length} {dict.hardware.games}
+            <span className={`inline-block h-3 w-3 rounded-full ${color}`} />
+            {title} — {list.length} {dict.hardware.games}
           </h2>
           <div className="grid gap-1.5 sm:grid-cols-2">
-            {over60.slice(0, 30).map(({ game, pred }) => (
+            {list.slice(0, limit).map(({ game, pred }) => (
               <Link key={game.appId} href={`/${locale}/game/${game.slug}`}
                 className="flex items-center justify-between rounded-lg border border-[#1e293b] bg-[#131c2e] px-3 py-2 transition hover:border-[#2a3548]">
                 <span className="truncate text-sm text-slate-300">{locale === "en" && game.nameEn ? game.nameEn : game.name}</span>
@@ -135,7 +140,7 @@ export default function CPUPage({ params }: { params: { locale: string; slug: st
             ))}
           </div>
         </section>
-      )}
+      ))}
 
       <section className="mb-8">
         <h2 className="mb-3 text-base font-bold text-white">{dict.hardware.relatedCPU}</h2>
