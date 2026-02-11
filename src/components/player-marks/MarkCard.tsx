@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useReplies } from "@/lib/usePlayerMarks";
 import { getMyMarkId, getMyToken } from "@/lib/useFriendRequests";
 import SendFriendRequestDialog from "./SendFriendRequestDialog";
@@ -18,10 +18,51 @@ interface Props {
   locale?: string;
 }
 
+// 获取浏览器指纹
+function getFingerprint(): string {
+  if (typeof window === "undefined") return "";
+  let fp = localStorage.getItem("gb_fingerprint");
+  if (!fp) {
+    fp = Math.random().toString(36).substring(2) + Date.now().toString(36);
+    localStorage.setItem("gb_fingerprint", fp);
+  }
+  return fp;
+}
+
 export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, onLike, dict, locale = "zh" }: Props) {
   const [liked, setLiked] = useState(false);
   const [showFriendDialog, setShowFriendDialog] = useState(false);
   const [showMyRequests, setShowMyRequests] = useState(false);
+
+  const d = dict.marks;
+  const fpsColor = getFpsColor(mark.fps_avg || 0);
+  const timeAgo = getTimeAgo(mark.created_at, locale);
+  const isEn = locale === "en";
+
+  // 判断是否是"我的印记"
+  const myMarkId = getMyMarkId(gameSlug);
+  const isMine = myMarkId === mark.id;
+
+  // 检查是否已点赞
+  useEffect(() => {
+    const checkLiked = async () => {
+      const fp = getFingerprint();
+      if (!fp) return;
+      try {
+        const res = await fetch(`/api/marks/likes?mark_id=${mark.id}&fingerprint=${fp}`);
+        const data = await res.json();
+        setLiked(data.liked || false);
+      } catch {
+        // ignore
+      }
+    };
+    checkLiked();
+  }, [mark.id]);
+
+  const handleLike = () => {
+    setLiked(!liked);
+    onLike();
+  };
 
   const d = dict.marks;
   const fpsColor = getFpsColor(mark.fps_avg || 0);

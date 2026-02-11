@@ -120,11 +120,12 @@ export function usePlayerMarks(gameSlug: string) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ mark_id: markId, fingerprint: fp }),
       });
-      const { liked } = await res.json();
+      const { liked, likes_count } = await res.json();
+      // 使用 API 返回的新计数
       setMarks((prev) =>
         prev.map((m) =>
           m.id === markId
-            ? { ...m, likes_count: m.likes_count + (liked ? 1 : -1) }
+            ? { ...m, likes_count: likes_count ?? (m.likes_count || 0) + (liked ? 1 : -1) }
             : m
         )
       );
