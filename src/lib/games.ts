@@ -167,3 +167,34 @@ export function formatRecommendations(count: number, locale: string = "zh"): str
   if (count >= 1000) return `${(count / 1000).toFixed(1)}k`;
   return count.toString();
 }
+
+/**
+ * 格式化日期（从中文格式 "2021 年 11 月 8 日" 转换为英文格式）
+ */
+export function formatDate(dateStr: string | null, locale: string = "zh"): string | null {
+  if (!dateStr) return null;
+
+  // 如果是中文格式，尝试解析
+  const cnMatch = dateStr.match(/(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/);
+  if (cnMatch) {
+    const [, year, month, day] = cnMatch;
+    if (locale === "en") {
+      // English format: November 8, 2021
+      const monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
+      return `${monthNames[parseInt(month) - 1]} ${parseInt(day)}, ${year}`;
+    }
+    return dateStr; // 中文直接返回原格式
+  }
+
+  // 尝试解析 ISO 格式或其他格式
+  const date = new Date(dateStr);
+  if (!isNaN(date.getTime())) {
+    if (locale === "en") {
+      return date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+    }
+    return date.toLocaleDateString("zh-CN");
+  }
+
+  return dateStr;
+}

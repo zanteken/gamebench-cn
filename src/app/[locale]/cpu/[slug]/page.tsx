@@ -126,7 +126,7 @@ export default function CPUPage({ params }: { params: { locale: string; slug: st
             {over60.slice(0, 30).map(({ game, pred }) => (
               <Link key={game.appId} href={`/${locale}/game/${game.slug}`}
                 className="flex items-center justify-between rounded-lg border border-[#1e293b] bg-[#131c2e] px-3 py-2 transition hover:border-[#2a3548]">
-                <span className="truncate text-sm text-slate-300">{game.name}</span>
+                <span className="truncate text-sm text-slate-300">{locale === "en" && game.nameEn ? game.nameEn : game.name}</span>
                 <FPSBadge fps={pred.fps} />
               </Link>
             ))}

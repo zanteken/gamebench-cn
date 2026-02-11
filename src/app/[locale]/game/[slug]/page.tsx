@@ -15,7 +15,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getDictionary, type Locale, t } from "@/i18n/dictionaries";
-import { getAllGames, getGameBySlug } from "@/lib/games";
+import { getAllGames, getGameBySlug, formatDate } from "@/lib/games";
 import { getShopLink } from "@/lib/affiliate";
 import PlayerMarksSection from "@/components/player-marks/PlayerMarksSection";
 
@@ -55,6 +55,7 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
   const displayContentDescriptors = locale === "en" && game.contentDescriptorsEn
     ? game.contentDescriptorsEn
     : (game.contentDescriptors || []);
+  const displayDate = formatDate(game.releaseDate, locale);
 
   return (
     <div className="mx-auto max-w-4xl">
@@ -81,7 +82,7 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
           {game.developers?.length > 0 && (
             <span>{dict.game.developer}: {game.developers.join(", ")}</span>
           )}
-          {game.releaseDate && <span>· {dict.game.releaseDate}: {game.releaseDate}</span>}
+          {displayDate && <span>· {dict.game.releaseDate}: {displayDate}</span>}
         </div>
 
         {/* Genres */}
