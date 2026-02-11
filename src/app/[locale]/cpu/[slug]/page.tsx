@@ -53,8 +53,6 @@ export default function CPUPage({ params }: { params: { locale: string; slug: st
   const over60 = predictions.filter((p) => p.pred.fps >= 60);
   const mid = predictions.filter((p) => p.pred.fps >= 30 && p.pred.fps < 60);
   const shopLink = getShopLink(cpu.name, locale);
-  const recommendedGPUs = gpus.filter((g) => Math.abs(g.score - cpu.score) < 25)
-    .sort((a, b) => Math.abs(a.score - cpu.score) - Math.abs(b.score - cpu.score)).slice(0, 6);
   const relatedCPUs = cpus.filter((c) => c.id !== cpu.id)
     .sort((a, b) => Math.abs(a.score - cpu.score) - Math.abs(b.score - cpu.score)).slice(0, 6);
 
@@ -98,25 +96,6 @@ export default function CPUPage({ params }: { params: { locale: string; slug: st
       <div className="mb-6 rounded-lg border border-[#1e293b] bg-[#0f1825] px-4 py-3 text-xs text-slate-400">
         {t(dict.hardware.testCondition, { cpu: typicalGPU.name })}
       </div>
-
-      {/* Recommended GPU pairings */}
-      <section className="mb-8">
-        <h2 className="mb-3 text-base font-bold text-white">{dict.hardware.recGPU}</h2>
-        <p className="mb-3 text-xs text-slate-400">{t(dict.hardware.recGPUNote, { cpu: cpu.name })}</p>
-        <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-          {recommendedGPUs.map((g) => (
-            <Link key={g.id} href={`/${locale}/gpu/${g.id}`}
-              className="flex items-center justify-between rounded-lg border border-[#1e293b] bg-[#131c2e] px-3 py-2.5 transition hover:border-blue-500/30">
-              <div><span className="text-sm font-medium text-white">{g.name}</span>
-                <span className="ml-2 text-xs text-slate-500">{g.vram}GB</span></div>
-              <a href={getHardwareShopLink("gpu", g.name, locale)} target="_blank" rel="noopener noreferrer nofollow"
-                onClick={(e) => e.stopPropagation()} className="text-[10px] text-red-400 hover:text-red-300">
-                {dict.shop.shopName} →
-              </a>
-            </Link>
-          ))}
-        </div>
-      </section>
 
       {/* Game lists */}
       {[
