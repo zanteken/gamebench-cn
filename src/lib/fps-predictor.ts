@@ -56,6 +56,9 @@ export const QUALITY_FACTORS: Record<string, { label: string; factor: number }> 
   "ultra":  { label: "极高画质", factor: 1.35 },
 };
 
+// 游戏需求分数缓存（key: cpuText_gpuText_ram）
+const gameDemandCache = new Map<string, { cpuDemand: number; gpuDemand: number; source: "recommended" | "minimum" | "estimated" }>();
+
 /**
  * 从游戏的配置需求文本中匹配到硬件数据库的条目
  * 模糊匹配：比如游戏要求 "GTX 1060"，匹配到 gpus 列表中的 "GTX 1060 6GB"
@@ -141,30 +144,42 @@ export function getGameDemandScore(game: {
   const rec = game.requirements.recommended;
   const min = game.requirements.minimum;
 
+  // 创建缓存键（使用配置要求字符串）
+  const cacheKey = `${rec.cpu || ""}_${rec.gpu || ""}_${min.cpu || ""}_${min.gpu || ""}`;
+
+  // 检查缓存
+  if (gameDemandCache.has(cacheKey)) {
+    return gameDemandCache.get(cacheKey)!;
+  }
+
   const recCPU = matchCPU(rec.cpu);
   const recGPU = matchGPU(rec.gpu);
   const minCPU = matchCPU(min.cpu);
   const minGPU = matchGPU(min.gpu);
 
+  let result: { cpuDemand: number; gpuDemand: number; source: "recommended" | "minimum" | "estimated" };
+
   if (recGPU) {
-    return {
+    result = {
       cpuDemand: recCPU?.score ?? (minCPU?.score ?? 30) * 1.4,
       gpuDemand: recGPU.score,
       source: "recommended",
     };
-  }
-
-  if (minGPU) {
+  } else if (minGPU) {
     // 推荐配置通常比最低高 40-60%
-    return {
+    result = {
       cpuDemand: (minCPU?.score ?? 20) * 1.5,
       gpuDemand: minGPU.score * 1.5,
       source: "minimum",
     };
+  } else {
+    // 都匹配不到，给一个默认值（假设中等需求）
+    result = { cpuDemand: 30, gpuDemand: 30, source: "estimated" };
   }
 
-  // 都匹配不到，给一个默认值（假设中等需求）
-  return { cpuDemand: 30, gpuDemand: 30, source: "estimated" };
+  // 存入缓存
+  gameDemandCache.set(cacheKey, result);
+  return result;
 }
 
 export interface FPSPrediction {
