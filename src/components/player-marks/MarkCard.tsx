@@ -15,9 +15,10 @@ interface Props {
   onToggleExpand: () => void;
   dict: Dictionary;
   locale?: string;
+  onReplyPosted?: (markId: string, newCount: number) => void;
 }
 
-export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, dict, locale = "zh" }: Props) {
+export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, dict, locale = "zh", onReplyPosted }: Props) {
   const [showFriendDialog, setShowFriendDialog] = useState(false);
   const [showMyRequests, setShowMyRequests] = useState(false);
 
@@ -184,7 +185,7 @@ export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, dic
           </div>
 
           {/* 回复区 */}
-          {expanded && <RepliesSection markId={mark.id} locale={locale} dict={dict} />}
+          {expanded && <RepliesSection markId={mark.id} locale={locale} dict={dict} onReplyPosted={(newCount) => onReplyPosted && onReplyPosted(mark.id, newCount)} />}
         </div>
       </div>
 
@@ -221,9 +222,10 @@ interface RepliesSectionProps {
   markId: string;
   locale: string;
   dict: Dictionary;
+  onReplyPosted?: (newCount: number) => void;
 }
 
-function RepliesSection({ markId, locale, dict }: RepliesSectionProps) {
+function RepliesSection({ markId, locale, dict, onReplyPosted }: RepliesSectionProps) {
   const d = dict.marks;
   const { replies, loading, postReply } = useReplies(markId);
   const [content, setContent] = useState("");
@@ -242,6 +244,10 @@ function RepliesSection({ markId, locale, dict }: RepliesSectionProps) {
       setContent("");
       if (typeof window !== "undefined") {
         localStorage.setItem("gb_nickname", nickname.trim());
+      }
+      // 通知父组件更新回复数
+      if (onReplyPosted && (result as any).replies_count !== undefined) {
+        onReplyPosted((result as any).replies_count);
       }
     }
   };

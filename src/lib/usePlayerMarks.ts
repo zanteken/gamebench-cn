@@ -111,12 +111,22 @@ export function usePlayerMarks(gameSlug: string) {
     }
   };
 
+  // 更新某个印记的回复数（前端本地更新）
+  const updateMarkRepliesCount = useCallback((markId: string, newCount: number) => {
+    setMarks((prev) =>
+      prev.map((m) =>
+        m.id === markId ? { ...m, replies_count: newCount } : m
+      )
+    );
+  }, []);
+
   return {
     marks, total, stats, loading, error,
     myMarkId,
     sort, setSort,
     page, setPage,
     postMark,
+    updateMarkRepliesCount,
     refresh: fetchMarks,
   };
 }

@@ -43,6 +43,19 @@ export async function POST(req: NextRequest) {
   }
 
   const supabase = createServiceClient();
+
+  // 先获取当前回复数
+  const { data: mark } = await supabase
+    .from("player_marks")
+    .select("replies_count")
+    .eq("id", body.mark_id)
+    .single();
+
+  if (!mark) {
+    return NextResponse.json({ error: "mark_not_found" }, { status: 404 });
+  }
+
+  // 插入回复
   const { data, error } = await supabase
     .from("mark_replies")
     .insert({
@@ -58,5 +71,12 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  return NextResponse.json(data, { status: 201 });
+  // 更新回复计数
+  const newCount = (mark.replies_count || 0) + 1;
+  await supabase
+    .from("player_marks")
+    .update({ replies_count: newCount })
+    .eq("id", body.mark_id);
+
+  return NextResponse.json({ ...data, replies_count: newCount }, { status: 201 });
 }

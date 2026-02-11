@@ -28,7 +28,7 @@ export default function PlayerMarksSection({
 
   const {
     marks, total, stats, loading, error,
-    sort, setSort, postMark, refresh,
+    sort, setSort, postMark, refresh, updateMarkRepliesCount,
   } = usePlayerMarks(gameSlug);
 
   const [showForm, setShowForm] = useState(false);
@@ -172,6 +172,7 @@ export default function PlayerMarksSection({
             onToggleExpand={() =>
               setExpandedId(expandedId === mark.id ? null : mark.id)
             }
+            onReplyPosted={(markId, newCount) => updateMarkRepliesCount(markId, newCount)}
           />
         ))}
       </div>
