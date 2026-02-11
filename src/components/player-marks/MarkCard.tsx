@@ -64,20 +64,6 @@ export default function MarkCard({ mark, gameSlug, expanded, onToggleExpand, onL
     onLike();
   };
 
-  const d = dict.marks;
-  const fpsColor = getFpsColor(mark.fps_avg || 0);
-  const timeAgo = getTimeAgo(mark.created_at, locale);
-  const isEn = locale === "en";
-
-  // 判断是否是"我的印记"
-  const myMarkId = getMyMarkId(gameSlug);
-  const isMine = myMarkId === mark.id;
-
-  const handleLike = () => {
-    setLiked(!liked);
-    onLike();
-  };
-
   return (
     <>
       <div
