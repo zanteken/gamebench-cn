@@ -192,13 +192,13 @@ export async function POST(req: NextRequest) {
 
   const supabase = createServiceClient();
 
-  // 同 IP 同游戏 1小时内只能发1条
+  // 同 IP 同游戏 10秒内只能发1条（测试用）
   const { data: recent } = await supabase
     .from("player_marks")
     .select("id")
     .eq("game_slug", body.game_slug)
     .eq("ip_hash", ipHash)
-    .gte("created_at", new Date(Date.now() - 3600000).toISOString())
+    .gte("created_at", new Date(Date.now() - 10000).toISOString())
     .limit(1);
 
   if (recent && recent.length > 0) {
