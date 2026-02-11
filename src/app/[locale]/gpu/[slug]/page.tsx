@@ -6,7 +6,7 @@ import { getAllGames } from "@/lib/games";
 import { getShopLink } from "@/lib/affiliate";
 import { getDictionary, type Locale, t } from "@/i18n/dictionaries";
 
-// Enable dynamic rendering for this page
+// Keep dynamic for interactive elements, but performance is optimized via caching and slice limit
 export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: { params: { locale: string; slug: string } }): Promise<Metadata> {
@@ -43,9 +43,9 @@ export default function GPUPage({ params }: { params: { locale: string; slug: st
 
   const typicalCPU = getTypicalCPU(gpu);
 
-  // 只计算前 100 款热门游戏，而不是全部
+  // 只计算前 50 款热门游戏（性能优化）
   const allGames = getAllGames();
-  const games = allGames.slice(0, 100);
+  const games = allGames.slice(0, 50);
   const predictions = games
     .map((game) => ({ game, pred: predictFPS(typicalCPU, gpu, 16, game, "1080p", "high") }))
     .sort((a, b) => b.pred.fps - a.pred.fps);

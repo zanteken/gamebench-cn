@@ -59,12 +59,25 @@ export const QUALITY_FACTORS: Record<string, { label: string; factor: number }> 
 // 游戏需求分数缓存（key: cpuText_gpuText_ram）
 const gameDemandCache = new Map<string, { cpuDemand: number; gpuDemand: number; source: "recommended" | "minimum" | "estimated" }>();
 
+// CPU匹配缓存（避免重复遍历整个CPU列表）
+const cpuMatchCache = new Map<string, CPU | null>();
+
+// GPU匹配缓存（避免重复遍历整个GPU列表）
+const gpuMatchCache = new Map<string, GPU | null>();
+
 /**
  * 从游戏的配置需求文本中匹配到硬件数据库的条目
  * 模糊匹配：比如游戏要求 "GTX 1060"，匹配到 gpus 列表中的 "GTX 1060 6GB"
  */
 export function matchCPU(cpuText: string | null): CPU | null {
   if (!cpuText) return null;
+
+  // 检查缓存
+  const cacheKey = cpuText.toLowerCase().trim();
+  if (cpuMatchCache.has(cacheKey)) {
+    return cpuMatchCache.get(cacheKey)!;
+  }
+
   const text = cpuText.toLowerCase().replace(/[®™\-]/g, " ").replace(/\s+/g, " ");
 
   let bestMatch: CPU | null = null;
@@ -95,11 +108,20 @@ export function matchCPU(cpuText: string | null): CPU | null {
     }
   }
 
+  // 缓存结果
+  cpuMatchCache.set(cacheKey, bestMatch);
   return bestMatch;
 }
 
 export function matchGPU(gpuText: string | null): GPU | null {
   if (!gpuText) return null;
+
+  // 检查缓存
+  const cacheKey = gpuText.toLowerCase().trim();
+  if (gpuMatchCache.has(cacheKey)) {
+    return gpuMatchCache.get(cacheKey)!;
+  }
+
   const text = gpuText.toLowerCase().replace(/[®™\-]/g, " ").replace(/\s+/g, " ");
 
   let bestMatch: GPU | null = null;
@@ -127,6 +149,8 @@ export function matchGPU(gpuText: string | null): GPU | null {
     }
   }
 
+  // 缓存结果
+  gpuMatchCache.set(cacheKey, bestMatch);
   return bestMatch;
 }
 
