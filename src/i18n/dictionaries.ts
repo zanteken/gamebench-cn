@@ -182,6 +182,8 @@ export type Dictionary = {
     saySomething: string;
     nickname: string;
     loadingReplies: string;
+    fpsDistribution: string;
+    popularGpus: string;
   };
 
   // ── Post Mark Form ──
