@@ -52,6 +52,35 @@ export type Dictionary = {
     quickSpecs: string;
     metaTitle: string;
     metaDesc: string;
+    // 新增 - 页面锚点导航
+    quickCheck: string;
+    officialSpecs: string;
+    benchmarks: string;
+    optimization: string;
+    // 新增 - Hero 区域
+    heroSubtitle: string;
+    heroDesc: string;
+    startCheck: string;
+    // 新增 - 快速检测
+    myHardware: string;
+    selectCpu: string;
+    selectGpu: string;
+    selectRam: string;
+    checkBtn: string;
+    checkResult: string;
+    canRun: string;
+    cannotRun: string;
+    estimatedFps: string;
+    // 新增 - 游戏媒体
+    trailer: string;
+    screenshots: string;
+    // 新增 - 购买卡片
+    buyNow: string;
+    price: string;
+    freeToPlay: string;
+    // 新增 - 相关游戏
+    similarGames: string;
+    moreGames: string;
   };
 
   // ── FPS 计算器 ──
@@ -304,6 +333,35 @@ const dictionaries: Record<Locale, Dictionary> = {
       quickSpecs: "快速规格",
       metaTitle: "{game} 配置需求 - 最低配置与推荐配置",
       metaDesc: "查看 {game} 的最低配置和推荐配置要求。CPU: {cpu}, 显卡: {gpu}, 内存: {ram}GB。",
+      // 新增 - 页面锚点导航
+      quickCheck: "快速检测",
+      officialSpecs: "官方配置",
+      benchmarks: "实测帧率",
+      optimization: "优化指南",
+      // 新增 - Hero 区域
+      heroSubtitle: "PC 配置需求 · System Requirements",
+      heroDesc: "你的电脑能流畅运行吗？输入配置一键检测。涵盖官方参数、玩家实测、优化方案。",
+      startCheck: "↓ 开始检测我的配置",
+      // 新增 - 快速检测
+      myHardware: "我的硬件",
+      selectCpu: "选择你的 CPU...",
+      selectGpu: "选择你的显卡...",
+      selectRam: "选择内存大小...",
+      checkBtn: "🔍 开始检测",
+      checkResult: "检测结果",
+      canRun: "可以流畅运行！推荐中高画质",
+      cannotRun: "配置略低于推荐，建议降低画质或升级硬件",
+      estimatedFps: "预计 1080p 中画质可稳定",
+      // 新增 - 游戏媒体
+      trailer: "预告片",
+      screenshots: "游戏截图",
+      // 新增 - 购买卡片
+      buyNow: "确认能跑？去买吧",
+      price: "价格",
+      freeToPlay: "免费游玩",
+      // 新增 - 相关游戏
+      similarGames: "相似游戏",
+      moreGames: "查看更多游戏配置",
     },
 
     // ── FPS 计算器 ──
@@ -551,6 +609,35 @@ const dictionaries: Record<Locale, Dictionary> = {
       quickSpecs: "Quick Specs",
       metaTitle: "{game} System Requirements - Minimum & Recommended",
       metaDesc: "Check {game} system requirements. CPU: {cpu}, GPU: {gpu}, RAM: {ram}GB.",
+      // New - Page navigation
+      quickCheck: "Quick Check",
+      officialSpecs: "Official Specs",
+      benchmarks: "Benchmarks",
+      optimization: "Optimization",
+      // New - Hero section
+      heroSubtitle: "PC System Requirements",
+      heroDesc: "Can your PC run this game? Check now with official specs, player benchmarks, and optimization tips.",
+      startCheck: "↓ Check My Specs",
+      // New - Quick Check
+      myHardware: "My Hardware",
+      selectCpu: "Select your CPU...",
+      selectGpu: "Select your GPU...",
+      selectRam: "Select RAM...",
+      checkBtn: "🔍 Start Check",
+      checkResult: "Check Result",
+      canRun: "Can run smoothly! Recommended medium-high settings",
+      cannotRun: "Your specs are below recommended, consider lowering settings or upgrading",
+      estimatedFps: "Estimated stable FPS at 1080p medium settings",
+      // New - Game Media
+      trailer: "Trailer",
+      screenshots: "Screenshots",
+      // New - Purchase Card
+      buyNow: "Confirmed? Buy Now",
+      price: "Price",
+      freeToPlay: "Free to Play",
+      // New - Similar Games
+      similarGames: "Similar Games",
+      moreGames: "View More Games",
     },
 
     fps: {

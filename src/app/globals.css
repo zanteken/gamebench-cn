@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap");
+
 :root {
   --bg-primary: #0a0e17;
   --bg-secondary: #111827;
@@ -11,18 +13,19 @@
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
   --border: #1e293b;
-  --accent: #2e78ff;
+  --accent: #3b82f6;
   --accent-hover: #1757f5;
   --green: #22c55e;
   --yellow: #eab308;
   --red: #ef4444;
+  --font-cinzel: 'Cinzel', serif;
+  --font-noto: 'Noto Sans SC', sans-serif;
 }
 
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
-    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: var(--font-noto);
 }
 
 /* Smooth scrollbar */
@@ -50,3 +53,43 @@ body {
 .tier-low {
   color: var(--red);
 }
+
+/* Cinzel font for headings */
+.font-serif {
+  font-family: var(--font-cinzel);
+}
+
+/* Hero animations */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(8px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+/* Thin scrollbar for gallery */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-secondary) var(--text-muted);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: var(--bg-card);
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+

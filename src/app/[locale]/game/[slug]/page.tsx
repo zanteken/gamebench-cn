@@ -1,23 +1,26 @@
 /**
- * 游戏详情页 - 国际化版本
+ * 游戏详情页 - 增强版
  *
- * 这是模板文件，展示如何将你现有的 game/[slug]/page.tsx 迁移到 [locale] 结构。
- * 你需要根据你现有的页面内容修改。
- *
- * 主要改动：
- * 1. params 增加 locale
- * 2. 所有文案用 dict 替换
- * 3. 所有链接加 /${locale} 前缀
- * 4. 导购链接使用 getShopLink(keyword, locale)
+ * 改进内容：
+ * 1. 新增 Hero 区域组件 - 大标题、副标题、面包屑、CTA
+ * 2. 新增快速检测组件 - 硬件配置对比检测
+ * 3. 新增游戏媒体组件 - 预告片 + 截图画廊
+ * 4. 新增购买卡片组件 - 多平台购买链接
+ * 5. 新增相关游戏组件 - 相似游戏推荐
+ * 6. 保留原有系统配置和玩家印记功能
  */
 
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getDictionary, type Locale, t } from "@/i18n/dictionaries";
-import { getAllGames, getGameBySlug, formatDate } from "@/lib/games";
-import { getShopLink } from "@/lib/affiliate";
+import { getGameBySlug, formatDate } from "@/lib/games";
 import PlayerMarksSection from "@/components/player-marks/PlayerMarksSection";
+import GameHero from "@/components/game-detail/GameHero";
+import QuickCheck from "@/components/game-detail/QuickCheck";
+import GameMedia from "@/components/game-detail/GameMedia";
+import PurchaseCard from "@/components/game-detail/PurchaseCard";
+import SimilarGames from "@/components/game-detail/SimilarGames";
 
 // Enable dynamic rendering for this page
 export const dynamic = 'force-dynamic';
@@ -28,7 +31,6 @@ export async function generateMetadata({ params }: { params: { locale: string; s
   const game = getGameBySlug(params.slug);
   if (!game) return {};
 
-  // 根据语言选择游戏名称
   const displayName = locale === "en" && game.nameEn ? game.nameEn : game.name;
 
   const recCPU = game.requirements?.recommended?.cpu ?? "N/A";
@@ -54,71 +56,51 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
 
   // 根据语言选择显示的内容
   const displayName = locale === "en" && game.nameEn ? game.nameEn : game.name;
-  const displayGenres = locale === "en" && game.genresEn ? game.genresEn : (game.genres || []);
+  const displayGenres = locale === "en" && game.genresEn ? game.genresEn : game.genres;
   const displayContentDescriptors = locale === "en" && game.contentDescriptorsEn
     ? game.contentDescriptorsEn
-    : (game.contentDescriptors || []);
-  const displayDate = formatDate(game.releaseDate, locale);
+    : game.contentDescriptors;
+  const displayDate = game.releaseDate ? (formatDate(game.releaseDate, locale) ?? undefined) : undefined;
+  const displayDevelopers = game.developers;
+  const displayHeaderImage = game.headerImage;
 
   return (
-    <div className="mx-auto max-w-4xl">
-      {/* Breadcrumb */}
-      <nav className="mb-4 text-xs text-slate-500">
-        <Link href={`/${locale}`} className="hover:text-white transition">
-          {locale === "zh" ? "首页" : "Home"}
-        </Link>
-        <span className="mx-1.5">/</span>
-        <span className="text-slate-300">{displayName}</span>
-      </nav>
+    <div className="min-h-screen bg-[#0a0e17]">
+      {/* Hero Section */}
+      <GameHero
+        locale={locale}
+        gameName={game.name}
+        gameNameEn={game.nameEn}
+        headerImage={displayHeaderImage}
+        developers={displayDevelopers}
+        releaseDate={displayDate}
+        genres={displayGenres}
+        dict={dict}
+      />
 
-      {/* Header */}
-      <div className="mb-6">
-        {game.headerImage && (
-          <img
-            src={game.headerImage}
-            alt={displayName}
-            className="mb-4 w-full rounded-xl object-cover"
-          />
-        )}
-        <h1 className="text-2xl font-bold text-white">{displayName}</h1>
-        <div className="mt-2 flex flex-wrap gap-2 text-sm text-slate-400">
-          {game.developers?.length > 0 && (
-            <span>{dict.game.developer}: {game.developers.join(", ")}</span>
-          )}
-          {displayDate && <span>· {dict.game.releaseDate}: {displayDate}</span>}
+      {/* Quick Check Section */}
+      <QuickCheck locale={locale} dict={dict} />
+
+      {/* Official System Requirements */}
+      <section className="max-w-4xl mx-auto px-4 py-12 md:py-16">
+        <div className="mb-6 text-center">
+          <span className="text-xs tracking-widest uppercase text-blue-400/70">Official Specs · {dict.game.officialSpecs}</span>
+          <h2 className="text-2xl md:text-3xl font-bold text-white mt-2">{dict.game.configTitle}</h2>
+          <p className="text-slate-400 text-sm max-w-2xl mx-auto mt-3">
+            来自 {displayDevelopers?.[0] || "开发商"} 官方公布的最低与推荐 PC 配置要求。
+          </p>
         </div>
 
-        {/* Genres */}
-        {displayGenres.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-1.5">
-            {displayGenres.map((genre: string) => (
-              <span key={genre} className="rounded-full border border-[#2a3548] bg-[#111827] px-2.5 py-0.5 text-xs text-slate-400">
-                {genre}
-              </span>
-            ))}
-          </div>
-        )}
-
-        {/* Content Descriptors (暴力、血腥、裸露等) */}
-        {displayContentDescriptors.length > 0 && (
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            {displayContentDescriptors.map((desc: string) => (
-              <span key={desc} className="rounded border border-red-900/30 bg-red-900/10 px-2 py-0.5 text-xs text-red-400">
-                {desc}
-              </span>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* System Requirements */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-lg font-bold text-white">{dict.game.configTitle}</h2>
         <div className="grid gap-4 md:grid-cols-2">
           {/* Minimum */}
-          <div className="rounded-lg border border-[#1e293b] bg-[#0f1825] p-4">
-            <h3 className="mb-3 text-sm font-medium text-yellow-400">{dict.game.minimum}</h3>
-            <dl className="space-y-2 text-sm">
+          <div className="rounded-lg border border-[#1e293b] bg-[#16202d] overflow-hidden">
+            <div className="p-5 border-b border-[#1e293b] flex items-center justify-between">
+              <h3 className="text-base font-serif" style={{ fontFamily: "'Cinzel', serif" }}>{dict.game.minimum}</h3>
+              <span className="text-[10px] tracking-wider uppercase px-3 py-1 rounded-full bg-red-500/10 text-red-400 border border-red-500/30 font-bold">
+                Minimum
+              </span>
+            </div>
+            <dl className="p-4 space-y-2 text-sm">
               {[
                 { label: dict.game.cpu, value: req?.minimum?.cpu },
                 { label: dict.game.gpu, value: req?.minimum?.gpu },
@@ -128,16 +110,21 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
               ].map(({ label, value }) => value && (
                 <div key={label} className="flex gap-2">
                   <dt className="shrink-0 w-16 text-slate-500">{label}</dt>
-                  <dd className="text-slate-300">{value}</dd>
+                  <dd className="font-mono text-slate-300">{value}</dd>
                 </div>
               ))}
             </dl>
           </div>
 
           {/* Recommended */}
-          <div className="rounded-lg border border-[#1e293b] bg-[#0f1825] p-4">
-            <h3 className="mb-3 text-sm font-medium text-green-400">{dict.game.recommended}</h3>
-            <dl className="space-y-2 text-sm">
+          <div className="rounded-lg border border-[#1e293b] bg-[#16202d] overflow-hidden">
+            <div className="p-5 border-b border-[#1e293b] flex items-center justify-between">
+              <h3 className="text-base font-serif" style={{ fontFamily: "'Cinzel', serif" }}>{dict.game.recommended}</h3>
+              <span className="text-[10px] tracking-wider uppercase px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30 font-bold">
+                Recommended
+              </span>
+            </div>
+            <dl className="p-4 space-y-2 text-sm">
               {[
                 { label: dict.game.cpu, value: req?.recommended?.cpu },
                 { label: dict.game.gpu, value: req?.recommended?.gpu },
@@ -147,7 +134,7 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
               ].map(({ label, value }) => value && (
                 <div key={label} className="flex gap-2">
                   <dt className="shrink-0 w-16 text-slate-500">{label}</dt>
-                  <dd className="text-slate-300">{value}</dd>
+                  <dd className="font-mono text-slate-300">{value}</dd>
                 </div>
               ))}
             </dl>
@@ -155,31 +142,61 @@ export default function GamePage({ params }: { params: { locale: string; slug: s
         </div>
       </section>
 
+      {/* Game Media Section */}
+      <GameMedia locale={locale} gameName={game.name} dict={dict} />
+
       {/* FPS Calculator CTA */}
-      <div className="rounded-xl border border-blue-500/20 bg-blue-500/5 p-5 text-center">
-        <p className="text-base font-medium text-white">{dict.game.testFPS}</p>
-        <Link href={`/${locale}/fps-calculator`}
-          className="mt-3 inline-block rounded-lg bg-blue-600 px-8 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700">
-          {dict.nav.fpsCalc} →
-        </Link>
+      <div className="max-w-4xl mx-auto px-4">
+        <div className="rounded-xl border border-blue-500/20 bg-blue-500/5 p-5 text-center">
+          <p className="text-base font-medium text-white">{dict.game.testFPS}</p>
+          <Link href={`/${locale}/fps-calculator`}
+            className="mt-3 inline-block rounded-lg bg-blue-600 px-8 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700">
+            {dict.nav.fpsCalc} →
+          </Link>
+        </div>
       </div>
 
-      {/* Steam link */}
-      <div className="mt-4 text-center">
-        <a href={`https://store.steampowered.com/app/${game.appId}`} target="_blank" rel="noopener noreferrer"
-          className="text-sm text-slate-500 hover:text-blue-400 transition">
+      {/* Purchase Card */}
+      <PurchaseCard
+        locale={locale}
+        gameName={game.name}
+        appId={game.appId}
+        dict={dict}
+      />
+
+      {/* Steam link - small */}
+      <div className="max-w-4xl mx-auto px-4 py-6 text-center">
+        <a
+          href={`https://store.steampowered.com/app/${game.appId}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-slate-500 hover:text-blue-400 transition"
+        >
           {dict.game.viewOnSteam} ↗
         </a>
       </div>
 
-      {/* 玩家印记区域 */}
-      <PlayerMarksSection
-        gameSlug={game.slug}
-        gameAppId={game.appId}
-        gameName={displayName}
+      {/* Player Marks Section */}
+      <div className="max-w-4xl mx-auto px-4 py-12 md:py-16">
+        <PlayerMarksSection
+          gameSlug={game.slug}
+          gameAppId={game.appId}
+          gameName={displayName}
+          locale={locale}
+          dict={dict}
+        />
+      </div>
+
+      {/* Similar Games */}
+      <SimilarGames
         locale={locale}
+        currentGameSlug={game.slug}
+        genres={displayGenres}
         dict={dict}
       />
+
+      {/* Footer spacing */}
+      <div className="h-20" />
     </div>
   );
 }
